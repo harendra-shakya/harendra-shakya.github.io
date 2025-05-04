@@ -1,7 +1,8 @@
 # Site settings
 title: Shakya Mirror # site title # other names - Path of Stillness
 description: >- # site description
-  Writing wisdom I'm reading. <a href="https://github.com/harendra-shakya" target="_blank" rel="noopener">@github</a>.
+  Preoccupied with a single leaf, you won't see the tree. Preoccupied with a single tree, you'll miss the entire forest. Don't be preoccupied with a single spot. See everything in its entirety effortlessly. That is what it means to truly "see".
+. <a href="https://github.com/harendra-shakya" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Asia/Mumbai # set your timezone
 image: assets/img/Vagabond-praying.webp # This image used for Open Graph more info https://ogp.me/
