@@ -1,10 +1,10 @@
 # Site settings
-title: Harendra Shakya's Pursuit of Wisdom # site title
+title: Shakya Mirror # site title # other names - Path of Stillness
 description: >- # site description
   Writing wisdom I'm reading. <a href="https://github.com/harendra-shakya" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+timezone: Asia/Mumbai # set your timezone
+image: assets/img/Vagabond-praying.webp # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/harendra-shakya/harendra-shakya.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
