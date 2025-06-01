@@ -7,3 +7,7 @@
 ### Articles
 
 - https://web.dev/articles/vitals
+
+---
+
+- if gita page or too much data causing slow speed. Delete it.
