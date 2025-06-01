@@ -1,6 +1,6 @@
 ---
 title: Bhagavad Gita
-permalink: /gita
+permalink: /gita/
 layout: page
 comments: false
 ---
