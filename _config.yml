@@ -1,10 +1,11 @@
 # Site settings
-title: Shakya Mirror # site title # other names - Path of Stillness
-description: >- # site description
-  Preoccupied with a single leaf, you won't see the tree. Preoccupied with a single tree, you'll miss the entire forest. Don't be preoccupied with a single spot. See everything in its entirety effortlessly. That is what it means to truly "see".
+title: Shakya Framework # site title
+description:
+  >- # site description  # Follows a logical and philosophical progression: cognition → spirit → existence
+  Shakya Framework is a Framework of Mind, Soul and Life.
 lang: en-US # default lang
-timezone: Asia/Mumbai # set your timezone
-image: assets/img/Vagabond-praying.webp # This image used for Open Graph more info https://ogp.me/
+timezone: Asia/Kolkata # set your timezone
+image: assets/img/og-image-vagabond.webp # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/harendra-shakya/harendra-shakya.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
@@ -18,7 +19,7 @@ author:
   twitter: harendrashakya_ # twitter username
   #facebook: facebook_username # facebook username
   #email: your-email@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/buddha.webp # change with your own avatar
 
 # URL settings
 url: "https://harendra-shakya.github.io/" #
@@ -31,6 +32,9 @@ fb_appid:
 collections:
   posts:
     output: true
+  insights:
+    output: true
+    permalink: /insights/:title/
 
 # Markdown settings
 markdown: kramdown
@@ -62,6 +66,8 @@ number_of_posts: 5
 
 # Build settings
 # theme: klise
+# theme: harendra-shakya.github.io
+
 sass:
   style: compressed
 
@@ -82,6 +88,8 @@ exclude:
   - lighthouse.png
   - klise-*.gem
   - klise.gemspec
+  - archive/
+  - docs/
 
 # Plugins
 plugins:

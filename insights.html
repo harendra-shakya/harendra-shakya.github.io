@@ -1,0 +1,8 @@
+---
+layout: page
+title: Insights
+---
+
+{% for insight in site.insights %}
+<a href="{{ insight.url }}">{{ insight.title }}</a> – {{ insight.date | date:
+"%b %d, %Y" }} {% endfor %}

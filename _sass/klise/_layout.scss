@@ -326,7 +326,6 @@
   }
 }
 
-
 .search-article {
   position: relative;
   margin-bottom: 50px;
@@ -369,12 +368,47 @@
   }
 }
 
-.archive-tags {
+.archive-tags,
+.archive-categories,
+.lang-toggle {
   height: auto;
-  .tag-item {
+  .tag-item,
+  .category-item,
+  button {
     padding: 1px 3px;
     border-radius: 2px;
     border: 1px solid rgba(128, 128, 128, 0.1);
     background-color: rgba(128, 128, 128, 0.1);
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: medium;
   }
+}
+
+.lang-toggle button:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.language-switcher {
+  margin-top: 0.5em;
+  font-size: 0.95em;
+}
+.language-switcher a {
+  // color: #007acc;
+  text-decoration: underline;
+}
+
+.mini-insight {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.mini-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }

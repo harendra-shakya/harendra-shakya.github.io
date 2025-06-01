@@ -2,12 +2,20 @@
   url: /
   external: false
 
-- title: tags
-  url: /tags/
-  external: false
-
 - title: archive
   url: /archive/
+  external: false
+
+- title: insights
+  url: /insights/
+  external: false
+
+- title: quotes
+  url: /quotes/
+  external: false
+
+- title: links
+  url: /links/
   external: false
 
 - title: about
