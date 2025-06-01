@@ -1,10 +1,9 @@
 ---
-layout: page
+title: Projects
 permalink: /projects/
 layout: page
 excerpt: Projects and Tech Stack of Harendra Shakya.
 comments: false
-
 ---
 
 <!--
