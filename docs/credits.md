@@ -1,1 +1,2 @@
-Gita Data - https://github.com/gita/gita
+- Gita Data - https://github.com/gita/gita
+- Original Theme - https://github.com/piharpi/jekyll-klise
