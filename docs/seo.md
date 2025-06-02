@@ -4,6 +4,8 @@
 - https://gtmetrix.com/
 - https://developers.google.com/search/docs/appearance/structured-data
 
+- [Analyze https://harendra-shakya.github.io/ on PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fharendra-shakya.github.io%2F)
+
 ### Articles
 
 - https://web.dev/articles/vitals
