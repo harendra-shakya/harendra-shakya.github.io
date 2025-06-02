@@ -68,6 +68,7 @@ layout: compress
           <div class="language-switcher">
             <span>Read this post in:</span>
             {% for lang in page.translations %}
+              <link rel="alternate" hreflang="{{ lang.lang }}" href="{{ site.url }}{{ lang.url }}" />
               <a href="{{ lang.url }}">{{ lang.label }}</a>{% unless forloop.last %} | {% endunless %}
             {% endfor %}
           </div>
