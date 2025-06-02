@@ -1,38 +1,66 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-{% include header.html %}
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
-<body data-theme="{{ site.mode }}" class="notransition">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
 
-  <script>
-    const body = document.body;
-    const data = body.getAttribute("data-theme");
+{% seo %}
 
-    const initTheme = (state) => {
-      if (state === "dark") {
-        body.setAttribute("data-theme", "dark");
-      } else if (state === "light") {
-        body.removeAttribute("data-theme");
-      } else {
-        localStorage.setItem("theme", data);
-      }
-    };
- 
-    initTheme(localStorage.getItem("theme"));
+    {% include head-custom.html %}
+  </head>
+
+  <body data-theme="{{ site.mode }}" class="notransition">
+
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+  
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  
+    {% include navbar.html %}
+    <div class="wrapper">
+      <header>
+        <div class="inner">
+          <a href="{{ '/' | absolute_url }}">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+          {% if site.github.is_project_page %}
+            <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
+          {% endif %}
+          {% if site.github.is_user_page %}
+            <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
+          {% endif %}
+        </div>
+      </header>
+  
     
-    setTimeout(() => body.classList.remove("notransition"), 75);
-  </script>
-
-  {% include navbar.html %}
-  <div class="wrapper">
-    {% include author.html %}
-    <main aria-label="Content">
-      {{ content }}
-    </main>
-    {% include footer.html %}
-  </div>
-</body>
+      
+      <main class="page-content" aria-label="Content">
+        {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
+      </main>
+      {% include footer.html %}
+    </div>
+  </body>
+  
 </html>

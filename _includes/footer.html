@@ -7,7 +7,7 @@
     rel="noopener"
     >github</a
   > -->
-  <a class="footer_item" href="/feed.xml">rss</a>
+  <!-- <a class="footer_item" href="/feed.xml">rss</a> -->
   <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
 
   <!-- <small class="footer_copyright">
@@ -22,6 +22,15 @@
       >jekyll</a
     >
   </small> -->
+  {% if site.github.is_project_page %}
+  <p class="repo-owner">
+    <a href="{{ site.github.repository_url }}"
+      >{{ site.github.repository_name }}</a
+    >
+    is maintained by
+    <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+  </p>
+  {% endif %}
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
 {%- if site.google_analytics -%}
@@ -38,14 +47,5 @@
   gtag("js", new Date());
 
   gtag("config", "{{ site.google_analytics }}");
-</script>
-{%- endif -%} {%- if page.url == '/archive/' or page.url == '/posts/' -%}
-<script src="/assets/js/search.min.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById("search-input"),
-    resultsContainer: document.getElementById("search-results"),
-    json: "/assets/search.json",
-  });
 </script>
 {%- endif -%}
