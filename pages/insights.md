@@ -1,6 +1,8 @@
 ---
-layout: page
 title: Insights
+permalink: /insights/
+layout: page
+comments: false
 ---
 
 {% for insight in site.insights %}
