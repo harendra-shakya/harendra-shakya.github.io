@@ -2,6 +2,8 @@
 title: Insights
 permalink: /insights/
 layout: page
+excerpt: Concise, lyrical insights capturing fleeting moments of clarity and wisdom.
+description: Concise, lyrical insights capturing fleeting moments of clarity and wisdom.
 comments: false
 ---
 

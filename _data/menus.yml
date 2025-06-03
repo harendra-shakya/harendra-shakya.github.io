@@ -2,8 +2,8 @@
   url: /
   external: false
 
-- title: archive
-  url: /archive/
+- title: posts
+  url: /posts/
   external: false
 
 - title: insights
@@ -22,6 +22,9 @@
   url: /about/
   external: false # set true if you using external link, see below
 
+# - title: framework
+#   url: /framework/
+#   external: false
 # Example:
 # - title: github
 #   url: https://github.com/piharpi/jekyll-klise

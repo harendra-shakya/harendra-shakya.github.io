@@ -2,6 +2,7 @@
 title: Bhagavad Gita
 permalink: /gita/
 layout: page
+description: "Read the complete Bhagavad Gita — the timeless spiritual dialogue guiding the mind, soul, and life’s purpose."
 comments: false
 ---
 

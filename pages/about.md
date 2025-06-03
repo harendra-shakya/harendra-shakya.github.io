@@ -2,17 +2,18 @@
 title: About
 permalink: /about/
 layout: page
-excerpt: Just a curious guy.
+excerpt: "About Shakya Mirror: a reflective space where philosophy meets personal growth, sharing insights, essays, and thoughtful exploration."
+description: "About Shakya Mirror: a reflective space where philosophy meets personal growth, sharing insights, essays, and thoughtful exploration."
 comments: false
 ---
 
-Shakya Framework is a Framework of Mind, Soul and Life.
+<!-- _A mirror of awareness — for those who seek clarity, truth, and self-mastery._ -->
 
-Life is suffering. We're thrown into existence without knowing why, burdened with the task of solving problems that are illusions.
+Life is suffering. We’re thrown into existence without knowing why, burdened with the task of solving problems that are often illusions — projections of the mind, reflections of our conditioning.
 
-Within this struggle lies a deeper truth — we all are one and [infinite](https://harendra-shakya.github.io/insights/you-are-infinite/). Being present means escaping the cycle of time itself and seeing things as they truly are. Only with clarity can one perceive the truth. There is no checklist or formula — only the unfolding experience of life itself.
+But within this struggle lies a deeper truth — we all are one and [infinite](https://harendra-shakya.github.io/insights/you-are-infinite/). Being means escaping the illusion of time and seeing things as they truly are. Only when the mind becomes still — like a mirror — can truth reflect without distortion.
 
-True wisdom cannot be found in any single place. That’s why I’ve set out to create one — a comprehensive guide to life. This is the Shakya Framework: a living framework of life. As I grow, I write.
+True wisdom cannot be found in any single place. That’s why I’ve set out to create one — a framework for mastering mind, soul, and life. [Shakya Framework](https://harendra-shakya.github.io/framework/): a living framework of life. As I grow, I write.
 
 "Great minds discuss ideas; average minds discuss events; small minds discuss people." The choice is always yours. I choose to belong to the great minds.
 

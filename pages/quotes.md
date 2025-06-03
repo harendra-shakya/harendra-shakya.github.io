@@ -2,6 +2,8 @@
 title: Quotes
 permalink: /quotes/
 layout: page
+excerpt: "Timeless quotes from great thinkers, offering insight and inspiration for mindful living"
+description: "Timeless quotes from great thinkers, offering insight and inspiration for mindful living"
 comments: false
 ---
 
