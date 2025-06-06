@@ -90,6 +90,7 @@ exclude:
   - klise.gemspec
   - archive/
   - docs/
+  - _insights/up-next/
 
 # Plugins
 plugins:

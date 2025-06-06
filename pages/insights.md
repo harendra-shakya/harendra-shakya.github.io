@@ -7,6 +7,17 @@ description: Concise, lyrical insights capturing fleeting moments of clarity and
 comments: false
 ---
 
-{% for insight in site.insights %}
-<a href="{{ insight.url }}">{{ insight.title }}</a> – {{ insight.date | date:
-"%b %d, %Y" }} {% endfor %}
+{%- for insight in site.insights -%}
+{%- capture current_year -%}{{ insight.date | date: "%Y" }}{%- endcapture -%}
+{%- unless current_year == previous_year -%}
+
+<h2>{{ current_year }}</h2>
+{%- assign previous_year = current_year -%}
+{%- endunless -%}
+
+  <article class="post-item">
+    <h3 class="post-item-title">
+      <a href="{{ insight.url }}">{{ insight.title | escape }}</a>
+    </h3> 
+  </article>
+{%- endfor -%}

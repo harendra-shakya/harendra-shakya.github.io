@@ -1,5 +1,5 @@
 ---
-title: "You are Infinite"
+title: You are Infinite
 layout: insight
 ---
 

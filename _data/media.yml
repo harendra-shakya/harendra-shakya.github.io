@@ -1,0 +1,21 @@
+music:
+  - title: Soulful Sitar
+    url: https://open.spotify.com/playlist/37i9dQZF1DX8mlN8vvE4ZI/
+  - title: Sitar for Mental Health By Rishab Sharma
+    url: https://open.spotify.com/playlist/5sgNEknxOyv4I4IpajS6UJ/
+
+# movies:
+#   - title: Interstellar
+#     url: https://www.imdb.com/title/tt0816692/
+
+# shows:
+#   - title: Breaking Bad
+#     url: https://www.imdb.com/title/tt0903747/
+
+videos:
+  - title: Acharya Prashant
+    url: https://www.youtube.com/@ShriPrashant/videos
+
+authors:
+  - title: Acharya Prashant
+    url: https://acharyaprashant.org/en/books

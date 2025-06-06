@@ -10,6 +10,11 @@
 
 - https://web.dev/articles/vitals
 
+### Favicon
+
+- https://www.favicon-generator.org/
+- https://favicon.io/favicon-converter/
+
 ---
 
 - if gita page or too much data causing slow speed. Delete it.
