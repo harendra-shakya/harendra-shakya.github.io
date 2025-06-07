@@ -1,13 +1,12 @@
 ---
-title: Shakya Framework
-permalink: /framework/
+title: Path of Infinity
+permalink: /infinity/
 layout: page
-excerpt: A modern framework for mastering mind, soul, and life through philosophy, mental models, and timeless wisdom.
-description: A modern framework for mastering mind, soul, and life through philosophy, mental models, and timeless wisdom.
+description: See everything in its entirety effortlessly — to awaken what is already whole.
 comments: false
 ---
 
-_A living philosophy of Mind, Soul, and Life — designed to see clearly, live truly, and remember what we are._
+_A living philosophy of Mind, Soul, and Life — to see everything in its entirety effortlessly — to awaken what is already whole._
 
 ---
 
@@ -127,7 +126,7 @@ Life is the canvas where mind paints and soul observes. A temporary performance 
 
 ## 🌀 **Living the Reflection**
 
-The Shakya Framework is not a map with fixed answers — it is a mirror that reflects the unfolding truth of your life. It's not prescriptive, but reflective.
+It is not a map with fixed answers — it is a mirror that reflects the unfolding truth of your life. It's not prescriptive, but reflective.
 
 - **Mind** gives us tools to **see**
 - **Soul** gives us space to **be**

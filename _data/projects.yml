@@ -1,0 +1,47 @@
+- name: Safock
+  description: Crypto ETF Platform | Stake ETFs | Get Insurance.
+  url: https://github.com/harendra-shakya/safock
+  demo-video:
+  live-server:
+
+- name: Cancer Data Dao
+  description: Data dao for cancer research.
+  url: https://github.com/Shubham0850/cancer-data-dao
+  demo-video:
+  live-server:
+
+- name: EasyPe
+  description: Send and receive payments internationally in seconds with your email address only..
+  url: https://github.com/harendra-shakya/easy-pe
+  demo-video:
+  live-server:
+
+- name: Dex
+  description: A full-stack dex like uniswap.
+  url: https://github.com/harendra-shakya/dex
+  demo-video:
+  live-server:
+
+- name: Stark Protocol
+  description: Stark Protocol.
+  url: https://github.com/megabyte0x/stark-protocol
+  demo-video:
+  live-server:
+
+- name: Anonim
+  description: A full stack lending and borrowing protocol like Aave.
+  url: https://github.com/harendra-shakya/anonim
+  demo-video:
+  live-server:
+
+- name: Nft Marketplace
+  description: A full stack NFT marketplace.
+  url: https://github.com/harendra-shakya/nft-marketplace
+  demo-video:
+  live-server:
+
+- name: Fellowswap
+  description: P2P trading platform with 0.02% fee.
+  url: https://github.com/harendra-shakya/fellowswap
+  demo-video:
+  live-server:
