@@ -34,7 +34,8 @@ collections:
     output: true
   insights:
     output: true
-    permalink: /insights/:title/
+    # permalink: /insights/:title/
+    permalink: /:title/
 
 # Markdown settings
 markdown: kramdown
