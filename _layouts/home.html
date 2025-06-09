@@ -4,7 +4,8 @@ home: true
 ---
 
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
+{%- assign sorted_posts = site.posts | sort: "date" | reverse -%} {%- for post
+in sorted_posts limit: 10 -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
   <h4 class="post-item-title">
@@ -13,8 +14,9 @@ home: true
 </article>
 {%- endfor -%}
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Insights</h3>
-{%- for insight in site.insights limit: site.number_of_insights -%}
+<h3 class="posts-item-note" aria-label="Recent Insights">Recent Insights</h3>
+{%- assign sorted_insights = site.insights | sort: "date" | reverse -%} {%- for
+insight in sorted_insights limit: 10 -%}
 <article class="post-item">
   <span class="post-item-date">{{ insight.date | date: "%b %d, %Y" }}</span>
   <h4 class="post-item-title">

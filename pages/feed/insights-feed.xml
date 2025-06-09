@@ -1,0 +1,28 @@
+---
+layout: none
+permalink: /insights-feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }} - Insights</title>
+    <link>{{ site.url }}/insights/</link>
+    <description>{{ site.description | escape }}</description>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <language>en-us</language>
+
+    {% assign insights = site.insights | sort: 'date' | reverse %}
+    {% for insight in insights %}
+      <item>
+        <title>{{ insight.title | escape }}</title>
+        <link>{{ site.url }}{{ insight.url }}</link>
+        <guid>{{ site.url }}{{ insight.url }}</guid>
+        <pubDate>{{ insight.date | date_to_rfc822 }}</pubDate>
+        <description><![CDATA[
+          {{ insight.excerpt | strip_html | xml_escape }}
+        ]]></description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

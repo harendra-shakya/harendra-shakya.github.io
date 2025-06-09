@@ -12,6 +12,16 @@ music:
 #   - title: Breaking Bad
 #     url: https://www.imdb.com/title/tt0903747/
 
+manga:
+  - title: Vagabond
+    url: https://anilist.co/manga/30656/Vagabond/
+  - title: Berserk
+    url: https://anilist.co/manga/30002/Berserk/
+  - title: Fire Punch
+    url: https://anilist.co/manga/87170/Fire-Punch/
+  - title: Goodnight Punpun
+    url: https://anilist.co/manga/34632/Goodnight-Punpun/
+
 videos:
   - title: Acharya Prashant
     url: https://www.youtube.com/@ShriPrashant/videos

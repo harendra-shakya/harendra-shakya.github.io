@@ -7,10 +7,12 @@ description: Concise, lyrical insights capturing fleeting moments of clarity and
 comments: false
 ---
 
-{%- for insight in site.insights -%}
+{%- assign sorted_insights = site.insights | sort: "date" | reverse -%}
+{%- assign previous_year = "" -%}
+
+{%- for insight in sorted_insights -%}
 {%- capture current_year -%}{{ insight.date | date: "%Y" }}{%- endcapture -%}
 {%- unless current_year == previous_year -%}
-
 <h2>{{ current_year }}</h2>
 {%- assign previous_year = current_year -%}
 {%- endunless -%}
