@@ -3,6 +3,8 @@ music:
     url: https://open.spotify.com/playlist/37i9dQZF1DX8mlN8vvE4ZI/
   - title: Sitar for Mental Health By Rishab Sharma
     url: https://open.spotify.com/playlist/5sgNEknxOyv4I4IpajS6UJ/
+  - title: Playlist that Thorfinn used to listen to
+    url: https://open.spotify.com/playlist/2V1Lwkv8CMfyW04Rz34GXA
 
 # movies:
 #   - title: Interstellar
@@ -11,6 +13,20 @@ music:
 # shows:
 #   - title: Breaking Bad
 #     url: https://www.imdb.com/title/tt0903747/
+
+anime:
+  - title: Attack on Titan
+    url: https://anilist.co/anime/16498/Attack-on-Titan/
+  - title: Gurren Lagann
+    url: https://anilist.co/anime/2001/Gurren-Lagann/
+  - title: "Frieren: Beyond Journey’s End"
+    url: https://anilist.co/anime/154587/Frieren-Beyond-Journeys-End/
+  - title: Fruits Basket
+    url: https://anilist.co/anime/105334/Fruits-Basket-2019/
+  - title: Fate/Zero
+    url: https://anilist.co/anime/10087/FateZero/
+  - title: Vinland Saga
+    url: https://anilist.co/anime/101348/Vinland-Saga/
 
 manga:
   - title: Vagabond

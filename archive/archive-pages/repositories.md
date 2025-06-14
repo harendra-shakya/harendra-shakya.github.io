@@ -7,6 +7,13 @@ nav: true
 nav_order: 4
 ---
 
+<!--
+
+- Stats - https://github-readme-stats.vercel.app/api?username=harendra-shakya&theme=vue&show_icons=true
+- Trophies - https://github-profile-trophy.vercel.app/?username=harendra-shakya&theme=nord&column=7
+
+ -->
+
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
