@@ -2,7 +2,7 @@
 title: Shakya Mirror # site title
 description:
   >- # site description  # Follows a logical and philosophical progression: cognition → spirit → existence | A reflective guide to truth, presence, and self-awareness — through mind, soul, and the illusions of life. A space for introspection, clarity, and timeless truth — through the mirror of awareness.
-  A reflective journey through mind, soul, and life — to awaken what is already whole.
+  A reflective journey through mind, soul, and life — to awaken what is already whole. By Harendra Shakya.
 lang: en-US # default lang
 timezone: Asia/Kolkata # set your timezone
 image: assets/img/og-image-vagabond.webp # This image used for Open Graph more info https://ogp.me/
@@ -92,6 +92,7 @@ exclude:
   - archive/
   - docs/
   - _insights/up-next/
+  - _posts/up-next/
 
 # Plugins
 plugins:

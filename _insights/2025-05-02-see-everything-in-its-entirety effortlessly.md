@@ -1,6 +1,7 @@
 ---
 title: See everything in its entirety effortlessly
 layout: insight
+permalink: /see-everything-in-its-entirety-effortlessly/
 ---
 
 > Preoccupied with a single leaf, you won't see the tree.  

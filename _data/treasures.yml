@@ -14,6 +14,10 @@ music:
 #   - title: Breaking Bad
 #     url: https://www.imdb.com/title/tt0903747/
 
+# books:
+#   - title: Book
+#     url: https://book.com/
+
 anime:
   - title: Attack on Titan
     url: https://anilist.co/anime/16498/Attack-on-Titan/
@@ -45,3 +49,29 @@ videos:
 authors:
   - title: Acharya Prashant
     url: https://acharyaprashant.org/en/books
+  - title: Devdutt Pattanaik
+    url: https://www.amazon.in/stores/author/B001JRYOZU/allbooks
+
+Kṣatriya Bodhisattva:
+  - title: Rama
+    url: https://en.wikipedia.org/wiki/Rama
+  - title: Krishna
+    url: https://en.wikipedia.org/wiki/Krishna
+  - title: Shiva
+    url: https://en.wikipedia.org/wiki/Shiva
+  - title: Buddha
+    url: https://en.wikipedia.org/wiki/The_Buddha
+  - title: Mahavira
+    url: https://en.wikipedia.org/wiki/Mahavira
+
+characters:
+  - title: Musashi Miyamoto
+    url: https://anilist.co/character/6194/Musashi-Miyamoto
+  - title: Meruem
+    url: https://anilist.co/character/23277/Meruem
+  - title: Guts
+    url: https://anilist.co/character/422/Guts
+
+resources:
+  - title: Osho Hindi Audio Discourses
+    url: https://www.oshoworld.com/audio-hindi-home

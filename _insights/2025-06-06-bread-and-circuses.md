@@ -1,6 +1,7 @@
 ---
 title: Bread and Circuses
 layout: insight
+permalink: /bread-and-circuses/
 ---
 
 Juvenal, a Roman poet, sharply criticized the emperors of his time.

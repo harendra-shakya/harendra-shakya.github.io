@@ -1,6 +1,7 @@
 ---
 title: You are Infinite
 layout: insight
+permalink: /you-are-infinite/
 ---
 
 Time, winning, losing, achieving — they are all illusions.
