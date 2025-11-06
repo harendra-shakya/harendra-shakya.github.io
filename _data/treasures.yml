@@ -1,3 +1,9 @@
+greatest-epics-of-all-time:
+  - title: Mahabharata
+    url: https://en.wikipedia.org/wiki/Mahabharata/
+  - title: Ramayana
+    url: https://en.wikipedia.org/wiki/Ramayana/
+
 music:
   - title: Soulful Sitar
     url: https://open.spotify.com/playlist/37i9dQZF1DX8mlN8vvE4ZI/
@@ -6,13 +12,15 @@ music:
   - title: Playlist that Thorfinn used to listen to
     url: https://open.spotify.com/playlist/2V1Lwkv8CMfyW04Rz34GXA
 
-# movies:
-#   - title: Interstellar
-#     url: https://www.imdb.com/title/tt0816692/
+movies:
+  - title: Interstellar
+    url: https://www.imdb.com/title/tt0816692/
+  - title: 12th Fail
+    url: https://www.imdb.com/title/tt23849204/
 
-# shows:
-#   - title: Breaking Bad
-#     url: https://www.imdb.com/title/tt0903747/
+shows:
+  - title: Black Mirror
+    url: https://www.imdb.com/title/tt2085059/
 
 # books:
 #   - title: Book
@@ -43,14 +51,23 @@ manga:
     url: https://anilist.co/manga/34632/Goodnight-Punpun/
 
 videos:
-  - title: Acharya Prashant
+  - title: Acharya Prashant YT
     url: https://www.youtube.com/@ShriPrashant/videos
+  - title: Acharya Prashant Video Modules
+    url: https://acharyaprashant.org/en/video-modules
+
+# https://www.youtube.com/@Exurb1a/videos
+# https://www.youtube.com/@HorsesOnYT
 
 authors:
   - title: Acharya Prashant
     url: https://acharyaprashant.org/en/books
   - title: Devdutt Pattanaik
     url: https://www.amazon.in/stores/author/B001JRYOZU/allbooks
+
+Adarsha (आदर्श):
+  - title: Swami Vivekananda
+    url: https://en.wikipedia.org/wiki/Swami_Vivekananda
 
 Kṣatriya Bodhisattva:
   - title: Rama
@@ -59,10 +76,6 @@ Kṣatriya Bodhisattva:
     url: https://en.wikipedia.org/wiki/Krishna
   - title: Shiva
     url: https://en.wikipedia.org/wiki/Shiva
-  - title: Buddha
-    url: https://en.wikipedia.org/wiki/The_Buddha
-  - title: Mahavira
-    url: https://en.wikipedia.org/wiki/Mahavira
 
 characters:
   - title: Musashi Miyamoto
@@ -75,3 +88,7 @@ characters:
 resources:
   - title: Osho Hindi Audio Discourses
     url: https://www.oshoworld.com/audio-hindi-home
+  - title: Open Culture
+    url: https://www.openculture.com/
+  - title: Nptel
+    url: https://nptel.ac.in/courses

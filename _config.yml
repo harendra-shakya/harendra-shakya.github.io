@@ -34,6 +34,8 @@ collections:
     output: true
   insights:
     output: true
+  dohe:
+    output: true
     # permalink: /insights/:title/
     permalink: /:title/
 
@@ -93,6 +95,8 @@ exclude:
   - docs/
   - _insights/up-next/
   - _posts/up-next/
+  - _insights/drafts/
+  - _posts/drafts/
 
 # Plugins
 plugins:

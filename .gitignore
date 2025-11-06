@@ -5,3 +5,7 @@ _site/
 _drafts
 klise-*.gem
 Gemfile.lock
+
+_insights/drafts/
+_posts/drafts/
+drafts/
