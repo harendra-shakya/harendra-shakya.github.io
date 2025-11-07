@@ -7,6 +7,7 @@ translations:
   - label: "हिंदी"
     url: "/हम-अनंत-है/"
 date: 2025-11-06
+description: Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence. In truth we are infinite.
 ---
 
 Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence.

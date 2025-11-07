@@ -55,6 +55,8 @@ videos:
     url: https://www.youtube.com/@ShriPrashant/videos
   - title: Acharya Prashant Video Modules
     url: https://acharyaprashant.org/en/video-modules
+  - title: Osho Hindi Audio Discourses
+    url: https://www.oshoworld.com/audio-hindi-home
 
 # https://www.youtube.com/@Exurb1a/videos
 # https://www.youtube.com/@HorsesOnYT
@@ -84,11 +86,8 @@ characters:
     url: https://anilist.co/character/23277/Meruem
   - title: Guts
     url: https://anilist.co/character/422/Guts
-
-resources:
-  - title: Osho Hindi Audio Discourses
-    url: https://www.oshoworld.com/audio-hindi-home
-  - title: Open Culture
-    url: https://www.openculture.com/
-  - title: Nptel
-    url: https://nptel.ac.in/courses
+# resources:
+#   - title: Open Culture
+#     url: https://www.openculture.com/
+#   - title: Nptel
+#     url: https://nptel.ac.in/courses
