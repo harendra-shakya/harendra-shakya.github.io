@@ -5,6 +5,19 @@ layout: page
 excerpt: Sorted articles by categories.
 ---
 
+<!-- - Indian Philosophy
+- Mental Models
+- Vedanta
+- Yoga Philosophy
+- Nyaya (Logic)
+- Samkhya
+- Ethics
+- Epistemology
+- Cognitive Science
+- Decision Making
+- Psychology
+- Critical Thinking -->
+
 <div class="archive-categories">
   <a class="category-item" href="#">all</a>
   {%- for category in site.categories -%} {% capture name %}{{ category | first
@@ -15,6 +28,7 @@ excerpt: Sorted articles by categories.
 
 {%- for category in site.categories -%} {%- capture name -%}{{ category | first
 }}{%- endcapture -%}
+
 <h2 id="{{ name }}">{{ name | upcase }}</h2>
 {%- for post in site.categories[name] -%}
 <article class="post-item">
