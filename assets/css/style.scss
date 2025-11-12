@@ -2,3 +2,28 @@
 ---
 
 @import "main";
+
+/* General styles for the archive page */
+.archive-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 2rem; /* Space between columns */
+  margin-top: 2rem;
+}
+
+.archive-column .post-item-title a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness: Stack the columns on smaller screens */
+@media (max-width: 1024px) {
+  .archive-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .archive-container {
+    grid-template-columns: 1fr; /* 1 column for mobile */
+  }
+}

@@ -14,6 +14,17 @@ in sorted_posts limit: 10 -%}
 </article>
 {%- endfor -%}
 
+<h3 class="posts-item-note" aria-label="Recent Bhajans">Recent Bhajans</h3>
+{%- assign sorted_bhajans = site.bhajans | sort: "date" | reverse -%} {%- for
+bhajan in sorted_bhajans limit: 10 -%}
+<article class="post-item">
+  <span class="post-item-date">{{ bhajan.date | date: "%b %d, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ bhajan.url }}">{{ bhajan.title | escape }}</a>
+  </h4>
+</article>
+{%- endfor -%}
+
 <h3 class="posts-item-note" aria-label="Recent Insights">Recent Insights</h3>
 {%- assign sorted_insights = site.insights | sort: "date" | reverse -%} {%- for
 insight in sorted_insights limit: 10 -%}

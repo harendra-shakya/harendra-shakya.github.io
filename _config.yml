@@ -34,6 +34,8 @@ collections:
     output: true
   insights:
     output: true
+  bhajans:
+    output: true
   dohe:
     output: true
     # permalink: /insights/:title/

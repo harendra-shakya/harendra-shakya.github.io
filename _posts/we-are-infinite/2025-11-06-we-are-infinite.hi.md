@@ -9,15 +9,14 @@ translations:
 date: 2025-11-06
 description: हमारी पूरी ज़िन्दगी एक छोटे, संकुचित, स्वार्थी "स्वयं" की भावना में बिता जाती है। डर, इच्छाएँ, सुख, और मानव अस्तित्व के झूठे अर्थों में फंसे हुए। सच यह है कि हम अनन्त हैं।
 categories:
-  - Path of Infinity
+  - The Way of Infinity
 tags:
   - Infinity
   - Śūnyatā
-  - Non-Attachment
-  - Interconnection
-  - Mindfulness
-  - Eternal Cycle
+  - नित्य ध्यान (Unbroken Mindfulness)
 ---
+
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/dbRX0RweoW0?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 हमारी पूरी ज़िन्दगी एक छोटे, संकुचित, स्वार्थी "स्वयं" की भावना में बिता जाती है। डर, इच्छाएँ, सुख, और मानव अस्तित्व के झूठे अर्थों में फंसे हुए।
 

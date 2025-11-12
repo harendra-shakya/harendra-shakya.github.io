@@ -9,16 +9,13 @@ translations:
 date: 2025-11-06
 description: Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence. In truth we are infinite.
 categories:
-  - Path of Infinity
+  - The Way of Infinity
   # - Personal Growth
   # - Philosophy
 tags:
   - Infinity
   - Śūnyatā
-  - Non-Attachment
-  - Interconnection
-  - Mindfulness
-  - Eternal Cycle
+  - नित्य ध्यान (Unbroken Mindfulness)
 ---
 
 Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence.
