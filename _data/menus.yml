@@ -6,6 +6,10 @@
   url: /posts/
   external: false
 
+- title: bhajans
+  url: /bhajans
+  external: false
+
 - title: insights
   url: /insights/
   external: false

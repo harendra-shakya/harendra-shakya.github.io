@@ -1,7 +1,7 @@
 ---
 title: हम अनंत है
 layout: post
-permalink: /हम-अनंत-है/
+permalink: /hum-anant-hai/
 lang: hi
 translations:
   - label: "English"
@@ -15,8 +15,6 @@ tags:
   - Śūnyatā
   - नित्य ध्यान (Unbroken Mindfulness)
 ---
-
-<iframe width="100%" height="150" src="https://www.youtube.com/embed/dbRX0RweoW0?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 हमारी पूरी ज़िन्दगी एक छोटे, संकुचित, स्वार्थी "स्वयं" की भावना में बिता जाती है। डर, इच्छाएँ, सुख, और मानव अस्तित्व के झूठे अर्थों में फंसे हुए।
 
