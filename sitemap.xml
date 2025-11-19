@@ -1,0 +1,68 @@
+---
+layout: none
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Landing Page (Homepage) with Priority 1.0 -->
+  <url>
+    <loc>{{ site.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Loop through Posts -->
+  {% for post in site.posts %}
+    {% if post.url contains '/assets/' or post.url contains '/images/' or post.url contains '/css/' or post.url contains '/js/' %}
+      {% continue %}
+    {% endif %}
+    <url>
+      <loc>{{ site.url }}{{ post.url | relative_url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  {% endfor %}
+
+  <!-- Loop through 'bhajans' Collection -->
+  {% for bhajan in site.bhajans %}
+    {% if bhajan.url contains '/assets/' or bhajan.url contains '/images/' or bhajan.url contains '/css/' or bhajan.url contains '/js/' %}
+      {% continue %}
+    {% endif %}
+    <url>
+      <loc>{{ site.url }}{{ bhajan.url | relative_url }}</loc>
+      <lastmod>{{ bhajan.date | date_to_xmlschema }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  {% endfor %}
+
+  <!-- Loop through 'insights' Collection -->
+  {% for insight in site.insights %}
+    {% if insight.url contains '/assets/' or insight.url contains '/images/' or insight.url contains '/css/' or insight.url contains '/js/' %}
+      {% continue %}
+    {% endif %}
+    <url>
+      <loc>{{ site.url }}{{ insight.url | relative_url }}</loc>
+      <lastmod>{{ insight.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  {% endfor %}
+
+  <!-- Loop through Pages -->
+  {% for page in site.pages %}
+    {% if page.url contains '/assets/' or page.url contains '/images/' or page.url contains '/css/' or page.url contains '/js/' %}
+      {% continue %}
+    {% endif %}
+    <url>
+      <loc>{{ site.url }}{{ page.url | relative_url }}</loc>
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  {% endfor %}
+
+</urlset>

@@ -1,7 +1,7 @@
 ---
-title: Cidānanda rūpaḥ Infinite Mind
+title: Always have Chidananda Rupah Infinite Mind
 layout: insight
-permalink: /cidānanda-rūpaḥ-infinite-mind/
+permalink: /always-have-chidananda-rupah-infinite-mind/
 ---
 
 Until you die mind will always be there. Try to reach Cidānanda rūpaḥ Infinite Mind.

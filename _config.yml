@@ -103,5 +103,13 @@ exclude:
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-postfiles
+# # Configure the plugin
+# sitemap:
+#   # exclude:
+#   #   - "/path/to/exclude" # List any URLs you don't want in the sitemap
+#   changefreq: "monthly" # Default changefreq for all pages
+#   priority: 0.5 # Default priority for all pages
+#   # include:
+#   #   - '/specific-page'  # Explicitly include any pages not picked up automatically
