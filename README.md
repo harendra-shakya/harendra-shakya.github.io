@@ -3,7 +3,7 @@ Personal site and blog running on Jekyll — <a href="https://harendra-shakya.gi
 To create
 
 - Path of Infinite
-- Infinite Mind
+- Cidānanda rūpaḥ Infinite Mind
 
 Build locally
 

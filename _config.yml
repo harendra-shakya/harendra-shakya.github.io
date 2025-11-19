@@ -22,7 +22,7 @@ author:
   avatar: /assets/img/buddha.webp # change with your own avatar
 
 # URL settings
-url: "https://harendra-shakya.github.io/" #
+url: "https://harendra-shakya.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: G-NDH3D87F2D
