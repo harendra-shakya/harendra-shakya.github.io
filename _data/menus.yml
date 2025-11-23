@@ -18,6 +18,10 @@
   url: /dohe/
   external: false
 
+- title: 101s
+  url: /infinite-mind-101/
+  external: false
+
 - title: quotes
   url: /quotes/
   external: false

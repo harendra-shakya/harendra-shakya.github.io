@@ -68,7 +68,6 @@ We all flow in what is eternal. Moron or intelligent, living or dead, everything
 #### Examples
 
 1. A star shines for millions of years, then collapses — but its atoms scatter to form new stars, planets, and even living beings. You are made of stardust, and one day you will return to the stars. You are infinite as part of the eternal cycle of cosmic creation.
-
 2. White light splits into infinite colors through a prism. Likewise, the infinite whole expresses itself as countless beings and experiences. You are one color, but inseparable from the infinite light.
 
 ## Conclusion: Embrace the Flow
