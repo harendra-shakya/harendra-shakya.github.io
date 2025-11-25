@@ -4,6 +4,10 @@ layout: page
 permalink: /infinite-mind-101/
 ---
 
+<!-- Harendra don't use AI to write. This is just a place where I can write all my notes in my words
+Remember Future me my goal is developing critical thinking, creative thinking, design thinking, systems thinking.
+Life is the biggest test. The test is about whether you're an informed, engaged and productive citizen of the world. No smart person is swayed by empty narrative. Remember people always look upon those they consider their leader. -->
+
 WORLD KNOWLEDGE & NAVIGATION
 
 - Economics 101 — Supply, demand, incentives.
@@ -36,11 +40,11 @@ PERSONAL UPGRADE
 - Courage 101 — Say the hard truth when needed.
 - Legacy 101 — Build something that outlives you.
 - Stoic masculinity 101 — Strength + compassion.
-- Self-awareness 101 — Know your strengths, weaknesses, and triggers.  
-- Confidence 101 — Practice until it feels natural.  
-- Discipline 101 — Do what needs to be done, even when you don’t feel like it.  
-- Time Management 101 — Prioritize, plan, and avoid distractions.  
+- Self-awareness 101 — Know your strengths, weaknesses, and triggers.
+- Confidence 101 — Practice until it feels natural.
+- Discipline 101 — Do what needs to be done, even when you don’t feel like it.
+- Time Management 101 — Prioritize, plan, and avoid distractions.
 - Mental Toughness 101 — Embrace discomfort. It builds strength.
-- Nutrition 101 — Eat clean, hydrate, limit junk.  
-- Strength Training 101 — Lift for health, not just looks.  
+- Nutrition 101 — Eat clean, hydrate, limit junk.
+- Strength Training 101 — Lift for health, not just looks.
 - Sleep 101 — 7–9 hours for better performance.

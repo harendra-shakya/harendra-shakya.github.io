@@ -36,6 +36,8 @@ collections:
     output: true
   bhajans:
     output: true
+  checklists:
+    output: true
   dohe:
     output: true
     # permalink: /insights/:title/
