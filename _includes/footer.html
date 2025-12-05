@@ -39,7 +39,8 @@
 
   gtag("config", "{{ site.google_analytics }}");
 </script>
-{%- endif -%} {%- if page.url == '/archive/' or page.url == '/posts/' -%}
+{%- endif -%} {%- if page.url == '/archive/' or page.url == '/posts/' page.url
+== '/categories/' -%}
 <script src="/assets/js/search.min.js"></script>
 <script>
   var sjs = SimpleJekyllSearch({
