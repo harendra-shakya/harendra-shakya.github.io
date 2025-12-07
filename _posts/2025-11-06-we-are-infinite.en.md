@@ -16,6 +16,7 @@ tags:
   - Infinity
   - Śūnyatā
   - नित्य ध्यान (Unbroken Mindfulness)
+  - अद्वैत
 ---
 
 Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence.

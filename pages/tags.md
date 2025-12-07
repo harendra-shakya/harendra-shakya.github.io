@@ -26,7 +26,23 @@ excerpt: Sorted article by tags.
 - Mental Model: Circle of Competence
 - Cognitive Bias
 - Sunk Cost Fallacy
-- Socratic Method -->
+- Socratic Method
+
+भक्ति - भगवान के प्रति समर्पण वाले भजन​
+
+माया - संसार की माया और मोह पर​
+
+आत्मज्ञान - आत्मा और परमात्मा की पहचान​
+
+गुरु - गुरु की महत्ता और शिष्य संबंध​
+
+अहं
+आत्मा
+ब्रह्म
+अद्वैत
+
+
+-->
 
 <div class="archive-tags">
   <a class="tag-item" href="#">all</a>
