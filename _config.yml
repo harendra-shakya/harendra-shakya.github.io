@@ -34,6 +34,7 @@ collections:
     output: true
   insights:
     output: true
+    permalink: /:title/
   bhajans:
     output: true
   checklists:
@@ -56,6 +57,11 @@ defaults:
     values:
       layout: post
       comments: false
+  - scope:
+      path: ""
+      type: "insights"
+    values:
+      layout: "insight"
 
 # Jekyll Compose default front matter
 jekyll_compose:

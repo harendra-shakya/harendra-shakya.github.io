@@ -4,14 +4,14 @@ layout: post
 permalink: /bhajan-suno-aur-mukt-ho-jao/
 lang: hi
 translations:
-  - label: "हिंदी"
-    url: "/listen-bhajan-and-be-free/"
+  - label: हिंदी
+    url: /listen-bhajan-and-be-free/
 date: 2025-12-07
 description: Listen Bhajan and Be Free
 categories:
   - Bhajan
 up:
-  - "[[Sant Sarita]]"
+  - "[[संत सरिता]]"
 in:
   - "[[भजन]]"
 URLs:
