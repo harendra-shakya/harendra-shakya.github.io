@@ -62,6 +62,11 @@ defaults:
       type: "insights"
     values:
       layout: "insight"
+  - scope:
+      path: ""
+      type: "dohe"
+    values:
+      layout: "insight"
 
 # Jekyll Compose default front matter
 jekyll_compose:

@@ -60,7 +60,9 @@ layout: compress
           </div>
           {% endif %}
 
-          <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>        
+          <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>   
+          
+
 
           {% if page.date %}
           <div class="post-meta">
@@ -80,14 +82,14 @@ layout: compress
           {% endif %}
 
           {% if page.translations %}
-          <div class="language-switcher">
+          <div class="post-meta language-switcher">
             <span>Read this post in:</span>
             {% for lang in page.translations %}
               <link rel="alternate" hreflang="{{ lang.lang }}" href="{{ site.url }}{{ lang.url }}" />
               <a href="{{ lang.url }}">{{ lang.label }}</a>{% unless forloop.last %} | {% endunless %}
             {% endfor %}
           </div>
-          {% endif %}
+          {% endif %}       
 
         </header>
 

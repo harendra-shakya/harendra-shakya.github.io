@@ -4,7 +4,7 @@ layout: post
 permalink: /bhajan-suno-aur-mukt-ho-jao/
 lang: hi
 translations:
-  - label: हिंदी
+  - label: English
     url: /listen-bhajan-and-be-free/
 date: 2025-12-07
 description: Listen Bhajan and Be Free
