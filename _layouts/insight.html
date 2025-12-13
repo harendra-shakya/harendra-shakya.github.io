@@ -61,6 +61,10 @@ layout: compress
         </div>
       </article>
     </main>
+    {% if page.next or page.previous %}
+      {% include navigation.html %}
+    {% endif %}
+
     {% include footer.html %}
   </div>
 </body>
