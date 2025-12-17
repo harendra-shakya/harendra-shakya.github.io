@@ -71,11 +71,11 @@ comments: false
 
   </div>
 
-  <!-- Dohe Section -->
+  <!-- Poetry Section -->
   <div class="archive-column">
-    <h2>Dohe</h2>
+    <h2>Poetry</h2>
     {%- assign previous_year = "" -%}
-    {%- assign sorted_dohe = site.dohe | sort: 'date' | reverse -%} <!-- Correct sorting and reverse -->
+    {%- assign sorted_dohe = site.poetry | sort: 'date' | reverse -%} <!-- Correct sorting and reverse -->
     {%- for doha in sorted_dohe -%}
       {%- capture current_year -%}{{ doha.date | date: "%Y" }}{%- endcapture -%}
       {%- unless current_year == previous_year -%}

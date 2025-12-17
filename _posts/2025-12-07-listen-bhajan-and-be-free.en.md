@@ -20,6 +20,7 @@ URLs:
 aliases:
   - List of Sant Bhajan by fears
   - Listen Bhajan and Be Free
+  - Solution for all fears
 ---
 
 - Fear of Society

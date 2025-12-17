@@ -39,7 +39,7 @@ collections:
     output: true
   checklists:
     output: true
-  dohe:
+  poetry:
     output: true
     # permalink: /insights/:title/
     permalink: /:title/
@@ -64,7 +64,7 @@ defaults:
       layout: "insight"
   - scope:
       path: ""
-      type: "dohe"
+      type: "poetry"
     values:
       layout: "insight"
 
