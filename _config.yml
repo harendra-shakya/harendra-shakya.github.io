@@ -37,6 +37,9 @@ collections:
     permalink: /:title/
   bhajans:
     output: true
+  sahitya:
+    output: true
+    permalink: /:title/
   checklists:
     output: true
   poetry:
