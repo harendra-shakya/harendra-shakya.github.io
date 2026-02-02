@@ -115,6 +115,7 @@ exclude:
   - _posts/up-next/
   - _insights/drafts/
   - _posts/drafts/
+  - _sahitya/drafts/
 
 # Plugins
 plugins:
