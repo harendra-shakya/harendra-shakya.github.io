@@ -15,6 +15,8 @@ translations:
     url: /en/shunyata-saptati/
 aliases:
   - Post - Shunyata Saptati
+tags:
+  - आत्मज्ञान
 ---
 
 ## छंद 1

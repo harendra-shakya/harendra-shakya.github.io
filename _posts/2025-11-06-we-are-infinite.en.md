@@ -14,8 +14,6 @@ categories:
   # - Philosophy
 tags:
   - Infinity
-  - Śūnyatā
-  - नित्य ध्यान (Unbroken Mindfulness)
   - अद्वैत
 ---
 

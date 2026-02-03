@@ -22,10 +22,10 @@ I’m planning to dive into these areas.
 - Mental Models - Gaining Wisdom, Decision making. Developing better ways of thinking.
 - Literature - Bhagavad Gita, Vedanta. Need to dive in depths of literatures.
 
----
+<!-- ---
 
 I'd appreaciate your feedback on -
 
 Do you like Shakya Mirror?
 
-What do you enjoy most about the Shakya Mirror website?
+What do you enjoy most about the Shakya Mirror website? -->

@@ -16,43 +16,52 @@ comments: false
 
 <ul id="search-results"></ul>
 
+<!-- Category Toggle -->
+<div class="lang-toggle">
+  <button class="filter-button" data-filter-type="category" data-filter-value="all" onclick="filterCategory('all')">All</button>
+  {% assign all_categories = site.posts | map: 'categories' | flatten | uniq %}
+  {% for category in all_categories %}
+    <button class="filter-button" data-filter-type="category" data-filter-value="{{ category | escape }}" onclick="filterCategory('{{ category | escape }}')">{{ category | escape }}</button>
+  {% endfor %}
+</div>
+
+<!-- Tag Toggle -->
+<div class="lang-toggle">
+  <button class="filter-button" data-filter-type="tag" data-filter-value="all" onclick="filterTags('all')">All</button>
+  {% assign all_tags = site.posts | map: 'tags' | flatten | uniq %}
+  {% for tag in all_tags %}
+    <button class="filter-button" data-filter-type="tag" data-filter-value="{{ tag | escape }}" onclick="filterTags('{{ tag | escape }}')">{{ tag | escape }}</button>
+  {% endfor %}
+</div>
+
 <!-- Language Toggle -->
 <div class="lang-toggle">
-  <button onclick="filterLang('all')">All</button>
-  <button onclick="filterLang('en')">English</button>
-  <button onclick="filterLang('hi')">हिंदी</button>
+  <button class="filter-button" data-filter-type="lang" data-filter-value="all" onclick="filterLang('all')">All</button>
+  <button class="filter-button" data-filter-type="lang" data-filter-value="en" onclick="filterLang('en')">English</button>
+  <button class="filter-button" data-filter-type="lang" data-filter-value="hi" onclick="filterLang('hi')">हिंदी</button>
 </div>
 
-<!-- Post List Grouped by Year and Filterable by Language -->
+<!-- Post List Grouped by Year and Filterable by Language and Tags -->
 
-{%- assign posts = site.posts | sort: "date" | reverse -%} {%- assign
-previous_year = "" -%} {%- for post in posts -%} {%- capture current_year -%}{{
-post.date | date: "%Y" }}{%- endcapture -%} {%- if current_year != previous_year
--%}
+{%- assign sorted_posts = site.posts | sort: "date" | reverse -%}
+{%- assign previous_year = "" -%}
+
+{%- for post in sorted_posts -%}
+{%- capture current_year -%}{{ post.date | date: "%Y" }}{%- endcapture -%}
+{%- unless current_year == previous_year -%}
 
 <h2>{{ current_year }}</h2>
-{%- assign previous_year = current_year -%} {%- endif -%} {%- assign post_lang =
-post.lang | default: 'en' -%}
-<div class="post-block post-item" data-lang="{{ post_lang }}">
-  <article class="">
-    <!-- <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span> -->
-    <h3 class="post-item-title">
-      <a href="{{ post.url }}">{{ post.title | escape }}</a>
-    </h3>
-  </article>
-</div>
-{%- endfor -%}
+{%- assign previous_year = current_year -%}
+{%- endunless -%}
 
-<!-- Language Filtering Script -->
-<script>
-  function filterLang(lang) {
-    const posts = document.querySelectorAll(".post-block");
-    posts.forEach((post) => {
-      if (lang === "all" || post.dataset.lang === lang) {
-        post.style.display = "";
-      } else {
-        post.style.display = "none";
-      }
-    });
-  }
-</script>
+  <div class="post-block post-item" 
+       data-lang="{{ post.lang | default: 'en' }}" 
+       data-tags="{{ post.tags | join: ',' }}" 
+       data-categories="{{ post.categories | join: ',' }}">
+    <article>
+      <h3 class="post-item-title">
+        <a href="{{ post.url }}">{{ post.title | escape }}</a>
+      </h3>
+    </article>
+  </div>
+{%- endfor -%}

@@ -108,7 +108,7 @@ layout: compress
             <ul>
               {% assign current_tags = page.tags %}
               {% assign current_lang = page.lang %}
-              {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights %} <!-- Combine _posts and _bhajans -->
+              {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya %} <!-- Combine _posts and _bhajans -->
 
               {% for post in all_posts %}
                 {% assign post_tags = post.tags %}

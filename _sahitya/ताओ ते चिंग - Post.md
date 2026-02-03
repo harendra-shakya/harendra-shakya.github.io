@@ -15,6 +15,8 @@ translations:
     url: /en/tao-te-ching/
 aliases:
   - Post - Tao Te Ching
+tags:
+  - आत्मज्ञान
 ---
 
 [ताओ ते चिंग - YouTube](https://www.youtube.com/watch?v=E-NFoiJxtnk).
