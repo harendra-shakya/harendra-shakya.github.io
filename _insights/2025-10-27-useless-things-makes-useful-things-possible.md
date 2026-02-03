@@ -2,6 +2,7 @@
 title: Useless things makes useful things possible
 layout: insight
 permalink: /useless-things-makes-useful-things-possible/
+categories: [Moments of Clarity]
 ---
 
 > We put thirty spokes together and call it a wheel;

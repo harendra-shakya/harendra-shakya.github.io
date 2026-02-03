@@ -2,6 +2,7 @@
 title: All Paths of Yoga are same
 layout: insight
 permalink: /all-paths-of-yoga-are-same/
+categories: [Moments of Clarity]
 ---
 
 Karma Yoga - Jnana is also Karma. Bhakti is also Karma. Raja Yoga is also Karma.

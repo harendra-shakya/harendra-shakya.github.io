@@ -4,6 +4,7 @@ up:
 in:
   - "[[Vagabond]]"
 date: 2025-12-26
+categories: [Moments of Clarity]
 ---
 
 Birds don't think about flying.

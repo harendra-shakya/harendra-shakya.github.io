@@ -3,6 +3,7 @@ up:
   - "[[Moments of Clarity]]"
 in:
 date: 2026-01-07
+categories: [Moments of Clarity]
 ---
 
 Ego is finite number and Atma is infinite number. Ego thinks it is different 60 is bigger than 40 and smaller than 80 that's why its unique.

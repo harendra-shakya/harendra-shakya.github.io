@@ -421,6 +421,20 @@
   max-width: 600px;
   margin: auto;
   padding: 2rem 1rem;
+
+  .tags {
+    margin-left: 1px;
+    letter-spacing: 0.5px;
+
+    .tag {
+      font-size: $small-font-size;
+      color: $dark-gray;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .mini-title {

@@ -2,6 +2,7 @@
 title: See everything in its entirety effortlessly
 layout: insight
 permalink: /see-everything-in-its-entirety-effortlessly/
+categories: [Moments of Clarity]
 ---
 
 > Preoccupied with a single leaf, you won't see the tree.  

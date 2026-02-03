@@ -49,6 +49,22 @@ layout: compress
             <!-- <span itemprop="author" itemscope itemtype="https://schema.org/Person">
               <span itemprop="name">{{ site.author.name }}</span>
             </span> -->
+            
+
+           <!-- categories link  -->
+            {% if page.categories and page.categories != empty %}
+            <span class="tags">
+              {% assign categories = page.categories %}
+              <span itemprop="keywords">
+                {% for categorie in categories %}
+                <a class="tag"
+                  href="/categories/#{{categorie | downcase | slugify}}">{{categorie | upcase }}</a>{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+              </span>
+            </span>
+            {% endif %}
+            <!--  -->
+
             <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
               {{ page.date | date: "%b %d, %Y" }}
             </time>
@@ -62,35 +78,38 @@ layout: compress
           <div class="related-bhajans">
             <!-- <h2>Similar Posts</h2> -->
           
-            <ul>
-              {% assign current_tags = page.tags %}
-              {% assign current_lang = page.lang %}
-              {% assign all_posts = site.posts | concat: site.bhajans %} <!-- Combine _posts and _bhajans -->
-
-              {% for post in all_posts %}
-                {% assign post_tags = post.tags %}
-                {% assign post_lang = post.lang %}
-
-                <!-- Ensure matching language and exclude current post -->
-                {% if post.url != page.url and post_lang == current_lang %}
-                  {% for tag in current_tags %}
-                    {% if post_tags contains tag %}
-                      <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                        {% if post.tags %}
-                          <!-- <span class="tags">
-                            {% for post_tag in post.tags %}
-                              <a href="/tags/#{{ post_tag | downcase | slugify }}" class="tag">{{ post_tag | upcase }}</a>{% unless forloop.last %}, {% endunless %}
-                            {% endfor %}
-                          </span> -->
-                        {% endif %}
-                      </li>
+         <ul>
+            {% assign current_tags = page.tags %}
+            {% assign current_lang = page.lang %}
+            {% assign max_related = 3 %}
+            {% assign related_count = 0 %}
+            {% assign all_posts = site.posts | concat: site.bhajans %}
+            {% for post in all_posts %}
+              {% assign post_tags = post.tags %}
+              {% assign post_lang = post.lang %}
+              {% if post.url != page.url and post_lang == current_lang %}
+                {% for tag in current_tags %}
+                  {% if post_tags contains tag %}
+                    <li>
+                      <a href="{{ post.url }}">{{ post.title }}</a>
+                      {% if post.tags %}
+                        <!-- <span class="tags"> ... (your existing tags code) </span> -->
+                      {% endif %}
+                    </li>
+                    {% assign related_count = related_count | plus: 1 %}
+                    {% if related_count >= max_related %}
                       {% break %}
                     {% endif %}
-                  {% endfor %}
-                {% endif %}
-              {% endfor %}
-            </ul>
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+              {% if related_count >= max_related %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+
           </div>
 
 

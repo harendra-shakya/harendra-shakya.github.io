@@ -2,6 +2,7 @@
 title: Understand duality of things
 layout: insight
 permalink: /understand-duality-of-things/
+categories: [Moments of Clarity]
 ---
 
 Understand duality of things. Without one you can't understand what is whole.

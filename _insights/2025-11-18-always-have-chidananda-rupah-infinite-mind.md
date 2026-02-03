@@ -2,6 +2,7 @@
 title: Always have Chidananda Rupah Infinite Mind
 layout: insight
 permalink: /always-have-chidananda-rupah-infinite-mind/
+categories: [Moments of Clarity]
 ---
 
 Until you die mind will always be there. Try to reach Cidānanda rūpaḥ Infinite Mind.

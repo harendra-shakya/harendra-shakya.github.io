@@ -4,6 +4,7 @@ up:
 in:
   - "[[Chuang Tzu]]"
 date: 2025-12-27
+categories: [Moments of Clarity]
 ---
 
 We don't exist. The river isn't ours, boat isn't our and who is rowing the boat isn't we.

@@ -1,5 +1,5 @@
 ---
-title: मेरी चतुष्पदियाँ
+title: My Poetry
 permalink: /poetry/
 layout: page
 excerpt: Concise, lyrical poetry capturing fleeting moments of clarity and wisdom.
@@ -9,6 +9,15 @@ comments: false
 
 <!-- Poetry in Hindi is called "कविता" (kavita). -->
 <!-- चतुष्पदी (chatushpadi) -->
+
+<!-- Tag Toggle -->
+<div class="lang-toggle">
+  <button class="filter-button" data-filter-type="tag" data-filter-value="all" onclick="filterTags('all')">all</button>
+  {% assign all_tags = site.poetry | map: 'tags' | flatten | uniq %}
+  {% for tag in all_tags %}
+    <button class="filter-button" data-filter-type="tag" data-filter-value="{{ tag | escape }}" onclick="filterTags('{{ tag | escape }}')">{{ tag | escape }}</button>
+  {% endfor %}
+</div>
 
 {%- assign sorted_poetry = site.poetry | sort: "date" | reverse -%}
 {%- assign previous_year = "" -%}

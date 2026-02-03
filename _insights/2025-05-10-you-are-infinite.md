@@ -2,6 +2,7 @@
 title: You are Infinite
 layout: insight
 permalink: /you-are-infinite/
+categories: [Moments of Clarity]
 ---
 
 Time, winning, losing, achieving — they are all illusions.

@@ -1,6 +1,8 @@
 ---
 title: Illusions of a Leaf
 layout: insight
+permalink: /illusions-of-a-leaf/
+categories: [Moments of Clarity]
 ---
 
 Most leaves are trapped in their own illusions.
