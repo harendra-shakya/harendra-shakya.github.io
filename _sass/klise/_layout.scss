@@ -416,34 +416,6 @@
 //   background-color: #e9ecef; /* Hover state for button */
 // }
 
-.mini-insight {
-  font-size: 1.1rem;
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem 1rem;
-
-  .tags {
-    margin-left: 1px;
-    letter-spacing: 0.5px;
-
-    .tag {
-      font-size: $small-font-size;
-      color: $dark-gray;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
-}
-
-.mini-title {
-  font-weight: bold;
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
 .chapter-dropdown {
   margin-bottom: 1em;
   padding: 0.5em;

@@ -5,7 +5,7 @@ layout: page
 excerpt: Sorted articles by tags.
 ---
 
-{%- assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya -%}
+{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan %}
 
 <!-- Tag Filter -->
 <div class="archive-tags">

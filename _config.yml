@@ -40,6 +40,9 @@ collections:
   sahitya:
     output: true
     permalink: /:title/
+  avalokan:
+    output: true
+    permalink: /:title/
   checklists:
     output: true
   poetry:
@@ -116,6 +119,7 @@ exclude:
   - _insights/drafts/
   - _posts/drafts/
   - _sahitya/drafts/
+  - _avalokan/drafts/
 
 # Plugins
 plugins:
