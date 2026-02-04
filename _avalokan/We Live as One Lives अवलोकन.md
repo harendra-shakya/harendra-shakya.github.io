@@ -53,3 +53,74 @@ _God, Truth, and Objectification_
 
 _The Core Insight_  
 We live as people live because it feels safe. Heidegger exposes the cost: a borrowed life. Anxiety cracks the shell. When distraction drops, the question appears—not about the world, but about _me_. And that question is the beginning of authenticity.
+
+## We live as “one” lives.
+
+Most of the time, we do not live as ourselves.  
+We live as “one” lives.  
+We speak as one speaks.  
+We think as one thinks.  
+We choose what is chosen.  
+We value what is considered valuable.
+
+We say:  
+“This is how it is.”  
+“This is how things go.”  
+“This is life.”
+
+No particular individual makes decisions.  
+Yet everyone follows.  
+Thus, no one is responsible.  
+And no one is truly free.
+
+This way of living feels safe.  
+It feels normal.  
+It feels unquestionable.
+
+But in this life, nothing is truly ours.  
+Our opinions are borrowed.  
+Our ambitions are borrowed.  
+Even our fears are borrowed.
+
+We are busy.  
+We are entangled.  
+We are distracted.
+
+And because we are always busy,  
+we never have to face ourselves.
+
+Only occasionally is this routine interrupted.  
+A sudden silence.  
+A failure.  
+A loss.  
+A moment of anxiety.
+
+In such moments, the noise stops.  
+And for the first time,  
+we realize we have been living someone else’s life.
+
+The experience is uncomfortable.  
+So we quickly return.  
+To the routine.  
+To the noise.  
+To “how things are.”
+
+---
+
+**About this text**  
+This is a poetic rendering of ideas from Martin Heidegger’s _Being and Time_ (1927), especially his analyses of _das Man_ (“they”/“one”) and _Angst_ (anxiety). It is not a direct quotation; Heidegger’s original language is dense, technical, and filled with German terminology. This adaptation aims to make the core insights accessible while remaining faithful to the structure of his thought.
+
+---
+
+**Key Heideggerian Terms**
+
+- **Dasein**: Heidegger’s term for human existence. Literally, “being there.” Unlike objects, we are beings for whom our own existence is always a question, always at stake.
+- **Das Man (they / one)**: The anonymous collective that determines how “one” lives, thinks, and speaks. It is not a particular person or group, but the impersonal norms we internalize without choice. “Everyone else exists, and no one is oneself.”
+- **Gerede (idle talk)**: Everyday conversation about things we do not truly understand. We pass on what “is said” without making it our own.
+- **Verfallenheit (falling / entanglement)**: Our tendency to lose ourselves in busyness, distraction, and worldly concerns. It is not a moral failing, but a structural feature of existence—we avoid facing ourselves.
+- **Angst (anxiety)**: A fundamental mood distinct from fear. Fear has an object; _Angst_ does not. In _Angst_, the familiar world loses its hold, and we face our existence without the shield of routine or distraction.
+- **Unheimlichkeit (uncanniness / not-at-home-ness)**: Literally, “not being at home.” The unsettling feeling that arises in _Angst_, when we realize that the world we accepted does not fully contain us.
+
+---
+
+**Source:** Martin Heidegger, _Being and Time_ (1927), translated by John Macquarrie and Edward Robinson (New York: Harper & Row, 1962).

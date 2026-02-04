@@ -59,3 +59,114 @@ Seeing alone is not enough; intent is crucial. Clear seeing already assumes the 
 
 _Ending Note_  
 Existentialism courageously demolishes false meanings, but stops at despair. Advait demolishes the ego itself. Godot never arrives—and that is not tragedy. That is the doorway.
+
+## Samuel Beckett – Waiting for Godot
+
+Two men stand by the side of a road.  
+Nearby, there is a tree.  
+Apart from that, there is nothing.  
+No destination, no sign.
+
+They are waiting.  
+They do not exactly know for whom they are waiting.  
+They do not even know why they are waiting.  
+But they wait, and this waiting gives shape to their day.
+
+They argue whether this is the right place.  
+They argue whether today is the day.  
+They cannot reach a conclusion.
+
+They talk to pass the time.  
+They joke.  
+They quarrel.  
+They insult each other, then reconcile.  
+They forget what was just said.  
+They repeat the same questions again and again.
+
+They fall silent.  
+The silence becomes uncomfortable.  
+So they speak again.
+
+They talk about leaving.  
+“Shall we go?” one says.  
+They do not move.  
+They make elaborate plans for leaving.  
+They imagine what they would do if they left.  
+But they do not go.
+
+They wait.
+
+Someone passes by.  
+He speaks in a strange manner.  
+He gives orders to the other person.  
+They watch him, confused and intrigued.  
+When he leaves,  
+the road becomes empty again.
+
+They return to waiting.
+
+They talk about the past.  
+They are not sure if it really happened.  
+They cannot even agree on their own memories.  
+As they talk, memories slip away.
+
+They talk about the future.  
+The future remains unclear.  
+The word “tomorrow” comes up again and again.  
+No decision is made.
+
+They wait.
+
+They say waiting is necessary.  
+They say Godot will explain everything.  
+They say Godot will tell them what to do next.  
+But they cannot say who Godot is.  
+They cannot say why they trust him.  
+They cannot say what will happen if he comes.
+
+They wait.
+
+They grow tired.  
+They think of sleeping.  
+But they fear they might miss Godot if he arrives.
+
+They talk about hanging themselves.  
+They discuss it seriously.  
+But there are no means.  
+And the matter is left there.
+
+They wait.
+
+A boy comes.  
+He says Godot will not come today.  
+But he will surely come tomorrow.
+
+They question him.  
+They ask if he is sure.  
+They ask if Godot remembers them.  
+The boy does not know.  
+He leaves.
+
+Night begins.  
+The tree stands bare.  
+The road is empty.  
+The light grows dim.
+
+They wait.
+
+They say they will leave tomorrow.  
+They say tomorrow everything will change.  
+For a while, they even believe it.
+
+“Shall we go?” one says.  
+They do not move.
+
+Tomorrow will come.  
+Tomorrow will pass.  
+Tomorrow will be just like today.
+
+They will meet again.  
+They will talk again.  
+They will wait again.  
+They will ask again, “Shall we go?”  
+And they will not go.
