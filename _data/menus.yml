@@ -2,28 +2,8 @@
   url: /
   external: false
 
-- title: posts
-  url: /posts/
-  external: false
-
-- title: bhajans
-  url: /bhajans
-  external: false
-
-- title: sahitya
-  url: /sahitya
-  external: false
-
-- title: insights
-  url: /insights/
-  external: false
-
-- title: poetry
-  url: /poetry/
-  external: false
-
-- title: 101s
-  url: /infinite-mind-101/
+- title: archive
+  url: /archive/
   external: false
 
 - title: avalokan
