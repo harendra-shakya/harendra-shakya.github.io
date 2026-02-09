@@ -1,10 +1,12 @@
 ---
 layout: post
-title: We Live as One Lives
+title: We Live as One Lives — By Martin Heidegger
 date: 2026-01-12
 categories:
   - Wisdom Literature
 excerpt: We do not always live as ourselves. Most days, we live as one lives.
+lang: en
+permalink: /en/we-live-as-one-lives-by-martin-heidegger-summary/
 ---
 
 We wake as one wakes.  

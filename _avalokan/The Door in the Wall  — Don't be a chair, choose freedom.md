@@ -75,7 +75,7 @@ as Lionel’s father did.
 
 The garden offers friendship, quiet,  
 generous understanding.  
-But ambition, duty, and fear  
+But ambition, [duty](https://harendra-shakya.github.io/en/shrimad-bhagavad-gita-chapter-3-verses-17/#why-does-the-ego-need-duties), and fear  
 pull one back into noise.
 
 ### Priorities slowly replace destiny.

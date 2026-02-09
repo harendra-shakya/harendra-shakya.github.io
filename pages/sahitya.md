@@ -23,6 +23,14 @@ comments: false
   <button class="filter-button" data-filter-type="lang" data-filter-value="hi" onclick="filterLang('hi')">हिंदी</button>
 </div>
 
+<div>
+  {% for item in site.sahitya %}
+  <article class="random-item" hidden>
+      Random: <a href="{{ item.url }}">{{ item.title }}</a>
+  </article>
+  {% endfor %}
+</div>
+
 {%- assign sorted_sahitya = site.sahitya | sort: "date" | reverse -%}
 {%- assign previous_year = "" -%}
 

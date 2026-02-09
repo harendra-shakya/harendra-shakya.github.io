@@ -81,6 +81,14 @@ comments: false
   <button class="filter-button" data-filter-type="lang" data-filter-value="hi" onclick="filterLang('hi')">हिंदी</button>
 </div>
 
+<div>
+  {% for item in all_posts %}
+  <article class="random-item" hidden>
+      Random: <a href="{{ item.url }}">{{ item.title }}</a>
+  </article>
+  {% endfor %}
+</div>
+
 <!-- Post List Grouped by Year and Filterable by Language and Tags -->
 
 {%- assign sorted_posts = all_posts | sort: "date" | reverse -%}

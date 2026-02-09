@@ -1,5 +1,5 @@
 ---
-title: Evergreen
+title: Evergreen Notes
 permalink: /evergreen/
 layout: page
 excerpt: Concise, lyrical evergreen capturing fleeting moments of clarity and wisdom.
@@ -12,6 +12,14 @@ comments: false
   <button class="filter-button" data-filter-type="lang" data-filter-value="all" onclick="filterLang('all')">All</button>
   <button class="filter-button" data-filter-type="lang" data-filter-value="en" onclick="filterLang('en')">English</button>
   <button class="filter-button" data-filter-type="lang" data-filter-value="hi" onclick="filterLang('hi')">हिंदी</button>
+</div>
+
+<div>
+  {% for item in site.evergreen %}
+  <article class="random-item" hidden>
+      Random: <a href="{{ item.url }}">{{ item.title }}</a>
+  </article>
+  {% endfor %}
 </div>
 
 {%- assign sorted_evergreen = site.evergreen | sort: "date" | reverse -%}

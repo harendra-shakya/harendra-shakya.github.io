@@ -14,6 +14,10 @@
   url: /categories/
   external: false
 
+- title: random
+  url: /random/
+  external: false
+
 - title: links
   url: /links/
   external: false

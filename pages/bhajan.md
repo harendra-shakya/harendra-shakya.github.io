@@ -16,6 +16,14 @@ comments: false
   {% endfor %}
 </div>
 
+<div>
+  {% for item in site.bhajans %}
+  <article class="random-item bhajans" hidden>
+      Random: <a href="{{ item.url }}">{{ item.title }}</a>
+  </article>
+  {% endfor %}
+</div>
+
 {%- assign sorted_bhajans = site.bhajans | sort: "date" | reverse -%}
 {%- assign previous_year = "" -%}
 

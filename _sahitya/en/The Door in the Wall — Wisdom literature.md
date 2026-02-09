@@ -1,13 +1,17 @@
 ---
 layout: post
-title: The Door in the Wall — H.G. Wells
+title: The Door in the Wall — By H.G. Wells
 date: 2025-12-06
 categories:
   - Wisdom Literature
 excerpt: A successful man haunted by a green door — between achievement and authenticity lies a quiet existential fracture.
 up:
   - "[[The Door in the Wall  — Don't be a chair, choose freedom]]"
+lang: en
+permalink: /en/the-door-in-the-wall-by-hg-well-summary/
 ---
+
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/h9AzfD2i10M?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **(An Existential Rendering of H. G. Wells’ Original Story)**
 

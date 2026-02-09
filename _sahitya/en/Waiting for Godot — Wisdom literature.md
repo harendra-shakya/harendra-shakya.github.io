@@ -1,13 +1,17 @@
 ---
 layout: post
-title: Waiting for Godot
+title: Waiting for Godot — By Samuel Beckett
 date: 2026-01-23
 categories:
   - Wisdom Literature
 excerpt: They wait beside a road. They do not know why. Waiting becomes their existence.
 up:
   - "[[Waiting for Godot — On Waiting as Self-Sabotage]]"
+lang: en
+permalink: /en/waiting-for-godot-by-samuel-beckett-summary/
 ---
+
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/izX5dIzI2RE?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Two men stand beside a road.  
 A tree stands nearby.  

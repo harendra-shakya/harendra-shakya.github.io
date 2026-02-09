@@ -1,12 +1,14 @@
 ---
 layout: post
-title: The Country of the Blind
+title: The Country of the Blind — By H.G. Wells
 date: 2025-12-26
 categories:
   - Wisdom Literature
 excerpt: In a world where no one sees, vision becomes madness — and difference becomes danger.
 up:
   - "[[The Country of the Blind — In the Land of the Blind, Who Needs Eyes]]"
+lang: en
+permalink: /en/the-country-of-the-blind-by-hg-well-summary/
 ---
 
 The story is about a mysterious valley in South America where a community grew up, separated from the rest of civilisation. A disease struck the community which meant that people went blind, until each new generation was born completely sightless.

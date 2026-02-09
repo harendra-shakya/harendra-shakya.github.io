@@ -106,6 +106,14 @@ onclick="filterLang('hi')"
   </button>
 </div>
 
+<div>
+  {% for item in site.avalokan %}
+  <article class="random-item" hidden>
+      Random: <a href="{{ item.url }}">{{ item.title }}</a>
+  </article>
+  {% endfor %}
+</div>
+
 {%- assign sorted_avalokan = site.avalokan | sort: "date" | reverse -%}
 {%- assign previous_year = "" -%}
 

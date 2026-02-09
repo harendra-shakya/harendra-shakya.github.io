@@ -15,6 +15,27 @@
   text-decoration: underline;
 }
 
+#random-pool {
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  padding: 2rem;
+}
+
+.random-item {
+  max-width: 42rem; /* readable line length */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.random-item.poetry {
+  text-align: center;
+}
+
+.random-item.insights {
+  text-align: left;
+}
+
 /* Responsiveness: Stack the columns on smaller screens */
 @media (max-width: 1024px) {
   .archive-container {

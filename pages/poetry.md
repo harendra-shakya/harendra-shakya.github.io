@@ -19,6 +19,14 @@ comments: false
   {% endfor %}
 </div>
 
+<div>
+  {% for item in site.poetry %}
+  <article class="random-item" hidden>
+      Random: <a href="{{ item.url }}">{{ item.title }}</a>
+  </article>
+  {% endfor %}
+</div>
+
 {%- assign sorted_poetry = site.poetry | sort: "date" | reverse -%}
 {%- assign previous_year = "" -%}
 

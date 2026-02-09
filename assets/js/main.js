@@ -16,7 +16,7 @@
   };
 
   lamp.addEventListener("click", () =>
-    toggleTheme(localStorage.getItem("theme"))
+    toggleTheme(localStorage.getItem("theme")),
   );
 
   // Blur the content when the menu is open
@@ -28,4 +28,11 @@
       ? area.classList.add("blurry")
       : area.classList.remove("blurry");
   });
+
+  // random insight
+
+  const items = document.querySelectorAll(".random-item");
+  const random = items[Math.floor(Math.random() * items.length)];
+
+  random.hidden = false;
 })();
