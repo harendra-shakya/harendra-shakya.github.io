@@ -10,7 +10,7 @@ permalink: /en/shrimad-bhagavad-gita-chapter-3-verses-16/
 aliases:
 categories:
   - Avalokan
-tags:
+series:
   - श्रीमद्भगवद्गीता
 ---
 
@@ -21,7 +21,7 @@ tags:
 
 ---
 
-_The Life That Is Wasted_
+### The Life That Is Wasted
 
 A life spent consuming and chasing shallow happiness is a wasted life.  
 Not because consumption is immoral, but because it never answers the real itch.
@@ -30,7 +30,7 @@ The important question is not _why_ this happens, but _to whom_ it happens.
 
 ---
 
-_The Sense of “I”_
+### The Sense of “I”
 
 Human beings do not merely exist; they _know_ they exist.  
 “I am born.”  
@@ -43,7 +43,7 @@ From “I am” immediately arises “I want.”
 
 ---
 
-_Desire and Shallowness_
+### Desire and Shallowness
 
 If life itself is not understood, how can there be depth in living?  
 Who is the one itching, desiring, consuming?
@@ -60,7 +60,7 @@ There is no privileged “I” standing outside the process.
 
 ---
 
-_The Transactional Self_
+### The Transactional Self
 
 Most human relationships are transactions.  
 “I’ll give you status, you give me obedience.”  
@@ -74,7 +74,7 @@ We participate because ego gains identity and protection.
 
 ---
 
-_Choosing the Right Path_
+### Choosing the Right Path
 
 Every human being has flaws.  
 Integrity is not the absence of temptation, but the refusal to act on it.
@@ -88,7 +88,7 @@ A human harming for egoic gain _is_ violence.
 
 ---
 
-_Responsibility and Awareness_
+### Responsibility and Awareness
 
 What happens without awareness is neither virtue nor sin.  
 Children and the insane are not held criminally responsible for this reason.
@@ -102,7 +102,7 @@ Who needs the conclusion?
 
 ---
 
-_Speaking Without Distortion_
+### Speaking Without Distortion
 
 To communicate clearly, terms must be understood.  
 In philosophy, ego means **I-am-ness**, not pride.  
@@ -112,7 +112,7 @@ Speak at the listener’s level — not above, not below.
 
 ---
 
-_Beauty and Illusion_
+### Beauty and Illusion
 
 What arises from falsehood cannot be beautiful.  
 Nature, art, science, form — these are not illusion.  
@@ -123,7 +123,7 @@ Where “you” are absent, beauty appears.
 
 ---
 
-_Freedom and Health_
+### Freedom and Health
 
 Freedom is health.  
 Health means being established in oneself.
@@ -136,7 +136,7 @@ Carry family, responsibility, and society — but not on borrowed slogans.
 
 ---
 
-_Love, Compassion, and Ideology_
+### Love, Compassion, and Ideology
 
 Love and compassion arise from different standpoints.  
 They depend on inner clarity, not external situation.
@@ -149,7 +149,7 @@ Beliefs that clash seek enemies, not understanding.
 
 ---
 
-_Order, Disorder, and Ego_
+### Order, Disorder, and Ego
 
 The universe moves toward entropy.  
 Human beings create order — but ego turns that order into global disorder.
@@ -159,7 +159,7 @@ Without understanding, intelligence only sharpens self-destruction.
 
 ---
 
-_What the Gita Actually Says_
+### What the Gita Actually Says
 
 **3.16** —  
 One who lives only for sensory gratification lives in vain.
@@ -172,7 +172,7 @@ Such a person depends on nothing — neither action nor inaction — for fulfill
 
 ---
 
-_Closing Insight_
+### Closing Insight
 
 These verses do not promote withdrawal.  
 They expose the fraud of ego-driven living.

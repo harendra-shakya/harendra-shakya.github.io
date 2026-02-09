@@ -1,94 +1,99 @@
 let currentLangFilter = "all"; // 'all', 'en', 'hi'
 let currentTagFilter = "all"; // 'all' or specific tag
 let currentCategoryFilter = "all"; // 'all' or specific category
+let currentSeriesFilter = "all"; // 'all' or specific series
 
 // Filter posts by language
 function filterLang(lang) {
   currentLangFilter = lang;
-  updateSelectedFilter("lang", lang); // Update the selected filter UI (color only)
+  updateSelectedFilter("lang", lang);
   filterPosts();
 }
 
 // Filter posts by tags
 function filterTags(tag) {
   currentTagFilter = tag;
-  updateSelectedFilter("tag", tag); // Update the selected filter UI (color only)
+  updateSelectedFilter("tag", tag);
   filterPosts();
 }
 
 // Filter posts by categories
 function filterCategory(category) {
   currentCategoryFilter = category;
-  updateSelectedFilter("category", category); // Update the selected filter UI (color only)
+  updateSelectedFilter("category", category);
+  filterPosts();
+}
+
+// Filter posts by series
+function filterSeries(series) {
+  currentSeriesFilter = series;
+  updateSelectedFilter("series", series);
   filterPosts();
 }
 
 // Update the UI to show the selected filter
 function updateSelectedFilter(filterType, value) {
-  // Reset the selected class and styles for the specific filter type
-  resetFilterStyles(filterType, value);
+  resetFilterStyles(filterType);
 
-  // Highlight the selected filter button with text color change
   const selectedButton = document.querySelector(
     `.filter-button[data-filter-type="${filterType}"][data-filter-value="${value}"]`,
   );
+
   if (selectedButton) {
     selectedButton.classList.add("selected");
-    applyTextColor(selectedButton, filterType); // Apply text color for selected filter
+    applyTextColor(selectedButton);
   }
 }
 
-// Reset the styles for all buttons of a specific filter type (category, tag, or language)
-function resetFilterStyles(filterType, value) {
+// Reset styles for a filter type
+function resetFilterStyles(filterType) {
   const filterButtons = document.querySelectorAll(
     `.filter-button[data-filter-type="${filterType}"]`,
   );
+
   filterButtons.forEach((button) => {
-    // Remove the selected class and reset text color to default (inherit)
     button.classList.remove("selected");
-    button.style.color = "inherit"; // Reset text color to inherit
+    button.style.color = "inherit";
   });
-
-  // If the button for the newly selected value exists, add the selected class
-  const selectedButton = document.querySelector(
-    `.filter-button[data-filter-type="${filterType}"][data-filter-value="${value}"]`,
-  );
-  if (selectedButton) {
-    selectedButton.classList.add("selected");
-  }
 }
 
-// Apply text color to the selected filter button
-function applyTextColor(button, filterType) {
-  button.style.color = "#FF5277"; // Change text color to pink for the selected filter
+// Apply text color to selected button
+function applyTextColor(button) {
+  button.style.color = "#FF5277";
 }
 
-// Filter posts based on language, tag, and category filters
+// Filter posts based on all filters
 function filterPosts() {
   const posts = document.querySelectorAll(".post-block");
+
   posts.forEach((post) => {
     const postLang = post.dataset.lang;
-    const postTags = post.dataset.tags.split(",");
-    const postCategories = post.dataset.categories.split(",");
+    const postTags = post.dataset.tags?.split(",") || [];
+    const postCategories = post.dataset.categories?.split(",") || [];
+    const postSeries = post.dataset.series?.split(",") || [];
 
-    // Check if post matches all selected filters
     const matchLang =
       currentLangFilter === "all" || postLang === currentLangFilter;
+
     const matchTag =
       currentTagFilter === "all" || postTags.includes(currentTagFilter);
+
     const matchCategory =
       currentCategoryFilter === "all" ||
       postCategories.includes(currentCategoryFilter);
 
-    if (matchLang && matchTag && matchCategory) {
-      post.style.display = ""; // Show the post
+    const matchSeries =
+      currentSeriesFilter === "all" || postSeries.includes(currentSeriesFilter);
+
+    if (matchLang && matchTag && matchCategory && matchSeries) {
+      post.style.display = "";
     } else {
-      post.style.display = "none"; // Hide the post
+      post.style.display = "none";
     }
   });
 }
 
-// Ensure the page is fully loaded before applying filters
+// Ensure page is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
   console.log("Page loaded, ready to filter posts.");
 });

@@ -10,7 +10,7 @@ aliases:
   - Why does the ego need duties?
 categories:
   - Avalokan
-tags:
+series:
   - श्रीमद्भगवद्गीता
 permalink: /en/shrimad-bhagavad-gita-chapter-3-verses-17/
 ---
@@ -23,9 +23,7 @@ permalink: /en/shrimad-bhagavad-gita-chapter-3-verses-17/
 > and content whether desires arise or not—  
 > for such a one, no duty remains to be performed.
 
----
-
-_Why does the ego need duties?_
+### Why does the ego need duties?
 
 The ego **cannot exist without duties**.  
 Duty gives the ego a structure, a role, a justification to exist.
@@ -41,9 +39,7 @@ most people don’t _live_, they **follow templates**.
 
 Duties become substitutes for understanding.
 
----
-
-_Duty is a punishment for ignorance_
+### Duty is a punishment for ignorance
 
 Duty is not noble.  
 Duty is not sacred.
@@ -59,9 +55,7 @@ When life is unauthentic, **action is imposed as duty**.
 The more confused you are,  
 the more duties you need.
 
----
-
-_Why do structures feel so powerful?_
+### Why do structures feel so powerful?
 
 Structures are not strong.
 
@@ -76,9 +70,7 @@ and then you fear the “system”.
 
 The system feeds on your fatigue.
 
----
-
-_Why does the ego love duty?_
+### Why does the ego love duty?
 
 Because duty is **small**.
 
@@ -90,9 +82,7 @@ So the ego chooses obedience.
 
 The very word _duty_ is an insult to freedom.
 
----
-
-_You are already home, but you deny it_
+### You are already home, but you deny it
 
 Most people are not lost—  
 they have simply convinced themselves  
@@ -101,9 +91,7 @@ that they _should be somewhere else_.
 This constant psychological displacement  
 is what keeps the ego alive.
 
----
-
-_“If I don’t know anything, how do I know my duties?”_
+### “If I don’t know anything, how do I know my duties?”
 
 That’s the contradiction.
 
@@ -113,9 +101,7 @@ you wouldn’t even know what to obey.
 Duties are not signs of wisdom.  
 They are signs of borrowed living.
 
----
-
-_Why others appear smarter and stronger_
+### Why others appear smarter and stronger
 
 You choose ignorance—  
 so others appear intelligent.
@@ -129,9 +115,7 @@ Your opponent wins
 because you have already handed over  
 half your strength.
 
----
-
-_Follow the money to see the truth_
+### Follow the money to see the truth
 
 If you want to know **why you work**,  
 don’t ask philosophy.
@@ -143,9 +127,7 @@ where your actions really come from.
 
 Money exposes motivation with brutal honesty.
 
----
-
-_Why youth gets it wrong_
+### Why youth gets it wrong
 
 Young people think seriously—  
 but **only outwardly**.
@@ -155,9 +137,7 @@ They never question the **human ego** behind them.
 
 They never look inward.
 
----
-
-_Institutions created by ego_
+### Institutions created by ego
 
 Egoistic fools create institutions  
 to manufacture more egoistic fools.
@@ -168,9 +148,7 @@ while pretending to solve global crises.
 They sell solutions  
 without touching the root.
 
----
-
-_The uncomfortable truth_
+### The uncomfortable truth
 
 The problem is not the system.  
 The problem is not the leaders.
@@ -181,9 +159,7 @@ Until the ego is seen and understood,
 history will keep repeating itself—  
 with better costumes and deadlier tools.
 
----
-
-_Closing Summary_
+### Closing Summary
 
 This verse does not promote passivity or withdrawal.  
 It exposes the ego’s dependence on duty as a survival mechanism.
@@ -197,9 +173,7 @@ Action happens because it is true—not because it is required.
 Where the ego dissolves, duty becomes irrelevant.  
 And what remains is not chaos, but intelligence in motion.
 
----
-
-## Shrimad Bhagavad Gita – Chapter 3, Verse 17
+### Shrimad Bhagavad Gita – Chapter 3, Verse 17
 
 यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः।  
 आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते।।3.17।।

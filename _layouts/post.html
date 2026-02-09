@@ -22,47 +22,61 @@ layout: compress
         localStorage.setItem("theme", data);
       }
     };
- 
+
     initTheme(localStorage.getItem("theme"));
-    
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
   {% include navbar.html %}
+
   <div class="wrapper post">
     <main class="page-content" aria-label="Content">
       <article itemscope itemtype="https://schema.org/BlogPosting">
 
         <header class="header">
 
-          <!-- {% if page.tags and page.tags != empty %}
-          <div class="tags">
-            {% assign tags = page.tags %}
-            <span itemprop="keywords">
-              {% for tag in tags %}
-              <a class="tag"
-                href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            </span>
-          </div>
-          {% endif %} -->
-
-
           {% if page.categories and page.categories != empty %}
-          <div class="tags">
-            {% assign categories = page.categories %}
+          <span class="tags">
             <span itemprop="keywords">
-              {% for categorie in categories %}
-              <a class="tag"
-                href="/categories/#{{categorie | downcase | slugify}}">{{categorie | upcase }}</a>{% unless forloop.last %},{% endunless %}
+              {% for categorie in page.categories %}
+                <a class="tag"
+                  href="/categories/#{{ categorie | downcase | slugify }}">
+                  {{ categorie | upcase }}
+                </a>{% unless forloop.last %},{% endunless %}
               {% endfor %}
             </span>
-          </div>
+          </span>
           {% endif %}
 
-          <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>   
-          
+          {% if page.tags and page.tags != empty %}
+          <span class="tags">
+            <span itemprop="keywords">
+              {% for tag in page.tags %}
+                <a class="tag"
+                  href="/tags/#{{ tag | downcase | slugify }}">
+                  {{ tag | upcase }}
+                </a>{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            </span>
+          </span>
+          {% endif %}
 
+          {% if page.series and page.series != empty %}
+          <span class="tags">
+            <span itemprop="keywords">
+              {% for serie in page.series %}
+                <a class="tag"
+                  href="/series/#{{ serie | downcase | slugify }}">
+                  {{ serie | upcase }}
+                </a>{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            </span>
+          </span>
+          {% endif %}
+
+          <h1 class="header-title" itemprop="headline">
+            {{ page.title | escape }}
+          </h1>
 
           {% if page.date %}
           <div class="post-meta">
@@ -72,10 +86,8 @@ layout: compress
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
               <span itemprop="name">{{ site.author.name }}</span>
             </span>
-            <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
-              {{ page.date | date: "%b %d, %Y" }}
-            </time>
-            <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
+            <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified"></time>
+            <span hidden itemprop="publisher">{{ site.author.name }}</span>
             <span hidden itemprop="image">{{ page.image }}</span>
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
           </div>
@@ -89,70 +101,114 @@ layout: compress
               <a href="{{ lang.url }}">{{ lang.label }}</a>{% unless forloop.last %} | {% endunless %}
             {% endfor %}
           </div>
-          {% endif %}       
+          {% endif %}
 
         </header>
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
+
           {% if page.tweet %}
-          <p>Comments this article on 
-            <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
+          <p>
+            Comment on this article on
+            <a href="https://twitter.com/{{ site.twitter }}/status/{{ page.tweet }}">Twitter</a>.
           </p>
           {% endif %}
-          
-          <!-- Related Content Section (Posts and Bhajans) -->
+
+          <!-- RELATED CONTENT (Tags OR Series) -->
           <div class="related-bhajans">
-            <!-- <h2>Similar Posts</h2> -->
-          
             <ul>
-              {% assign current_tags = page.tags %}
+              {% assign current_tags = page.tags | default: empty %}
+              {% assign current_series = page.series %}
               {% assign current_lang = page.lang %}
-              {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya  | concat: site.avalokan %} <!-- Combine _posts and _bhajans -->
+
+              {% assign all_posts = site.posts
+                | concat: site.bhajans
+                | concat: site.poetry
+                | concat: site.insights
+                | concat: site.sahitya
+                | concat: site.avalokan %}
+
+              {% assign shown_urls = "" %}
 
               {% for post in all_posts %}
-                {% assign post_tags = post.tags %}
-                {% assign post_lang = post.lang %}
+                {% if post.url != page.url and post.lang == current_lang %}
 
-                <!-- Ensure matching language and exclude current post -->
-                {% if post.url != page.url and post_lang == current_lang %}
-                  {% for tag in current_tags %}
-                    {% if post_tags contains tag %}
+                  {% assign is_related = false %}
+
+                  {%- comment -%} TAG MATCH {%- endcomment -%}
+                  {% if page.tags and post.tags %}
+                    {% for tag in current_tags %}
+                      {% if post.tags contains tag %}
+                        {% assign is_related = true %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+
+                  {%- comment -%} SERIES MATCH (ALL VALUES) {%- endcomment -%}
+                  {% if is_related == false and current_series and post.series %}
+
+                    {% assign page_series = current_series %}
+                    {% assign post_series = post.series %}
+
+                    {% if page_series.size == nil %}
+                      {% assign page_series = page_series | split: "|" %}
+                    {% endif %}
+
+                    {% if post_series.size == nil %}
+                      {% assign post_series = post_series | split: "|" %}
+                    {% endif %}
+
+                    {% for ps in page_series %}
+                      {% for qs in post_series %}
+                        {% if ps == qs %}
+                          {% assign is_related = true %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                      {% if is_related %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+
+                  {% endif %}
+
+                  {% if is_related %}
+                    {% unless shown_urls contains post.url %}
                       <li>
                         <a href="{{ post.url }}">{{ post.title }}</a>
-                        {% if post.tags %}
-                          <!-- <span class="tags">
-                            {% for post_tag in post.tags %}
-                              <a href="/tags/#{{ post_tag | downcase | slugify }}" class="tag">{{ post_tag | upcase }}</a>{% unless forloop.last %}, {% endunless %}
-                            {% endfor %}
-                          </span> -->
-                        {% endif %}
                       </li>
-                      {% break %}
-                    {% endif %}
-                  {% endfor %}
+                      {% assign shown_urls = shown_urls | append: post.url | append: "," %}
+                    {% endunless %}
+                  {% endif %}
+
                 {% endif %}
               {% endfor %}
             </ul>
           </div>
+
+
         </div>
       </article>
-    
+
       {% if page.comments %}
         {% include comments.html %}
       {% endif %}
-
     </main>
 
     {% if page.modified %}
-      <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
+      <small class="post-updated-at">
+        updated_at {{ page.modified | date: "%d-%m-%Y" }}
+      </small>
     {% endif %}
+
     {% if page.next or page.previous %}
       {% include navigation.html %}
     {% endif %}
 
     {% include footer.html %}
   </div>
-</body>
 
+</body>
 </html>

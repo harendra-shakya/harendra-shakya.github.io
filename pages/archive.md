@@ -7,7 +7,7 @@ description: Archive for writings that unravel complex ideas and nurture mindful
 comments: false
 ---
 
-{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan %}
+{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen %}
 
 <div class="search-article">
   <label for="search-input" aria-hidden="true">
@@ -36,6 +36,44 @@ comments: false
   {% endfor %}
 </div>
 
+<!-- Series Toggle -->
+<div class="lang-toggle">
+  <button
+    class="filter-button"
+    data-filter-type="series"
+    data-filter-value="all"
+    onclick="filterSeries('all')"
+  >
+    All Series
+  </button>
+
+{% assign all_series = "" | split: "" %}
+{% for post in site.avalokan %}
+{% if post.series %}
+{% if post.series.first %}
+{% assign all_series = all_series | concat: post.series %}
+{% else %}
+{% assign all_series = all_series | push: post.series %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% assign all_series = all_series | uniq %}
+{% for series in all_series %}
+{% unless series == "" %}
+<button
+        class="filter-button"
+        data-filter-type="series"
+        data-filter-value="{{ series | escape }}"
+        onclick="filterSeries('{{ series | escape }}')"
+      >
+{{ series | escape }}
+</button>
+{% endunless %}
+{% endfor %}
+
+</div>
+
 <!-- Language Toggle -->
 <div class="lang-toggle">
   <button class="filter-button" data-filter-type="lang" data-filter-value="all" onclick="filterLang('all')">All Languages</button>
@@ -60,6 +98,7 @@ comments: false
   <div class="post-block post-item" 
        data-lang="{{ post.lang | default: 'en' }}" 
        data-tags="{{ post.tags | join: ',' }}" 
+       data-series="{{ post.series | join: ',' }}" 
        data-categories="{{ post.categories | join: ',' }}">
     <article>
       <h3 class="post-item-title">

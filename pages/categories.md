@@ -5,7 +5,7 @@ layout: page
 excerpt: Sorted articles by categories.
 ---
 
-{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan %}
+{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen %}
 
 <!-- Category Filter -->
 <div class="archive-categories">
@@ -23,6 +23,44 @@ excerpt: Sorted articles by categories.
   {% for tag in all_tags %}
     <button class="filter-button" data-filter-type="tag" data-filter-value="{{ tag | escape }}" onclick="filterTags('{{ tag | escape }}')">{{ tag | escape }}</button>
   {% endfor %}
+</div>
+
+<!-- Series Toggle -->
+<div class="lang-toggle">
+  <button
+    class="filter-button"
+    data-filter-type="series"
+    data-filter-value="all"
+    onclick="filterSeries('all')"
+  >
+    All Series
+  </button>
+
+{% assign all_series = "" | split: "" %}
+{% for post in site.avalokan %}
+{% if post.series %}
+{% if post.series.first %}
+{% assign all_series = all_series | concat: post.series %}
+{% else %}
+{% assign all_series = all_series | push: post.series %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% assign all_series = all_series | uniq %}
+{% for series in all_series %}
+{% unless series == "" %}
+<button
+        class="filter-button"
+        data-filter-type="series"
+        data-filter-value="{{ series | escape }}"
+        onclick="filterSeries('{{ series | escape }}')"
+      >
+{{ series | escape }}
+</button>
+{% endunless %}
+{% endfor %}
+
 </div>
 
 <!-- Language Toggle -->
@@ -45,7 +83,8 @@ excerpt: Sorted articles by categories.
     {% for post in posts_in_category %}
       <div class="post-block post-item"
            data-lang="{{ post.lang | default: 'en' }}"
-           data-tags="{{ post.tags | join: ',' }}"
+           data-tags="{{ post.tags | join: ',' }}" 
+           data-series="{{ post.series | join: ',' }}" 
            data-categories="{{ post.categories | join: ',' }}">
         <article>
           <h3 class="post-item-title">

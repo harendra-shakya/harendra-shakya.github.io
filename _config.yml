@@ -40,6 +40,9 @@ collections:
   sahitya:
     output: true
     permalink: /:title/
+  evergreen:
+    output: true
+    permalink: /:title/
   avalokan:
     output: true
     permalink: /:title/
@@ -71,6 +74,11 @@ defaults:
   - scope:
       path: ""
       type: "poetry"
+    values:
+      layout: "insight"
+  - scope:
+      path: ""
+      type: "evergreen"
     values:
       layout: "insight"
 
