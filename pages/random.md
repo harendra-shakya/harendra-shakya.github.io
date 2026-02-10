@@ -23,7 +23,7 @@ permalink: /random/
   {% endfor %}
 </div>
 
-<!-- {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen %}
+<!-- {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen | concat: site.mantra %}
 
 <div>
   {% for item in site.bhajans %}

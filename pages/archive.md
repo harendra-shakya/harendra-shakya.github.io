@@ -7,7 +7,7 @@ description: Archive for writings that unravel complex ideas and nurture mindful
 comments: false
 ---
 
-{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen %}
+{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen | concat: site.mantra %}
 
 <div class="search-article">
   <label for="search-input" aria-hidden="true">

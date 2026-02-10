@@ -1,10 +1,20 @@
 // Reset some basic elements
 * {
-  -webkit-transition: background-color 75ms ease-in, border-color 75ms ease-in;
-  -moz-transition: background-color 75ms ease-in, border-color 75ms ease-in;
-  -ms-transition: background-color 75ms ease-in, border-color 75ms ease-in;
-  -o-transition: background-color 75ms ease-in, border-color 75ms ease-in;
-  transition: background-color 75ms ease-in, border-color 75ms ease-in;
+  -webkit-transition:
+    background-color 75ms ease-in,
+    border-color 75ms ease-in;
+  -moz-transition:
+    background-color 75ms ease-in,
+    border-color 75ms ease-in;
+  -ms-transition:
+    background-color 75ms ease-in,
+    border-color 75ms ease-in;
+  -o-transition:
+    background-color 75ms ease-in,
+    border-color 75ms ease-in;
+  transition:
+    background-color 75ms ease-in,
+    border-color 75ms ease-in;
 }
 
 .notransition {
@@ -135,63 +145,39 @@ figcaption {
   text-align: center;
 }
 
-// List
+// FIXED LISTS - Replace your entire ul/ol/li sections
 ul {
-  list-style: none;
-  li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-  }
-  li::before {
-    content: "\FE63";
-    display: inline-block;
-    top: -1px;
-    width: 1.2em;
-    position: relative;
-    margin-left: -1.3em;
-    font-weight: 700;
-  }
-}
+  list-style: disc;
+  margin: 1em 0;
+  padding-left: 1.5em;
 
-ol {
-  list-style: none;
-  counter-reset: li;
   li {
-    position: relative;
-    counter-increment: li;
-    &::before {
-      content: counter(li);
-      display: inline-block;
-      width: 1em;
-      margin-right: 0.5em;
-      margin-left: -1.6em;
-      text-align: right;
-      direction: rtl;
-      font-weight: $bold-weight;
-      font-size: $small-font-size;
+    // margin-bottom: 0.5em;
+
+    > ul,
+    > ol {
+      margin: 0.5em 0 0.5em 1em;
     }
   }
 }
 
-ul,
 ol {
-  margin-top: 0;
-  margin-left: $spacing-full;
+  list-style: none;
+  // margin: 1em 0;
+  // padding-left: 1.5em;
+
+  li {
+    // margin-bottom: 0.5em;
+
+    > ul,
+    > ol {
+      margin: 0.5em 0 0.5em 1em;
+    }
+  }
 }
 
 li {
-  padding-bottom: 1px;
-  padding-top: 1px;
-
-  &:before {
-    color: $black;
-  }
-
-  > ul,
-  > ol {
-    margin-bottom: 2px;
-    margin-top: 0;
-  }
+  // padding: 0.25em 0;
 }
 
 // Headings

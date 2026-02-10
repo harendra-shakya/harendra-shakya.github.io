@@ -5,7 +5,7 @@ layout: page
 excerpt: Sorted articles by categories.
 ---
 
-{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen %}
+{% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen | concat: site.mantra %}
 
 <!-- Category Filter -->
 <div class="archive-categories">

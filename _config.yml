@@ -37,6 +37,8 @@ collections:
     permalink: /:title/
   bhajans:
     output: true
+  mantra:
+    output: true
   sahitya:
     output: true
     permalink: /:title/
