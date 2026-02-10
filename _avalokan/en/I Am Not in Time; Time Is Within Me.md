@@ -6,13 +6,13 @@ categories:
 tags:
   - अद्वैत
 lang: en
-title: What Is Time? — I Am Not in Time; Time Is Within Me
-description: The true birth of time is not in a clock, but in division. When non-duality breaks and the “I” appears — time begins.
+title: I Am Not in Time; Time Is Within Me
+description: '"I Am Not in Time; Time Is Within Me" — This is the essence of all spirituality, the conclusion of Vedanta, and the heart of all scriptures.'
 date: 2026-02-10
-permalink: /en/samay-kya-hai/
+permalink: /en/main-samay-mein-nahi-hoon-samay-mujhme-hai/
 translations:
   - label: hi
-    url: /hi/samay-kya-hai/
+    url: /hi/main-samay-mein-nahi-hoon-samay-mujhme-hai/
 ---
 
 <iframe width="100%" height="150" src="https://www.youtube.com/embed/PtcOFD4--vY?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -127,9 +127,7 @@ Both experience and experiencer change, but by different rules. Nature changes a
 Thus, after any event, multiple reactions are possible:
 
 - “It is someone else’s fault that the object was there.”
-    
 - “Who am I that I cannot keep others’ things properly?”
-    
 
 Both perspectives change you differently. Ultimately, life may give vast knowledge, but how much you change is determined by intent.
 
@@ -205,11 +203,8 @@ Present is experienced when **nature flows and ego stops**. Nature flows continu
 **Being in the present** means:
 
 - Being outside the I-axis (ego).
-    
 - Not merely “being in the moment.”
-    
 - Being beyond false distinctions, in non-dual reality.
-    
 
 Ego must become still. When ego is still, it dissolves into zero. If ego exists, there is either past memory or future imagination. Truth would not relate to past or future.
 
@@ -326,96 +321,60 @@ When ego is still, time disappears. What remains is the present, the primal poin
 **Key Mapping:**
 
 - Time = Thought
-    
 - Thought = Exchange between Ego & Nature
-    
 - Ego = Psychological time
-    
 - Present = Non-dual witness consciousness
-    
 - Beauty = Absence of ego
-    
 - Truth = Absence of thinker
-    
 - Ego = Sense of incompleteness
-    
 - Incompleteness = Birth of desire
-    
 - Desire = Experience of distance
-    
 - Psychological distance = Experience of time
-    
 - Relationship = Mutual change
-    
 - Experience of change = Psychological time
-    
 - Action (psychological) = Ego’s motion
-    
 - Determination = Inner direction
-    
 - Experience = Memory accumulation
-    
 - Memory = Material of thought
-    
 - Future = Projection of memory
-    
 - Past = Storehouse of memory
-    
 - Ego-bound present = Interpreted experience
-    
 - Witnessed present = Non-dual experience
-    
 - Witness consciousness = Choice-free awareness
-    
 - Silence = Relaxation of thought
-    
 - Egoless = Psychological timelessness
-    
 - Non-dual = End of psychological distance
-    
 - Truth (non-dual) = Rhythm of the thinker
-    
 - Beauty (spiritual) = Egoless vision
-    
 - Love = Devotion to truth
-    
 - Liberation = Stillness of ego’s stream
-    
 - Nature = Rule-based flow
-    
 - Life = Ego-nature interaction
-    
 - Interdependence = Mutual arising
-    
 - Complexity = Experience of distance from origin
-    
 - Simplicity = Proximity to primal point
-    
 - Zero = Thought-free presence
-    
 - Primal point = Pre-psychological division
-    
 - “I am not time, I am time” = Ego is the center of psychological time
-    
 
-|**What is Time?**|**What is the Present?**|
-|---|---|
-|Motion|Primal Point|
-|Change|Stillness|
-|Distance|Non-duality|
-|Incompleteness|Wholeness|
-|Dissatisfaction|Peace|
-|Desire|Satisfaction|
-|Determined Action|Spontaneity|
-|Cause-Effect|Witnessing|
-|Relationship-Bond|Detachment|
-|Interdependence|Unity|
-|Ego|Egoless|
-|Journey|Presence|
-|Transformation|Unchanging|
-|Complexity|Simplicity|
-|Distance|Existence|
-|Illusion (Maya)|Truth|
-|Effort / Practice|Ease|
-|Chronos|Timelessness|
-|Flow|Zero|
+| **What is Time?** | **What is the Present?** |
+| ----------------- | ------------------------ |
+| Motion            | Primal Point             |
+| Change            | Stillness                |
+| Distance          | Non-duality              |
+| Incompleteness    | Wholeness                |
+| Dissatisfaction   | Peace                    |
+| Desire            | Satisfaction             |
+| Determined Action | Spontaneity              |
+| Cause-Effect      | Witnessing               |
+| Relationship-Bond | Detachment               |
+| Interdependence   | Unity                    |
+| Ego               | Egoless                  |
+| Journey           | Presence                 |
+| Transformation    | Unchanging               |
+| Complexity        | Simplicity               |
+| Distance          | Existence                |
+| Illusion (Maya)   | Truth                    |
+| Effort / Practice | Ease                     |
+| Chronos           | Timelessness             |
+| Flow              | Zero                     |
