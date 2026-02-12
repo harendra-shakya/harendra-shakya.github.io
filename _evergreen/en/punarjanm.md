@@ -5,17 +5,22 @@ date: 2026-02-10
 lang: en
 permalink: /en/punarjanm/
 aliases:
+  - Rebirth
 categories:
   - Evergreen Notes
 tags:
 ---
 
 **Core Idea**  
-Every experience changes both observer and observed — each moment is a rebirth.
+Action happens, the doer changes, and that itself is a new birth.  
+Understanding once awakened continues to guide future states.  
 
-**Explanation**  
-Every interaction transforms both sides.  
-You are never exactly the same person again.
+**Key Ideas**  
+
+- Rebirth is an inner transformation.
+- Every experience reshapes the doer.
+- Right action transforms the doer first.
+- Transformation equals new birth.
 
 **Key Points**
 
