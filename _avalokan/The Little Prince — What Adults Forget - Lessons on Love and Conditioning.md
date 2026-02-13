@@ -20,6 +20,8 @@ series:
   - Gems from the World
 title: "The Little Prince — What Adults Forget: Lessons on Love and Conditioning"
 description: A human-centered reflection on how social conditioning shapes adult behavior. By observing the world through a child’s perspective, the story critiques materialism, blind authority, and emotional avoidance while rediscovering sincerity.
+permalink: /the-little-prince/
+date: 2026-02-13
 ---
 
 <iframe width="100%" height="150" src="https://www.youtube.com/embed/APG1upS8LDw?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
