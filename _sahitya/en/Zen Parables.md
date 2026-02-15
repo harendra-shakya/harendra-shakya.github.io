@@ -10,6 +10,8 @@ aliases:
 categories:
   - Wisdom Literature
 tags:
+URLs:
+  - https://acharyaprashant.org/en/video-modules/series/cs-3d7bb4
 ---
 
 ## 1. Returning to the Ordinary

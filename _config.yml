@@ -39,6 +39,9 @@ collections:
     output: true
   mantra:
     output: true
+  bodhkarya:
+    output: true
+    permalink: /:title/
   sahitya:
     output: true
     permalink: /:title/

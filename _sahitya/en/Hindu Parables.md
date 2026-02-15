@@ -4,7 +4,7 @@ description:
 up:
 in:
 date: 2026-02-13
-lang: hi
+lang: en
 permalink: /en/hindu-parables/
 aliases:
 categories:
