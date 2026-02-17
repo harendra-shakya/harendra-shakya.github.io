@@ -1,3 +1,46 @@
+/* ----------------------------
+   Internal Wiki Links
+-----------------------------*/
+.wiki-link {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: inherit;
+  transition: all 0.15s ease;
+}
+
+.wiki-link:hover {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+
+/* ----------------------------
+   External Links
+-----------------------------*/
+.external-link::after {
+  content: " ↗";
+  font-size: 0.85em;
+  opacity: 0.6;
+}
+
+.external-link {
+  color: #0d9488;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+}
+
+.external-link:hover {
+  opacity: 0.8;
+}
+
+/* ----------------------------
+   Broken / Stale Links
+-----------------------------*/
+.stale-link {
+  color: #022a98;
+  text-decoration: underline dotted;
+  cursor: not-allowed;
+}
+
 // Navbar
 .navbar {
   height: auto;

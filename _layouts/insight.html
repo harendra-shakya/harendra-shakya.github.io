@@ -6,6 +6,7 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {% include header.html %}
+<script src="{{ '/assets/js/wiki-links.js' | relative_url }}"></script>
 
 <body data-theme="{{ site.mode }}" class="notransition">
 
@@ -120,6 +121,7 @@ layout: compress
       {% include navigation.html %}
     {% endif %}
 
+    {% include backlinks.html %}
     {% include footer.html %}
   </div>
 </body>

@@ -1,0 +1,24 @@
+{%- assign all_docs = site.notes | concat: site.posts | concat: site.pages |
+concat: site.bhajans | concat: site.poetry | concat: site.insights | concat:
+site.sahitya | concat: site.avalokan | concat: site.evergreen | concat:
+site.mantra | concat: site.bodhkarya -%} {%- assign backlink_count = 0 -%} {%-
+capture current_slug -%}{{ page.slug }}{%- endcapture -%} {%- assign
+wiki_pattern_1 = '[[' | append: current_slug | append: ']]' -%} {%- assign
+wiki_pattern_2 = '[[' | append: current_slug | append: '|' -%} {%- for doc in
+all_docs -%} {%- if doc.url != page.url -%} {%- if doc.content contains
+wiki_pattern_1 or doc.content contains wiki_pattern_2 -%} {%- assign
+backlink_count = backlink_count | plus: 1 -%} {%- endif -%} {%- endif -%} {%-
+endfor -%} {%- if backlink_count > 0 -%}
+<div class="links-section" id="jekyll-backlinks">
+  <h6>Backlinks</h6>
+  <ul class="links-grid">
+    {%- for doc in all_docs -%} {%- if doc.url != page.url -%} {%- if
+    doc.content contains wiki_pattern_1 or doc.content contains wiki_pattern_2
+    -%}
+    <li>
+      <a href="{{ site.baseurl }}{{ doc.url }}"> {{ doc.title }} </a>
+    </li>
+    {%- endif -%} {%- endif -%} {%- endfor -%}
+  </ul>
+</div>
+{%- endif -%}

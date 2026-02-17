@@ -1,0 +1,23 @@
+{% if page.people %}
+<div class="people-section">
+  <h3>People Mentioned</h3>
+  <ul class="people-list">
+    {% for raw in page.people %} {%- assign cleaned = raw | remove: '[[' |
+    remove: ']]' -%} {%- assign parts = cleaned | split: '|' -%} {%- assign
+    link_target = parts[0] | strip -%} {%- assign link_label = parts[1] |
+    default: parts[0] | strip -%} {% assign matched = site.evergreen | concat:
+    site.bhajans | concat: site.poetry | concat: site.insights | concat:
+    site.sahitya | concat: site.avalokan | concat: site.evergreen | concat:
+    site.mantra | concat: site.bodhkarya | where: "title", link_target | first
+    %}
+
+    <li>
+      {% if matched %}
+      <a href="{{ site.baseurl }}{{ matched.url }}"> {{ link_label }} </a>
+      {% else %} {{ link_label }} {% endif %}
+    </li>
+
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

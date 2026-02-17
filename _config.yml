@@ -24,7 +24,7 @@ author:
 # URL settings
 url: "https://harendra-shakya.github.io" #
 baseurl:
-permalink: /:title/
+permalink: /:slug/
 google_analytics: G-NDH3D87F2D
 fb_appid:
 
@@ -32,31 +32,43 @@ fb_appid:
 collections:
   posts:
     output: true
+    permalink: /:slug/
+
   insights:
     output: true
-    permalink: /:title/
+    permalink: /:slug/
+
   bhajans:
     output: true
+    permalink: /:slug/
+
   mantra:
     output: true
+    permalink: /:slug/
+
   bodhkarya:
     output: true
-    permalink: /:title/
+    permalink: /:slug/
+
   sahitya:
     output: true
-    permalink: /:title/
+    permalink: /:slug/
+
   evergreen:
     output: true
-    permalink: /:title/
+    permalink: /:slug/
+
   avalokan:
     output: true
-    permalink: /:title/
+    permalink: /:slug/
+
   checklists:
     output: true
+    permalink: /:slug/
+
   poetry:
     output: true
-    # permalink: /insights/:title/
-    permalink: /:title/
+    permalink: /:slug/
 
 # Markdown settings
 markdown: kramdown
