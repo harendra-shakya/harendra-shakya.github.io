@@ -62,6 +62,10 @@ collections:
     output: true
     permalink: /:slug/
 
+  notes:
+    output: true
+    permalink: /:slug/
+
   checklists:
     output: true
     permalink: /:slug/

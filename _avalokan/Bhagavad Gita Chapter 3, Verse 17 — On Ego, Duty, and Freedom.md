@@ -1,5 +1,5 @@
 ---
-title: Shrimad Bhagavad Chapter 3, Verse 17 — On Ego, Duty, and Freedom
+title: Shrimad Bhagavad Gita Chapter 3, Verse 17 — On Ego, Duty, and Freedom
 description: But the one who is centered in the Self alone, who is satisfied in the Self, and content whether desires arise or not— for such a one, no duty remains to be performed.
 up:
   - "[[Vedanta (English) Session - 21 जनवरी]]"
@@ -12,7 +12,6 @@ categories:
   - Avalokan
 series:
   - श्रीमद्भगवद्गीता
-permalink: /en/shrimad-bhagavad-gita-chapter-3-verses-17/
 ---
 
 **Shrimad Bhagavad Gita – Chapter 3, Verse 17**  

@@ -10,8 +10,8 @@
   url: /avalokan/
   external: false
 
-- title: categories
-  url: /categories/
+- title: bhajans
+  url: /bhajans/
   external: false
 
 - title: random
