@@ -79,6 +79,8 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
+  input: GFM
+slugify_mode: "unicode"
 
 # Default front matter
 defaults:
