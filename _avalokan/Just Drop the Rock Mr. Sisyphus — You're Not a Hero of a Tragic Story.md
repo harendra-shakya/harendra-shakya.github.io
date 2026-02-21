@@ -17,14 +17,14 @@ categories:
   - Avalokan
 series:
   - Gems from the World
-title: The Myth of Sisyphus — Drop the Rock
+title: Just Drop the Rock Mr. Sisyphus — You're Not a Hero of a Tragic Story
 description: "Camus tells us to imagine Sisyphus happy. Non-duality asks a more unsettling question: who is pushing? This essay moves from absurd defiance to structural freedom, examining whether the burden is external fate or internal Identification. The conclusion is simple but disruptive — the rock may remain, but the one who claims it can disappear."
 image:
-  path: /assets/img/The Myth of Sisyphus — Drop the Rock-1771621019961.webp
+  path: /assets/img/Just Drop the Rock Mr. Sisyphus — You're Not a Hero of a Tragic Story-1771679731322.webp
   alt: The Myth of Sisyphus — Drop the Rock
 ---
 
-<img src="/assets/img/The Myth of Sisyphus — Drop the Rock-1771621019961.webp" alt="The Myth of Sisyphus — Drop the Rock" width="200"  />
+<img src="/assets/img/Just Drop the Rock Mr. Sisyphus — You're Not a Hero of a Tragic Story-1771679731322.webp" alt="The Myth of Sisyphus — Drop the Rock" width="200"  />
 
 ## I. The Absurd Hero and the Dignity of Conscious Defiance
 
