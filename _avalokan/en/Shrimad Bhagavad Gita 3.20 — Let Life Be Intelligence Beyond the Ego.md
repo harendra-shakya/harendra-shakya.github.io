@@ -20,7 +20,7 @@ series:
 title: "Shrimad Bhagavad Gita 3.20 — Let Life Be: Intelligence Beyond the Ego"
 description: A grounded philosophical reflection on intelligence, gratitude, and effortless order. Drawing from Gita 3.20, this piece argues that life heals, sustains, and organizes itself without egoic management. It contrasts production-driven living with “absent time,” where action flows without psychological burden.
 image:
-  path: /assets/img/Shrimad Bhagavad Gita 3.20 — Let Life Be Intelligence Beyond the Ego-1771965325689.webp
+  path: /assets/img/Shrimad%20Bhagavad%20Gita%203.20%20—%20Let%20Life%20Be%20Intelligence%20Beyond%20the%20Ego-1771965325689.webp
   alt: "Shrimad Bhagavad Gita 3.20 — Let Life Be: Intelligence Beyond the Ego"
 ---
 
