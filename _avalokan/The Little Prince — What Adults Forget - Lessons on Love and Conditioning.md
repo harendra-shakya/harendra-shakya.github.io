@@ -3,7 +3,6 @@ up:
 related:
   - "[[Raw Text - Gems from the World - 13 February 2026]]"
 aliases:
-  - The Little Prince (नन्हा राजकुमार)
   - Gems from the World - 13 February 2026
 year:
 encountered: 2026-02-13

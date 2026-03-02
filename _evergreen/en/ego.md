@@ -15,6 +15,7 @@ categories:
 
 **Definition**
 Ego is the false center that says — “I do, I know, I achieve.” It feels real in experience, but when deeply searched, it cannot be found.
+Ego is "I" that comes from ignorance.
 
 **Key Points**
 
