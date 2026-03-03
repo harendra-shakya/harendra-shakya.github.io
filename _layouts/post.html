@@ -124,14 +124,9 @@ layout: compress
               {% assign current_series = page.series %}
               {% assign current_lang = page.lang %}
 
-              {% assign all_posts = site.posts
-                | concat: site.bhajans
-                | concat: site.poetry
-                | concat: site.insights
-                | concat: site.sahitya
-                | concat: site.avalokan %}
+              {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen | concat: site.mantra | concat: site.bodhkarya | concat: site.notes %}  
 
-              {% assign shown_urls = "" %}
+              {% assign shown_urls = "" %}  
 
               {% for post in all_posts %}
                 {% if post.url != page.url and post.lang == current_lang %}

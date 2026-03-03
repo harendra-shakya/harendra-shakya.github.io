@@ -10,6 +10,8 @@ _A living philosophy of Mind, Soul, and Life — to see everything in its entire
 
 ---
 
+- [[2025-11-06-we-are-infinite.en\|We are Infinite]].
+
 ## 🧠 **Mind**
 
 **"The mirror of awareness — when clear, it reflects reality without distortion."**
