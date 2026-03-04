@@ -266,3 +266,5 @@ There is nothing to achieve, no wisdom to collect, no riches to acquire. There i
 And the fear that arises before this simplicity is the final resistance of the ego.
 
 Do not be afraid. Love, after all, is the highest intelligence there is.
+
+- [[When Meaning Is Seen, Words Are Forgotten — Chuang Tzu's Poems Part 1]]  

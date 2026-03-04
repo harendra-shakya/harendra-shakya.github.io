@@ -27,7 +27,7 @@ description: Words are tools. Meaning is a bridge. But what happens after crossi
 ```
 Civilization → Conformity → Rebellion  
 Freedom → Renunciation → Self-Emptiness  
-Words → Meaning → [[अहं]] → [[मनोवैज्ञानिक समय]]
+Words → Meaning → अहं → मनोवैज्ञानिक समय
 ```
 
 Two figures stand across civilizations, separated by geography yet united in spirit: Diogenes in ancient Greece and Chuang Tzu in ancient China. They were near contemporaries—living in roughly the same broad historical period—and both embodied a radical interrogation of society, convention, and self. Each mocked civilization in his own manner. Each exposed the artificiality of power and status. Each demonstrated what it means to stand outside the psychological structure that most call normal life.
@@ -50,7 +50,7 @@ This difference is subtle. It is also structural.
 
 ```
 External Rejection → Independence  
-Internal Release → Self-Absence → [[साक्षीभाव]]
+Internal Release → Self-Absence → साक्षीभाव
 ```
 
 Diogenes’ freedom is visible and theatrical. He lived in a tub, owned almost nothing, and publicly ridiculed social pretension. His rejection was outward. It confronted society directly.
@@ -73,7 +73,7 @@ This structural shift moves freedom from external opposition to internal release
 ## Parallel Currents: India and the Question of Liberation
 
 ```
-Bondage → Ignorance → [[अहं]]  
+Bondage → Ignorance → अहं
 Liberation → Insight → Freedom from Self
 ```
 
@@ -106,7 +106,7 @@ The convergence is unmistakable.
 
 ```
 Word → Meaning → Attachment  
-Attachment → Identity → [[मनोवैज्ञानिक समय]]
+Attachment → Identity → मनोवैज्ञानिक समय
 ```
 
 Chuang Tzu offers a statement that destabilizes even philosophical reverence:
@@ -140,7 +140,7 @@ Freedom is absence of dependency.
 ## Memory, Knowledge, and the Ego’s Food
 
 ```
-Experience → Memory → Selection → [[अहं]]  
+Experience → Memory → Selection → अहं
 Sacred Word → Psychological Ownership → Identity Reinforcement
 ```
 
@@ -188,7 +188,7 @@ The ego, however, prefers memory. Memory gives continuity. Continuity gives psyc
 
 This is the chain:
 
-Memory → Identity → [[अहंकार]] → [[मनोवैज्ञानिक समय]]
+Memory → Identity → [[अहंकार]] → मनोवैज्ञानिक [[समय]]
 
 To ask someone to accumulate more sacred names when the mind is already full of names is not liberation. It is ornamentation of bondage.
 
@@ -281,7 +281,7 @@ This aligns with the spirit of Tao: allow what is to unfold without appropriatio
 ## Why Is It So Difficult to Be Absent?
 
 ```
-Control → Fear → [[अहं]]  
+Control → Fear → अहं
 Letting Be → Trust → Absence of Psychological Center
 ```
 
@@ -338,3 +338,5 @@ It is the one who owns nothing inwardly.
 An empty boat does not collide.
 
 And in that non-collision, there is freedom.
+
+- [[Shrimad Bhagavad Gita 3.20 — Let Life Be Intelligence Beyond the Ego]]  
