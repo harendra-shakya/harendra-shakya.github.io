@@ -17,6 +17,7 @@ categories:
   - Avalokan
 series:
   - श्रीमद्भगवद्गीता
+  - Basic Wisdom
 title: Bhagavad Gita 3.21 — Why Nobody Really Listens to the Gita And Why Krishna Still Spoke
 description: "If the Gita contains timeless wisdom, why do so few truly engage with it? This essay confronts the uncomfortable reality that most people prefer routine over inquiry and identity over truth. Using Bhagavad Gita 3.21 as the starting point, it reveals how society neutralizes wisdom through indifference, and why Krishna’s real question was never for the masses — it was directed at one individual: Arjuna."
 ---
@@ -243,7 +244,7 @@ A single clear life can open a path.
 
 Krishna himself acknowledges this rarity elsewhere.
 
-> “Among thousands of men, one strives for Truth.” ~ [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — खुद को बचाओगे तो सब खो दोगे\|श्रीमद्भगवद्गीता – अध्याय 7, श्लोक 3]]
+> “Among thousands of men, one strives for perfection.” ~ [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — खुद को बचाओगे तो सब खो दोगे\|श्रीमद्भगवद्गीता – अध्याय 7, श्लोक 3]]
 
 This statement describes the **structure of spiritual pursuit**.
 
