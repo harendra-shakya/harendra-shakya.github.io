@@ -35,6 +35,7 @@ aliases:
   - [अब हम गुम हुए, गुम हुए, गुम हुए प्रेम नगर की सैर - Shakya Mirror](https://harendra-shakya.github.io/ab-hum-gum-hue-prem-nagar-ki-sair/).
 - Fear Life Has No Meaning 
 	- [पानी में मीन पियासी, मोहे सुन सुन आवत हाँसी - Shakya Mirror](https://harendra-shakya.github.io/pani-mein-meen-piyasi-mohe-sun-sun-aavat-hansi/).
+	- [[घूँघट के पट खोल रे]]। 
 - Fear of Isolation / Abandonment
 	- [उड़ जायेगा हंस अकेला - Shakya Mirror](https://harendra-shakya.github.io/ud-jayega-hans-akela/).
 - Fear of Rejection / Not Being Loved
