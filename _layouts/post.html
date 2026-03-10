@@ -85,6 +85,21 @@ layout: compress
           </span>
           {% endif %}
 
+          <!-- Right one -->
+          {% if page.translations %}
+          <span class="post-meta language-switcher">
+            {% for lang in page.translations %}
+              {% for pair in lang %}
+                {% assign code = pair[0] %}
+                {% assign link = pair[1] %}
+                {% assign page_name = link | remove: "[[" | remove: "]]" %}
+                <a href="/{{ page_name | slugify }}/">{{ code }}</a>
+              {% endfor %}
+            {% endfor %}
+          </span>
+          {% endif %}
+
+
           <h1 class="header-title" itemprop="headline">
             {{ page.title | escape }}
           </h1>
