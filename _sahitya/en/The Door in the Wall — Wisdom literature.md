@@ -6,7 +6,7 @@ categories:
   - Wisdom Literature
 excerpt: A successful man haunted by a green door — between achievement and authenticity lies a quiet existential fracture.
 up:
-  - "[[The Door in the Wall  — Don't be a chair, choose freedom]]"
+  - "[[The Door in the Wall — Don't be a chair, choose freedom]]"
 lang: en
 permalink: /en/the-door-in-the-wall-by-hg-well-summary/
 ---

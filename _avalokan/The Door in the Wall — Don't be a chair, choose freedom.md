@@ -7,7 +7,6 @@ in:
   - "[[The Door in the Wall — Wisdom literature]]"
 date: 2026-02-07
 lang: en
-permalink: /en/the-door-in-the-wall/
 aliases:
 categories:
   - Avalokan

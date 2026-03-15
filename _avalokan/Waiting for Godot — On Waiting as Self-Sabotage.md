@@ -12,7 +12,6 @@ series:
   - Gems from the World
   - Existentialism
 aliases:
-permalink: /en/waiting-for-godot-avalokan/
 ---
 
 <iframe width="100%" height="150" src="https://www.youtube.com/embed/izX5dIzI2RE?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

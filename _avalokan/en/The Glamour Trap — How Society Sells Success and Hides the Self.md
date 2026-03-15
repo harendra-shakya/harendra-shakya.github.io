@@ -1,5 +1,6 @@
 ---
 up:
+  - "[[Institutional Session]]"
 related:
   - "[[Raw text Institutional Samvaad - 12 Februray 2026]]"
 aliases:
@@ -16,9 +17,10 @@ date: 2026-02-12
 lang: en
 categories:
   - Avalokan
-description: A sharp critique of modern success narratives — from startup culture to academic pressure. The piece reveals how external validation replaces inner clarity and why true liberation begins when individuals question inherited goals.
 series:
   - Public Session
+title: The Glamour Trap — How Society Sells Success and Hides the Self
+description: A sharp critique of modern success narratives — from startup culture to academic pressure. The piece reveals how external validation replaces inner clarity and why true liberation begins when individuals question inherited goals.
 ---
 
 **Institutional Samvaad - 12 Februray 2026**  
