@@ -20,7 +20,7 @@ categories:
   - Avalokan
 series:
   - श्रीमद्भगवद्गीता
-title: "Shrimad Bhagavad Gita 3.19, 3.20, 3.21 — Check, Correct, Continue: The Discipline of Non-Attached Action"
+title: "Shrimad Bhagavad Gita 3.19 — Check, Correct, Continue: The Discipline of Non-Attached Action"
 description: "Non-attachment is not indifference. It is disciplined awareness. This article turns the teaching of Nishkāma Karma into a practical framework: examine results, refine your center, and act without egoic dependency. A guide for those who want growth through clarity rather than comfort."
 ---
 

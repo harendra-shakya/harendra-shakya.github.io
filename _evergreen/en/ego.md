@@ -2,7 +2,6 @@
 title: Ego
 date: 2026-02-09
 lang: en
-permalink: /en/ahankara/
 categories:
   - Evergreen Notes
 ---
