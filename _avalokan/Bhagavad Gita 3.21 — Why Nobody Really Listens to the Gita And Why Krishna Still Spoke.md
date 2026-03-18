@@ -244,7 +244,7 @@ A single clear life can open a path.
 
 Krishna himself acknowledges this rarity elsewhere.
 
-> “Among thousands of men, one strives for perfection.” ~ [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — खुद को बचाओगे तो सब खो दोगे\|श्रीमद्भगवद्गीता – अध्याय 7, श्लोक 3]]
+> “Among thousands of men, one strives for perfection.” ~ [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — हजारों मनुष्यों में कोई एक सिद्धि के लिए यत्न करता है\|श्रीमद्भगवद्गीता – अध्याय 7, श्लोक 3]]
 
 This statement describes the **structure of spiritual pursuit**.
 
@@ -679,4 +679,4 @@ Not collective agreement,
 but **clarity of perception**,  
 is the beginning of freedom.
 
-- [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — खुद को बचाओगे तो सब खो दोगे]]  
+- [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — हजारों मनुष्यों में कोई एक सिद्धि के लिए यत्न करता है]]  

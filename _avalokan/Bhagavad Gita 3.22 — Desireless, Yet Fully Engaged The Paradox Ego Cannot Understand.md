@@ -82,7 +82,7 @@ There are two types of individuals:
 1. Those driven by desire—active, restless, goal-oriented.
 2. Those depleted by failed desire—passive, disengaged, seemingly detached.
 
-The first appears superior, the second inferior. But both are bound by the same mechanism: **desire as fuel**.
+The first appears superior, the second inferior. But both are bound by the same mechanism: **[[desire as fuel]]**.
 
 When desire is high → energy is high.  
 When desire collapses → energy collapses.
@@ -342,4 +342,4 @@ Only movement remains.
 
 And for the first time, that movement is not horizontal.
 
-- [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — खुद को बचाओगे तो सब खो दोगे\|दिशा → यत्न → नियत → केंद्र → प्रेम → विघटन → तत्त्व-दर्शन]] 
+- [[श्रीमद्भगवद्गीता अध्याय 7, श्लोक 3 — हजारों मनुष्यों में कोई एक सिद्धि के लिए यत्न करता है\|दिशा → यत्न → नियत → केंद्र → प्रेम → विघटन → तत्त्व-दर्शन]] 
