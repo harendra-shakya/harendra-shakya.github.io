@@ -1,5 +1,6 @@
 ---
 up:
+  - "[[अवधूत गीता]]"
 related:
   - "[[Avadhuta Gita Session- 20th March आत्म-अवलोकन]]"
   - "[[Raw Text - Avadhuta Gita Session- 20th March]]"

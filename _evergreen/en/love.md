@@ -13,6 +13,19 @@ categories:
 **Definition**
 Love = “May I disappear, may You remain.”
 
+Presence → No Projection → Direct Action
+
+Love is not desire, attachment, or dependency.
+
+Love exists when psychological time is absent—when there is no projection into the future and no burden of the past shaping perception.
+
+Love does not calculate.  
+It does not seek outcomes.
+
+Action arising from love is whole, undivided, and intelligent.
+
+Where fear divides, love integrates.
+
 **Characteristics**
 
 - It is a conscious decision
