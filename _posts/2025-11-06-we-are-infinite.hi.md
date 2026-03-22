@@ -4,8 +4,8 @@ layout: post
 permalink: /hum-anant-hai/
 lang: hi
 translations:
-  - label: "English"
-    url: "/we-are-infinite/"
+  - label: English
+    url: /we-are-infinite/
 date: 2025-11-06
 description: हमारी पूरी ज़िन्दगी एक छोटे, संकुचित, स्वार्थी "स्वयं" की भावना में बिता जाती है। डर, इच्छाएँ, सुख, और मानव अस्तित्व के झूठे अर्थों में फंसे हुए। सच यह है कि हम अनन्त हैं।
 categories:
@@ -13,6 +13,8 @@ categories:
 tags:
   - Infinity
   - अद्वैत
+aliases:
+  - हम अनंत है
 ---
 
 हमारी पूरी ज़िन्दगी एक छोटे, संकुचित, स्वार्थी "स्वयं" की भावना में बिता जाती है। डर, इच्छाएँ, सुख, और मानव अस्तित्व के झूठे अर्थों में फंसे हुए।

@@ -4,17 +4,17 @@ layout: post
 permalink: /we-are-infinite/
 lang: en
 translations:
-  - label: "हिंदी"
-    url: "/hum-anant-hai/"
+  - label: हिंदी
+    url: /hum-anant-hai/
 date: 2025-11-06
 description: Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence. In truth we are infinite.
 categories:
   - The Way of Infinity
-  # - Personal Growth
-  # - Philosophy
 tags:
   - Infinity
   - अद्वैत
+aliases:
+  - We are Infinite
 ---
 
 Our entire lives we live in a small, short-sighted, self-serving sense of self. Trapped in fears, desires, pleasures, false meanings of human existence.
