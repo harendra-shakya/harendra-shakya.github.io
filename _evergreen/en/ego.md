@@ -12,13 +12,38 @@ categories:
 > The being who drops ego and truly knows,  
 > only that one realizes the Truth as the true support.
 
-**Definition**
-Ego is the false center that says — “I do, I know, I achieve.” It feels real in experience, but when deeply searched, it cannot be found.
-Ego is "I" that comes from ignorance.
+```
+Memory → Identification → Continuity → "I"  
+                              │  
+                              ▼  
+                         Control / Fear
+```
 
-**Key Points**
+**Ego** is not an entity. It is a **process of identification**.
 
-- An experience tied to birth and identity
-- Changes form, but rarely disappears
-- Can hide within knowledge, devotion, and even renunciation
-- Considers itself sharp and superior
+It forms when memory is taken to be self. Experiences accumulate, and the mind constructs continuity: “this happened to me.” That continuity becomes identity.
+
+The ego depends on:
+
+- Past (memory)
+- Future (projection)
+- Ownership (“I did”, “I will”)
+
+Without these, it cannot sustain itself.
+
+Its primary movement is control.  
+Control arises from fear.  
+Fear arises from uncertainty.
+
+Thus ego seeks:
+
+- Certainty
+- Stability
+- Predictable outcomes
+
+This is why goals, targets, and structured futures feel psychologically satisfying—they reinforce the illusion of control.
+
+But this control is fragile because it is imposed on a changing reality.
+
+Therefore:  
+**Ego is sustained contradiction — seeking permanence in impermanence.**

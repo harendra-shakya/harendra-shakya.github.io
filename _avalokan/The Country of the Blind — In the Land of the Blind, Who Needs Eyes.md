@@ -6,7 +6,6 @@ up:
 in:
 date: 2025-12-26
 lang: en
-permalink: /the-country-of-the-blind/
 aliases:
 categories:
   - Avalokan

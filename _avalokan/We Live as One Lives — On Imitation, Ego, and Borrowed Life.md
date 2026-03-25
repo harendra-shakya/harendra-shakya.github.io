@@ -7,7 +7,6 @@ in:
   - "[[We Live as One Lives — Wisdom literature]]"
 lang: en
 date: 2026-01-12
-permalink: /en/we-live-as-one-lives/
 series:
   - Gems from the World
   - Existentialism
