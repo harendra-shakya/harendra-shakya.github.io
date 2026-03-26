@@ -4,6 +4,8 @@ in:
 date: 2026-03-25
 categories:
   - Evergreen Notes
+aliases:
+  - psychological coma
 ---
 ```
 Automatic Thought → Reaction → Habit → Identity  
