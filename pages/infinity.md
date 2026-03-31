@@ -10,7 +10,9 @@ _A living philosophy of Mind, Soul, and Life — to see everything in its entire
 
 ---
 
-- [[2025-11-06-we-are-infinite.en\|We are Infinite]].
+- [The AP Framework](https://harendra-shakya.github.io/the-ap-framework/).
+- [Shakya Framework](https://harendra-shakya.github.io/shakya-framework/).
+
 
 ## 🧠 **Mind**
 
