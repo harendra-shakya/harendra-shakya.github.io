@@ -4,6 +4,8 @@ in:
 date: 2026-03-28
 categories:
   - Evergreen Notes
+aliases:
+  - ईमानदारी
 ---
 
 Claim → Exposure → Correction → Alignment
