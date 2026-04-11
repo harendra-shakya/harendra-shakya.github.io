@@ -215,7 +215,7 @@ This is the principle of **thinning**.
 
 Reduction is not loss; it is clarification.
 
-The “thee” in the poem does not refer to an external deity. It is not an object separate from the self. It is to be understood through **[[via negativa]]**—by removing what is false, what remains is truth.
+The “thee” in the poem does not refer to an external deity. It is not an object separate from the self. It is to be understood through **[[Via Negativa]]**—by removing what is false, what remains is truth.
 
 Thus:
 
@@ -384,7 +384,7 @@ No new identity is created. No new belief is imposed. Instead:
 - Distorted perceptions are corrected
 - Unnecessary desires are seen through
 
-This is **[[Via negativa]]**—the path of elimination.
+This is **[[Via Negativa]]**—the path of elimination.
 
 Like cleaning a mirror, nothing new is added. Dust is removed, and reflection becomes clear.
 
