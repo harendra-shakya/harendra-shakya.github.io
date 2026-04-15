@@ -32,6 +32,7 @@ description: |-
 > 
 > **Translation:**
 > O Bharata, just as the unwise (ignorant) act with attachment, so should the wise act without attachment, for the welfare of the world (Lokasangraha).
+
 ## Action Without Attachment and the Recovery of Intelligence
 
 ```
