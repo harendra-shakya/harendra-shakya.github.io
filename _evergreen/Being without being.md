@@ -12,3 +12,4 @@ categories:
 
 यही अध्यात्म का वास्तविक लक्ष्य है।
 
+[[Shrimad Bhagavad Gita 3.26 — Action Continues, But the Doer Disappears]].
