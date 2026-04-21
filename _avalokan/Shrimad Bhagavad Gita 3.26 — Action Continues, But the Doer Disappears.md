@@ -8,6 +8,7 @@ aliases:
   - How to Act Without Ego in Daily Life
   - You Are Not the Doer (And That Changes Everything)
   - The Structural Error of Doership in Human Action
+  - Vedanta (English) - 18 अप्रैल
 year:
 date: 2026-04-18
 people:
