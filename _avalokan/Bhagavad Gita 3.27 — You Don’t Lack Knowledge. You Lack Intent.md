@@ -23,6 +23,8 @@ title: Bhagavad Gita 3.27 — You Don’t Lack Knowledge. You Lack Intent
 description: You already know what is right. Yet action does not follow. This is not ignorance—it is resistance. A precise look at why knowledge fails and why intent alone determines transformation.
 ---
 
+<img src="/assets/img/Bhagavad Gita 3.27 — You Don’t Lack Knowledge. You Lack Intent-1776810172040.webp" alt="Bhagavad Gita 3.27 — You Don’t Lack Knowledge. You Lack Intent" width="400" />
+
 > **प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः ।**  
 > **अहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते॥3.27॥**
 >
