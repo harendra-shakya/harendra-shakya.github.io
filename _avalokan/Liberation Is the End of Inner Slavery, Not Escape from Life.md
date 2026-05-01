@@ -4,7 +4,7 @@ up:
 related:
   - "[[Raw Text - 28-04-2026 IS]]"
 aliases:
-  - 28-04-2026 IS
+  - 28th April, Institutional Session
   - Why the World Does Not Need More Successful Robots
   - The Structure of Inner Slavery and the Meaning of Liberation
   - Freedom Begins Where Inner Stupidity Ends
