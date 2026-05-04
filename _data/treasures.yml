@@ -72,8 +72,10 @@ videos:
 authors:
   - title: Acharya Prashant
     url: https://acharyaprashant.org/en/books
-  - title: Devdutt Pattanaik
-    url: https://www.amazon.in/stores/author/B001JRYOZU/allbooks
+  - title: Ami Ganatra
+    url: https://www.amazon.in/stores/Ami-Ganatra/author/B098PR56F6
+  # - title: Devdutt Pattanaik
+  #   url: https://www.amazon.in/stores/author/B001JRYOZU/allbooks
 
 Adarsha (आदर्श):
   - title: Swami Vivekananda
