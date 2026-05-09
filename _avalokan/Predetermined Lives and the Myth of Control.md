@@ -25,6 +25,7 @@ categories:
   - Avalokan
 series:
   - Public Session
+  - Basic Wisdom
 title: Predetermined Lives and the Myth of Control
 description: Did you choose your birth, your body, your family, your fears, or your desires? If not, then what exactly are you calling “your choice”? This essay investigates the structure of destiny, conditioning, and consciousness, revealing how human beings mistake mechanical movement for personal freedom.
 ---
