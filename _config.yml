@@ -155,7 +155,7 @@ exclude:
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-postfiles
 # # Configure the plugin
 # sitemap:

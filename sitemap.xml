@@ -1,0 +1,70 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>{{ site.url | replace: '//', '/' }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  {% for post in site.posts %}
+    {% unless post.sitemap.exclude == 'yes' or post.published == false %}
+      <url>
+        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+        {% if post.sitemap.lastmod %}
+          <lastmod>{{ post.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+        {% elsif post.date %}
+          <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>{% if post.sitemap.changefreq %}{{ post.sitemap.changefreq }}{% else %}weekly{% endif %}</changefreq>
+        <priority>{% if post.sitemap.priority %}{{ post.sitemap.priority }}{% else %}0.8{% endif %}</priority>
+      </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for collection in site.collections %}
+    {% for doc in collection.docs %}
+      {% unless doc.sitemap.exclude == 'yes' or doc.published == false or doc.url == '/sitemap.xml' %}
+        <url>
+          <loc>{{ site.url }}{{ doc.url | remove: 'index.html' }}</loc>
+          {% if doc.sitemap.lastmod %}
+            <lastmod>{{ doc.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+          {% elsif doc.date %}
+            <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
+          {% else %}
+            <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+          {% endif %}
+          <changefreq>{% if doc.sitemap.changefreq %}{{ doc.sitemap.changefreq }}{% else %}monthly{% endif %}</changefreq>
+          <priority>{% if doc.sitemap.priority %}{{ doc.sitemap.priority }}{% else %}0.6{% endif %}</priority>
+        </url>
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+
+  {% for page in site.pages %}
+    {% unless page.url contains '/assets/' or page.url contains '/images/' or page.url contains '/css/' or page.url contains '/js/' or page.sitemap.exclude == 'yes' or page.url == '/sitemap.xml' %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
+        {% if page.sitemap.lastmod %}
+          <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+        {% elsif page.date %}
+          <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>{% if page.sitemap.changefreq %}{{ page.sitemap.changefreq }}{% else %}monthly{% endif %}</changefreq>
+        <priority>{% if page.sitemap.priority %}{{ page.sitemap.priority }}{% else %}0.5{% endif %}</priority>
+      </url>
+    {% endunless %}
+  {% endfor %}
+
+</urlset>
+
