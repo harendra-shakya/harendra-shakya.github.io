@@ -1,4 +1,6 @@
 - https://search.google.com/search-console
+- https://www.xml-sitemaps.com/validate-xml-sitemap.html
+- https://www.xml-sitemaps.com/se-bot-simulator.html
 - https://www.opengraph.xyz/
 - https://web-check.xyz/
 - https://pagespeed.web.dev/
