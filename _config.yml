@@ -153,10 +153,10 @@ exclude:
   - _avalokan/drafts/
 
 # Plugins
-# plugins:
-# - jekyll-feed
-# - jekyll-sitemap
-# - jekyll-postfiles
+plugins:
+  - jekyll-feed
+  # - jekyll-sitemap
+  - jekyll-postfiles
 # # Configure the plugin
 # sitemap:
 #   # exclude:
