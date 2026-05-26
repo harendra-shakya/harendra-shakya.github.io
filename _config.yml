@@ -13,7 +13,9 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Harendra Shakya # author name
   bio: >- # tell to the world
-    Preoccupied with a single leaf, you won't see the tree. Preoccupied with a single tree, you'll miss the entire forest.
+    जब मैं था तब हरि नहीं, अब हरि है मैं नाहीं।
+    प्रेम गली अति सांकरी, जामें दो न समाहीं।।
+
   username: harendra-shakya # general username
   github: harendra-shakya # github username
   twitter: harendrashakya_ # twitter username
@@ -74,6 +76,10 @@ collections:
     output: true
     permalink: /:slug/
 
+  portfolio:
+    output: true
+    permalink: /:slug/
+
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
@@ -104,6 +110,11 @@ defaults:
       type: "evergreen"
     values:
       layout: "insight"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "null"
 
 # Jekyll Compose default front matter
 jekyll_compose:

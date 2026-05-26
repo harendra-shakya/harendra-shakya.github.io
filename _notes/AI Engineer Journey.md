@@ -5,6 +5,8 @@ date: 2026-05-22
 categories:
   - My Mastering Journey
 description: Add this on github readme.
+URLs:
+  - https://edwarddonner.com/2026/02/17/ai-coder-vibe-coder-to-agentic-engineer/
 ---
 
 Learning from [Ed Donner](https://www.udemy.com/user/ed-donner-3/). He doesn't only teaches but makes you build things that has real world commercial impact.
@@ -53,6 +55,17 @@ Space is fast and confusing. Don't get lost in the noise.
 ![[AI Engineer Journey-1779478037391.webp|254]]
 
 ![[AI Engineer Journey-1779479389644.webp|248]]
+
+
+![[AI Engineer Journey-1779627450749.webp|226x199]]
+
+![[AI Engineer Journey-1779628003035.webp|217x229]]
+
+![[AI Engineer Journey-1779628248247.webp|215]]
+
+Build this project. [Harendra Shakya — Agentic Engineer & Writer](https://my-website-lime-five.vercel.app/).
+
+![[AI Engineer Journey-1779679649055.webp|301x235]]
 
 
 

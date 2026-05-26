@@ -1,0 +1,975 @@
+---
+title: Velour
+permalink: /velour/
+excerpt: Velour.
+description: Velour.
+layout: null
+comments: false
+---
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap");
+
+  .vl-root {
+    --sand: #e8ddd0;
+    --sand-light: #f5f0eb;
+    --sand-mid: #d4c5b2;
+    --espresso: #2c1a0e;
+    --espresso-mid: #4a2e1a;
+    --blush: #e8c4b8;
+    --blush-light: #f5e8e2;
+    --cream: #faf7f4;
+    --warm-white: #fefcfa;
+    --ink: #1a1008;
+    --muted: #7a6555;
+    font-family: "DM Sans", sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .vl-root * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .vl-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: var(--cream);
+    border-bottom: 0.5px solid var(--sand-mid);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .vl-logo {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--espresso);
+  }
+
+  .vl-nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .vl-nav-links a {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .vl-nav-links a:hover {
+    color: var(--espresso);
+  }
+
+  .vl-btn-nav {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--espresso);
+    color: var(--cream);
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .vl-btn-nav:hover {
+    background: var(--espresso-mid);
+  }
+
+  .vl-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 560px;
+    background: var(--warm-white);
+  }
+
+  .vl-hero-left {
+    padding: 5rem 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .vl-hero-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+  }
+
+  .vl-hero-headline {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1.08;
+    color: var(--espresso);
+    margin-bottom: 1.5rem;
+  }
+
+  .vl-hero-headline em {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .vl-hero-sub {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: var(--muted);
+    max-width: 340px;
+    margin-bottom: 2.5rem;
+  }
+
+  .vl-hero-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .vl-btn-primary {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: var(--espresso);
+    color: var(--cream);
+    border: none;
+    padding: 0.85rem 2rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition:
+      background 0.2s,
+      transform 0.15s;
+  }
+  .vl-btn-primary:hover {
+    background: var(--espresso-mid);
+    transform: translateY(-1px);
+  }
+
+  .vl-btn-ghost {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--espresso);
+    border: 0.5px solid var(--sand-mid);
+    padding: 0.85rem 1.6rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background 0.2s;
+  }
+  .vl-btn-ghost:hover {
+    border-color: var(--espresso);
+    background: var(--sand-light);
+  }
+
+  .vl-hero-note {
+    margin-top: 1.25rem;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+
+  .vl-hero-right {
+    background: var(--blush-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .vl-product-visual {
+    width: 220px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: floatUp 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes floatUp {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+
+  .vl-bottle {
+    width: 80px;
+    height: 200px;
+    background: linear-gradient(
+      160deg,
+      var(--espresso-mid) 0%,
+      var(--espresso) 60%,
+      #1a0e06 100%
+    );
+    border-radius: 12px 12px 8px 8px;
+    position: relative;
+    box-shadow: 12px 20px 40px rgba(44, 26, 14, 0.25);
+  }
+
+  .vl-bottle-neck {
+    width: 32px;
+    height: 28px;
+    background: var(--espresso);
+    border-radius: 6px 6px 0 0;
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+  }
+
+  .vl-bottle-cap {
+    width: 36px;
+    height: 14px;
+    background: var(--sand-mid);
+    border-radius: 4px 4px 2px 2px;
+    margin: 0 auto;
+    position: relative;
+    top: -4px;
+  }
+
+  .vl-bottle-label {
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 60px;
+  }
+
+  .vl-bottle-label-name {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--sand-light);
+    display: block;
+  }
+
+  .vl-bottle-label-sub {
+    font-size: 8px;
+    letter-spacing: 0.08em;
+    color: var(--sand-mid);
+    display: block;
+    margin-top: 3px;
+    font-weight: 300;
+  }
+
+  .vl-bottle-shine {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    width: 10px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    transform: rotate(-10deg);
+  }
+
+  .vl-hero-tag {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--cream);
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 16px rgba(44, 26, 14, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .vl-hero-tag-dot {
+    width: 8px;
+    height: 8px;
+    background: #7ba05b;
+    border-radius: 50%;
+  }
+
+  .vl-hero-tag-text {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--espresso);
+    letter-spacing: 0.05em;
+  }
+
+  .vl-proof-bar {
+    background: var(--espresso);
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
+  }
+
+  .vl-proof-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .vl-proof-num {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--blush);
+  }
+
+  .vl-proof-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: var(--sand);
+    text-transform: uppercase;
+  }
+
+  .vl-proof-divider {
+    width: 0.5px;
+    height: 24px;
+    background: rgba(232, 196, 184, 0.3);
+    flex-shrink: 0;
+  }
+
+  .vl-section {
+    padding: 5rem 3rem;
+  }
+
+  .vl-section-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .vl-section-headline {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: var(--espresso);
+    margin-bottom: 1rem;
+  }
+
+  .vl-section-body {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: var(--muted);
+    max-width: 480px;
+  }
+
+  .vl-pillars {
+    background: var(--sand-light);
+    padding: 5rem 3rem;
+  }
+
+  .vl-pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 3.5rem;
+  }
+
+  .vl-pillar {
+    background: var(--warm-white);
+    padding: 2.5rem 2rem;
+    position: relative;
+  }
+
+  .vl-pillar-num {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 52px;
+    font-weight: 300;
+    color: var(--blush);
+    line-height: 1;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+
+  .vl-pillar-title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--espresso);
+    margin-bottom: 0.75rem;
+  }
+
+  .vl-pillar-body {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: var(--muted);
+  }
+
+  .vl-ritual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    background: var(--cream);
+  }
+
+  .vl-ritual-visual {
+    background: var(--sand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    min-height: 400px;
+  }
+
+  .vl-ritual-card {
+    background: var(--warm-white);
+    padding: 2.5rem 2rem;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 4px 8px 32px rgba(44, 26, 14, 0.08);
+  }
+
+  .vl-ritual-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 0.5px solid var(--sand-light);
+  }
+
+  .vl-ritual-step:last-child {
+    border-bottom: none;
+  }
+
+  .vl-ritual-step-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--blush-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--espresso-mid);
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .vl-ritual-step-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--espresso);
+    margin-bottom: 2px;
+    letter-spacing: 0.03em;
+  }
+
+  .vl-ritual-step-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .vl-ritual-content {
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .vl-reviews {
+    background: var(--espresso);
+    padding: 5rem 3rem;
+  }
+
+  .vl-reviews-headline {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--blush-light);
+    margin-bottom: 3rem;
+    font-style: italic;
+  }
+
+  .vl-reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .vl-review-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 0.5px solid rgba(232, 196, 184, 0.2);
+    border-radius: 4px;
+    padding: 1.75rem 1.5rem;
+  }
+
+  .vl-review-stars {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 1rem;
+  }
+
+  .vl-star {
+    width: 10px;
+    height: 10px;
+    background: var(--blush);
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+
+  .vl-review-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: var(--sand);
+    margin-bottom: 1.25rem;
+    font-style: italic;
+  }
+
+  .vl-review-author {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--blush);
+  }
+
+  .vl-cta-section {
+    background: var(--blush-light);
+    padding: 6rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vl-cta-headline {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--espresso);
+    max-width: 520px;
+    margin-bottom: 1rem;
+  }
+
+  .vl-cta-sub {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+    max-width: 400px;
+    line-height: 1.7;
+  }
+
+  .vl-cta-form {
+    display: flex;
+    gap: 0;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .vl-email-input {
+    flex: 1;
+    padding: 0.85rem 1.2rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    border: 0.5px solid var(--sand-mid);
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    background: var(--warm-white);
+    color: var(--espresso);
+    outline: none;
+  }
+  .vl-email-input::placeholder {
+    color: var(--muted);
+  }
+  .vl-email-input:focus {
+    border-color: var(--espresso);
+  }
+
+  .vl-btn-submit {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--espresso);
+    color: var(--cream);
+    border: none;
+    padding: 0.85rem 1.6rem;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+  .vl-btn-submit:hover {
+    background: var(--espresso-mid);
+  }
+
+  .vl-cta-fine {
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--muted);
+    letter-spacing: 0.03em;
+  }
+
+  .vl-footer {
+    background: var(--espresso);
+    padding: 2.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vl-footer-logo {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--blush-light);
+  }
+
+  .vl-footer-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .vl-footer-links a {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--sand);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  .vl-footer-links a:hover {
+    opacity: 1;
+  }
+
+  .vl-footer-copy {
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--sand);
+    opacity: 0.4;
+  }
+
+  .vl-animate-in {
+    opacity: 0;
+    transform: translateY(18px);
+    animation: fadeInUp 0.7s ease forwards;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .vl-animate-in:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .vl-animate-in:nth-child(2) {
+    animation-delay: 0.22s;
+  }
+  .vl-animate-in:nth-child(3) {
+    animation-delay: 0.34s;
+  }
+  .vl-animate-in:nth-child(4) {
+    animation-delay: 0.46s;
+  }
+  .vl-animate-in:nth-child(5) {
+    animation-delay: 0.56s;
+  }
+</style>
+
+<div class="vl-root">
+  <nav class="vl-nav">
+    <span class="vl-logo">Velour</span>
+    <ul class="vl-nav-links">
+      <li><a href="#">The Serum</a></li>
+      <li><a href="#">Science</a></li>
+      <li><a href="#">Stories</a></li>
+    </ul>
+    <button class="vl-btn-nav">Try Free</button>
+  </nav>
+
+  <section class="vl-hero">
+    <div class="vl-hero-left">
+      <p class="vl-hero-eyebrow vl-animate-in">Introducing The One Serum</p>
+      <h1 class="vl-hero-headline vl-animate-in">
+        Skin that<br /><em>speaks</em><br />for itself.
+      </h1>
+      <p class="vl-hero-sub vl-animate-in">
+        One bottle. Morning and night. No 12-step routine, no confusing
+        ingredients — just skin that looks like you slept well and drank water.
+      </p>
+      <div class="vl-hero-actions vl-animate-in">
+        <button class="vl-btn-primary">Start your free trial</button>
+        <button class="vl-btn-ghost">See the science</button>
+      </div>
+      <p class="vl-hero-note vl-animate-in">
+        Free 14-day trial · No commitment · Ships tomorrow
+      </p>
+    </div>
+    <div class="vl-hero-right">
+      <div class="vl-product-visual">
+        <div class="vl-bottle-cap"></div>
+        <div class="vl-bottle-neck"></div>
+        <div class="vl-bottle">
+          <div class="vl-bottle-shine"></div>
+          <div class="vl-bottle-label">
+            <span class="vl-bottle-label-name">Velour</span>
+            <span class="vl-bottle-label-sub">The One Serum</span>
+          </div>
+        </div>
+      </div>
+      <div class="vl-hero-tag">
+        <div class="vl-hero-tag-dot"></div>
+        <span class="vl-hero-tag-text">94% saw results in 14 days</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="vl-proof-bar">
+    <div class="vl-proof-item">
+      <span class="vl-proof-num">50k+</span>
+      <span class="vl-proof-label">Women trust Velour</span>
+    </div>
+    <div class="vl-proof-divider"></div>
+    <div class="vl-proof-item">
+      <span class="vl-proof-num">94%</span>
+      <span class="vl-proof-label">Results in 14 days</span>
+    </div>
+    <div class="vl-proof-divider"></div>
+    <div class="vl-proof-item">
+      <span class="vl-proof-num">1</span>
+      <span class="vl-proof-label">Bottle. That's it.</span>
+    </div>
+    <div class="vl-proof-divider"></div>
+    <div class="vl-proof-item">
+      <span class="vl-proof-num">Clean</span>
+      <span class="vl-proof-label">No nasties, ever</span>
+    </div>
+  </div>
+
+  <section class="vl-pillars">
+    <p class="vl-section-label">Why it works</p>
+    <h2 class="vl-section-headline">Designed around<br />your actual life.</h2>
+    <div class="vl-pillars-grid">
+      <div class="vl-pillar">
+        <span class="vl-pillar-num">01</span>
+        <h3 class="vl-pillar-title">One formula, all roles</h3>
+        <p class="vl-pillar-body">
+          The One Serum replaces your moisturiser, serum, and primer. Formulated
+          to hydrate, firm, and protect — without layering.
+        </p>
+      </div>
+      <div class="vl-pillar">
+        <span class="vl-pillar-num">02</span>
+        <h3 class="vl-pillar-title">Ingredients you can read</h3>
+        <p class="vl-pillar-body">
+          No 47-ingredient lists. Just squalane, niacinamide, ceramides, and
+          bakuchiol. Every ingredient earns its place.
+        </p>
+      </div>
+      <div class="vl-pillar">
+        <span class="vl-pillar-num">03</span>
+        <h3 class="vl-pillar-title">Works while you sleep</h3>
+        <p class="vl-pillar-body">
+          The same bottle, morning and night. The formula adapts — lighter feel
+          at dawn, deeper repair at dusk.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="vl-ritual">
+    <div class="vl-ritual-visual">
+      <div class="vl-ritual-card">
+        <p
+          style="
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #7a6555;
+            margin-bottom: 1.25rem;
+          "
+        >
+          Your morning. Simplified.
+        </p>
+        <div class="vl-ritual-step">
+          <div class="vl-ritual-step-icon">☀</div>
+          <div>
+            <p class="vl-ritual-step-title">Wake up</p>
+            <p class="vl-ritual-step-desc">
+              Splash, pat dry. You're already halfway there.
+            </p>
+          </div>
+        </div>
+        <div class="vl-ritual-step">
+          <div class="vl-ritual-step-icon">✦</div>
+          <div>
+            <p class="vl-ritual-step-title">Three drops of The One Serum</p>
+            <p class="vl-ritual-step-desc">
+              Warm between palms. Press gently into skin.
+            </p>
+          </div>
+        </div>
+        <div class="vl-ritual-step">
+          <div class="vl-ritual-step-icon">→</div>
+          <div>
+            <p class="vl-ritual-step-title">Done. Go live your life.</p>
+            <p class="vl-ritual-step-desc">
+              No follow-up steps. No waiting for layers to absorb.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vl-ritual-content">
+      <p class="vl-section-label">The ritual</p>
+      <h2 class="vl-section-headline">
+        60 seconds.<br /><em>Every morning.</em>
+      </h2>
+      <p class="vl-section-body" style="margin-bottom: 2rem">
+        We built Velour for women who want beautiful skin and zero fuss. The One
+        Serum fits in your palm, your carry-on, and your morning without
+        disrupting either.
+      </p>
+      <button class="vl-btn-primary" style="width: fit-content">
+        Start your free trial
+      </button>
+    </div>
+  </section>
+
+  <section class="vl-reviews">
+    <h2 class="vl-reviews-headline">
+      "Finally, something that actually works."
+    </h2>
+    <div class="vl-reviews-grid">
+      <div class="vl-review-card">
+        <div class="vl-review-stars">
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+        </div>
+        <p class="vl-review-text">
+          "I threw out six products after the first week. My skin has never
+          looked this good with this little effort."
+        </p>
+        <p class="vl-review-author">— Amara K., 34</p>
+      </div>
+      <div class="vl-review-card">
+        <div class="vl-review-stars">
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+        </div>
+        <p class="vl-review-text">
+          "I was skeptical one bottle could do all of this. Two months in — I'm
+          a convert. My derm even asked what I changed."
+        </p>
+        <p class="vl-review-author">— Sophie L., 29</p>
+      </div>
+      <div class="vl-review-card">
+        <div class="vl-review-stars">
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+          <div class="vl-star"></div>
+        </div>
+        <p class="vl-review-text">
+          "The texture is extraordinary. Absorbs instantly, no residue. And my
+          skin looks genuinely different after two weeks."
+        </p>
+        <p class="vl-review-author">— Priya M., 31</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="vl-cta-section">
+    <h2 class="vl-cta-headline">
+      Your skin. Simplified.<br /><em>Starting today.</em>
+    </h2>
+    <p class="vl-cta-sub">
+      Try The One Serum free for 14 days. If your skin doesn't feel different,
+      we'll refund you — no questions, no forms.
+    </p>
+    <div class="vl-cta-form">
+      <input
+        class="vl-email-input"
+        type="email"
+        placeholder="Your email address"
+      />
+      <button class="vl-btn-submit">Claim trial</button>
+    </div>
+    <p class="vl-cta-fine">
+      Free shipping · Cancel anytime · 14-day money-back guarantee
+    </p>
+  </section>
+
+  <footer class="vl-footer">
+    <span class="vl-footer-logo">Velour</span>
+    <ul class="vl-footer-links">
+      <li><a href="#">Ingredients</a></li>
+      <li><a href="#">Sustainability</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+    <span class="vl-footer-copy">© 2026 Velour</span>
+  </footer>
+</div>
