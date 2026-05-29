@@ -26,8 +26,8 @@
   url: /poetry/
   external: false
 
-- title: random
-  url: /random/
+- title: links
+  url: /links/
   external: false
 # - title: about
 #   url: /about/

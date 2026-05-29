@@ -12,8 +12,7 @@ permalink: /feed.xml
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en-us</language>
 
-    {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry |
-concat: site.insights | concat: site.sahitya | concat: site.avalokan | sort: 'date' | reverse %}
+    {% assign all_posts = site.posts | concat: site.bhajans | concat: site.poetry | concat: site.insights | concat: site.sahitya | concat: site.avalokan | concat: site.evergreen | concat: site.mantra | concat: site.bodhkarya | concat: site.notes | sort: 'date' | reverse %}
 
     {% for post in all_posts %}
       <item>

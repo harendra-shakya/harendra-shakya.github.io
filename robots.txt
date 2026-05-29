@@ -2,12 +2,10 @@
 User-agent: *
 Allow: /
 
-# --- Block folders that shouldn't be indexed (assets, scripts, styles) ---
-Disallow: /assets/
-Disallow: /css/
-Disallow: /js/
-Disallow: /fonts/
-Disallow: /images/  # optional — remove this if you WANT your images in Google Images
+# --- Block non-content assets ---
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/favicons/
 
 # --- Block temporary, draft, or non-public pages (optional) ---
 # Disallow: /drafts/
