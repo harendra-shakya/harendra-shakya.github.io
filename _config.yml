@@ -27,6 +27,7 @@ author:
 url: "https://harendra-shakya.github.io" #
 baseurl:
 permalink: /:slug/
+collections_dir: collections
 google_analytics: G-NDH3D87F2D
 fb_appid:
 
@@ -86,7 +87,7 @@ highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
   input: GFM
-slugify_mode: "unicode"
+slugify_mode: "none"
 
 # Default front matter
 defaults:
@@ -156,12 +157,11 @@ exclude:
   - klise.gemspec
   - archive/
   - docs/
-  - _insights/up-next/
-  - _posts/up-next/
-  - _insights/drafts/
-  - _posts/drafts/
-  - _sahitya/drafts/
-  - _avalokan/drafts/
+  - collections/_insights/up-next/
+  - collections/_posts/up-next/
+  - collections/_posts/drafts/
+  - collections/_sahitya/drafts/
+  - drafts/
 
 # Plugins
 plugins:

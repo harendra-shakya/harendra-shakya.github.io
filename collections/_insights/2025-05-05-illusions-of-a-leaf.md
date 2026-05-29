@@ -23,4 +23,4 @@ _“Why am I attached to this branch and not another?”_
 
 These are the illusions that bind the leaf — a narrow view of existence, focused only on self and difference.
 
-They miss the fact that there's an entire forest and ecosystem out there — each leaf, whether green or red, whether under the sky or in shade, plays a vital role in the forest’s life. The leaf’s life is not a curse but a chapter in the fo
+They miss the fact that there's an entire forest and ecosystem out there — each leaf, whether green or red, whether under the sky or in shade, plays a vital role in the forest’s life. The leaf’s life is not a curse but a chapter in the forest’s timeless story.

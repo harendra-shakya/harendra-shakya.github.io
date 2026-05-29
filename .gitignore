@@ -6,9 +6,10 @@ _drafts
 klise-*.gem
 Gemfile.lock
 
-_insights/drafts/
-_posts/drafts/
-_sahitya/drafts/
-_avalokan/drafts/
+collections/_posts/drafts/
+collections/_sahitya/drafts/
 drafts/
 _trash/
+
+.cursor/
+.claude/

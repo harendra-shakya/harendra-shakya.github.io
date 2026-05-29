@@ -7,7 +7,7 @@ layout: none
   {% for post in all_posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      "description" : "{{ post.description | escape }}",
+      "description" : "{{ post.description | strip_newlines | escape }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "categories"     : "{{ post.categories | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
