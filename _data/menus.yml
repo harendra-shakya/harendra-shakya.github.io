@@ -10,6 +10,14 @@
   url: /avalokan/
   external: false
 
+- title: insights
+  url: /insights/
+  external: false
+
+- title: sahitya
+  url: /sahitya/
+  external: false
+
 - title: bhajans
   url: /bhajans/
   external: false
@@ -20,10 +28,6 @@
 
 - title: random
   url: /random/
-  external: false
-
-- title: links
-  url: /links/
   external: false
 # - title: about
 #   url: /about/
