@@ -87,7 +87,7 @@ highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
   input: GFM
-slugify_mode: "none"
+slugify_mode: "default"
 
 # Default front matter
 defaults:
