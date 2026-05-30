@@ -1,4 +1,68 @@
 // ─────────────────────────────────────────────────────────────────────────────
+// Pull-quote blockquotes — shareable, visually distinct
+// ─────────────────────────────────────────────────────────────────────────────
+
+.page-content blockquote {
+  position: relative;
+  border-top: none;
+  border-bottom: none;
+  border-left: 2px solid #d4b26a;
+  padding: 0.9rem 1.4rem;
+  margin: 2rem 0;
+  text-align: left;
+  font-style: normal;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 1;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+body[data-theme="dark"] .page-content blockquote {
+  border-left-color: #d4b26a;
+  color: #d4c4a0;
+  background: rgba(212, 178, 106, 0.04);
+  border-radius: 0 4px 4px 0;
+}
+
+// ─── Reading time ─────────────────────────────────────────────────────────────
+
+.reading-time {
+  font-size: $small-font-size;
+  color: $gray;
+  margin-left: 0.4em;
+
+  &::before {
+    content: "· ";
+  }
+}
+
+body[data-theme="dark"] .reading-time {
+  color: $dark-gray;
+}
+
+// ─── Post list excerpt ────────────────────────────────────────────────────────
+
+.post-item-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-item-excerpt {
+  font-size: $small-font-size;
+  color: $gray;
+  margin: 2px 0 0;
+  line-height: 1.6;
+}
+
+body[data-theme="dark"] .post-item-excerpt {
+  color: $dark-gray;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 // Cosmos — homepage particle canvas + hero
 // ─────────────────────────────────────────────────────────────────────────────
 

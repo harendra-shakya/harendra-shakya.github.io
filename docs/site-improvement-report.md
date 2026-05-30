@@ -137,15 +137,15 @@ Not audited in detail yet. Key things to check:
 
 ## Priority Order (What to Do First)
 
-| Priority | Change | Impact |
-|---|---|---|
-| 1 | Fix text clipping bug on post pages | Reader experience |
-| 2 | Add 2–3 line site description + "Start here" to homepage | First impression |
-| 3 | Add `description:` to top 20 most important posts | SEO |
-| 4 | Set post-specific `image:` in front matter for posts with infographics | Shareability |
-| 5 | Remove tag/category filters from Archive, keep only Series + Language | UX clarity |
-| 6 | Style blockquotes as shareable pull quotes | Shareability |
-| 7 | Fix `hreflang` for Hindi posts | SEO |
-| 8 | Add JSON-LD Article structured data | SEO |
-| 9 | Add reading time to post header | Reader experience |
-| 10 | Add excerpt/description to post list views | Invitingness |
+| Priority | Change | Impact | Status |
+|---|---|---|---|
+| 1 | Fix text clipping bug on post pages | Reader experience | ✓ Not a real bug — was viewport sizing in preview |
+| 2 | Add site description + "begin reading" CTA to homepage | First impression | ✓ Done — cosmos hero |
+| 3 | Add `description:` to top 20 most important posts | SEO | Ongoing — many posts already have descriptions |
+| 4 | Set post-specific `image:` in front matter for posts with infographics | Shareability | Ongoing — manual per post |
+| 5 | Remove tag/category filters from Archive, keep only Series + Language | UX clarity | ✓ Done |
+| 6 | Style blockquotes as shareable pull quotes | Shareability | ✓ Done — gold left border |
+| 7 | Fix `hreflang` for Hindi posts | SEO | ✓ Done — now uses `page.lang` |
+| 8 | Add JSON-LD Article structured data | SEO | ✓ Done |
+| 9 | Add reading time to post header | Reader experience | ✓ Done — "· N min read" |
+| 10 | Add excerpt/description to post list views | Invitingness | ✓ Done — homepage post list |

@@ -17,7 +17,7 @@
     href="{{
       page.url | remove: 'index.html' | remove: '.html' | absolute_url
     }}"
-    hreflang="{{ site.lang }}"
+    hreflang="{{ page.lang | default: site.lang }}"
   />
   <link
     rel="canonical"
@@ -216,6 +216,34 @@
   <meta name="application-name" content="Shakya Mirror" />
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#2c2c2c" />
+
+  {% if page.date %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.description | default: site.description | strip_newlines | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.modified | default: page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": {{ site.author.name | jsonify }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}{{ site.author.avatar }}"
+      }
+    },
+    "url": "{{ page.url | absolute_url }}",
+    "image": "{{ page.image | default: site.image | absolute_url }}",
+    "inLanguage": "{{ page.lang | default: site.lang }}"
+  }
+  </script>
+  {% endif %}
 
   <link rel="stylesheet" href="/assets/css/style.css" />
 
