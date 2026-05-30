@@ -1,0 +1,129 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// Cosmos — homepage particle canvas + hero
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Canvas: fixed, full-viewport, behind everything
+#cosmos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  display: none; // JS shows it only in dark mode — hide by default
+}
+
+body[data-theme="dark"] #cosmos {
+  display: block;
+}
+
+// Lift all page content above the canvas
+.navbar {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+// ─── Rise animation ───────────────────────────────────────────────────────────
+@keyframes cosmos-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// ─── Hero section ─────────────────────────────────────────────────────────────
+.cosmos-hero {
+  text-align: center;
+  padding: 3.5rem 0 2.5rem;
+
+  .author-avatar {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1.2rem;
+    opacity: 0;
+    animation: cosmos-rise 1s ease forwards;
+    animation-delay: 0.2s;
+  }
+
+  .cosmos-title {
+    font-size: 1.9rem;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.9rem;
+    opacity: 0;
+    animation: cosmos-rise 1s ease forwards;
+    animation-delay: 0.6s;
+  }
+
+  .cosmos-bio {
+    font-size: 0.97rem;
+    line-height: 1.85;
+    color: $gray;
+    margin: 0 auto 1rem;
+    max-width: 480px;
+    opacity: 0;
+    animation: cosmos-rise 1s ease forwards;
+    animation-delay: 1.1s;
+  }
+
+  .cosmos-description {
+    font-size: 0.88rem;
+    line-height: 1.75;
+    color: $gray;
+    max-width: 400px;
+    margin: 0 auto 1.8rem;
+    opacity: 0;
+    animation: cosmos-rise 1s ease forwards;
+    animation-delay: 1.6s;
+  }
+
+  .cosmos-begin {
+    display: inline-block;
+    font-size: 0.82rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    text-decoration: none;
+    opacity: 0;
+    animation: cosmos-rise 1s ease forwards;
+    animation-delay: 2.1s;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+// Dark-mode colour overrides for cosmos text
+body[data-theme="dark"] .cosmos-hero {
+  .cosmos-bio,
+  .cosmos-description {
+    color: $dark-gray;
+  }
+
+  .cosmos-title {
+    color: $dark-white;
+  }
+
+  .cosmos-begin {
+    color: $dark-text-base-color;
+    border-color: $dark-smoke;
+
+    &:hover {
+      color: $dark-white;
+    }
+  }
+}
