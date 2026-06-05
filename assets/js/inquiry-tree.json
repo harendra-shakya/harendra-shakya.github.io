@@ -1,0 +1,401 @@
+{
+  "start": "intro_stillness",
+  "nodes": {
+
+    "intro_stillness": {
+      "type": "narration",
+      "text": "Before anything else —\n\n— a moment of stillness.",
+      "pause": 3500,
+      "next": "intro_breath"
+    },
+
+    "intro_breath": {
+      "type": "narration",
+      "text": "There is no urgency here.\n\nThis is not a test. There are no correct answers.\n\nThere is only looking.",
+      "pause": 1500,
+      "next": "intro_question"
+    },
+
+    "intro_question": {
+      "type": "question",
+      "text": "Who are you?",
+      "choices": [
+        { "label": "I am my name — the person the world knows.", "pattern_tag": "social", "next": "l1_name_response" },
+        { "label": "I am what I do — my work, my role.", "pattern_tag": "achiever", "next": "l1_profession_response" },
+        { "label": "I am my relationships — defined by those I love.", "pattern_tag": "approval_seeker", "next": "l1_relation_response" },
+        { "label": "I don't know.", "pattern_tag": "awareness", "next": "l1_unknown_response" }
+      ]
+    },
+
+    "l1_name_response": {
+      "type": "narration",
+      "text": "Your name.",
+      "pause": 1200,
+      "next": "l1_name_probe"
+    },
+
+    "l1_name_probe": {
+      "type": "question",
+      "text": "It was given to you before you could speak. Before you could agree or disagree.\n\nIf tomorrow everyone knew you by a different name — everything else the same — would you still be you?",
+      "choices": [
+        { "label": "Yes. The name is just a label.", "pattern_tag": "awareness", "next": "l1_name_yes" },
+        { "label": "Something would feel different.", "pattern_tag": "social", "next": "l1_name_different" }
+      ]
+    },
+
+    "l1_name_yes": {
+      "type": "narration",
+      "text": "Then the name is not you. It is something you carry.\n\nA label attached to something that existed before the label arrived.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_name_different": {
+      "type": "narration",
+      "text": "Perhaps. We grow attached to names. They become familiar.\n\nBut notice: the attachment is yours. The name is not.\n\nSomething in you knows the difference between the label and the one wearing it.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_profession_response": {
+      "type": "narration",
+      "text": "What you do. Your work. Your function in the world.",
+      "pause": 1200,
+      "next": "l1_profession_probe"
+    },
+
+    "l1_profession_probe": {
+      "type": "question",
+      "text": "When you were a child — before any profession, before you could do anything useful — were you less real?\n\nWere you less yourself?",
+      "choices": [
+        { "label": "I was different then, but still myself.", "pattern_tag": "awareness", "next": "l1_profession_same" },
+        { "label": "I felt more whole when I had purpose.", "pattern_tag": "achiever", "next": "l1_profession_different" }
+      ]
+    },
+
+    "l1_profession_same": {
+      "type": "narration",
+      "text": "Then what you do is not what you are.\n\nThe profession arrived. The one who noticed it arriving was already there.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_profession_different": {
+      "type": "narration",
+      "text": "Purpose gives shape to things. But notice: even the child without purpose was watching, feeling, existing.\n\nSomething persisted through every change in what you did.\n\nThat something is closer to you than your work.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_relation_response": {
+      "type": "narration",
+      "text": "Your relationships. Son, daughter, parent, friend, partner.\n\nThese exist in relation to others.",
+      "pause": 1200,
+      "next": "l1_relation_probe"
+    },
+
+    "l1_relation_probe": {
+      "type": "question",
+      "text": "When you are truly alone — no one watching, no relationship active — are you still there?",
+      "choices": [
+        { "label": "Yes. I exist independently of others.", "pattern_tag": "awareness", "next": "l1_relation_yes" },
+        { "label": "I feel incomplete when I am alone.", "pattern_tag": "approval_seeker", "next": "l1_relation_incomplete" }
+      ]
+    },
+
+    "l1_relation_yes": {
+      "type": "narration",
+      "text": "Then you exist prior to the relationships.\n\nThey describe how you connect to others — not what you are.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_relation_incomplete": {
+      "type": "narration",
+      "text": "That incompleteness is worth sitting with.\n\nIs it the relationship that makes you complete — or is it the feeling of being seen?\n\nThose are different things. The first is about others. The second is about something in you.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_unknown_response": {
+      "type": "narration",
+      "text": "That is the most honest answer in this room.\n\nMost people rush to fill that space. You did not.",
+      "pause": 1500,
+      "next": "l1_unknown_probe"
+    },
+
+    "l1_unknown_probe": {
+      "type": "question",
+      "text": "When someone asks who you are — in the world, in daily life — what do you usually say?",
+      "choices": [
+        { "label": "My name, my job, something social.", "pattern_tag": "social", "next": "l1_unknown_social" },
+        { "label": "I deflect, or change the subject.", "pattern_tag": "protector", "next": "l1_unknown_deflect" }
+      ]
+    },
+
+    "l1_unknown_social": {
+      "type": "narration",
+      "text": "Of course. That is the functional answer. It works in context.\n\nBut you already sensed it was not the full answer. That sensing — that too is you.\n\nThe one who knows the answer is incomplete.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_unknown_deflect": {
+      "type": "narration",
+      "text": "The deflection is interesting.\n\nSomething in the question feels dangerous — as if a real answer would expose something.\n\nWhat is it that is being protected? That too is worth looking at.",
+      "pause": 800,
+      "next": "l1_convergence_a"
+    },
+
+    "l1_convergence_a": {
+      "type": "narration",
+      "text": "Everything you named — name, role, relationship — was placed on you, or arose through circumstances you did not choose.",
+      "pause": 1000,
+      "next": "l1_convergence_b"
+    },
+
+    "l1_convergence_b": {
+      "type": "narration",
+      "text": "You did not choose your family. Your country. The language that shaped your first thoughts.\n\nEven your fears and desires largely arrived before you were old enough to examine them.",
+      "pause": 1000,
+      "next": "l1_convergence_c"
+    },
+
+    "l1_convergence_c": {
+      "type": "narration",
+      "text": "This does not make them unreal.\n\nBut it raises a question: are these things you — or things that happened to you?",
+      "pause": 4000,
+      "next": "l1_to_l2_transition"
+    },
+
+    "l1_to_l2_transition": {
+      "type": "narration",
+      "text": "Let us go a little deeper.\n\nThere is something more intimate than a name or a role. Something that feels like 'you' from the inside.",
+      "pause": 800,
+      "next": "l2_question"
+    },
+
+    "l2_question": {
+      "type": "question",
+      "text": "In the space between who you show the world and who you feel yourself to be —\n\nwhat do you most want people to see in you?",
+      "choices": [
+        { "label": "That I am capable. That I can do things well.", "pattern_tag": "achiever", "next": "l2_achiever_1" },
+        { "label": "That I am good. That I genuinely care.", "pattern_tag": "approval_seeker", "next": "l2_approval_1" },
+        { "label": "That I am reliable. That others can count on me.", "pattern_tag": "protector", "next": "l2_protector_1" },
+        { "label": "Nothing. I do not need others to see anything in me.", "pattern_tag": "awareness", "next": "l2_awareness_1" }
+      ]
+    },
+
+    "l2_achiever_1": {
+      "type": "narration",
+      "text": "Capability. The drive to build, to master, to achieve.\n\nThere is real dignity in this. And also — something worth examining.",
+      "pause": 800,
+      "next": "l2_achiever_2"
+    },
+
+    "l2_achiever_2": {
+      "type": "question",
+      "text": "Imagine you have achieved everything you set out to achieve. Recognition. Success. Mastery.\n\nThen what?",
+      "choices": [
+        { "label": "I would be satisfied.", "pattern_tag": "achiever", "next": "l2_achiever_satisfied" },
+        { "label": "I would set new goals.", "pattern_tag": "achiever", "next": "l2_achiever_new_goals" },
+        { "label": "I am not sure.", "pattern_tag": "awareness", "next": "l2_achiever_unsure" }
+      ]
+    },
+
+    "l2_achiever_satisfied": {
+      "type": "narration",
+      "text": "Have you ever achieved something and felt that satisfaction last?\n\nFor how long, usually?\n\nNotice what happens after the satisfaction fades. What is the texture of that feeling?",
+      "pause": 800,
+      "next": "l2_achiever_mirror"
+    },
+
+    "l2_achiever_new_goals": {
+      "type": "narration",
+      "text": "So the goal was never the destination. The moving itself is the need.\n\nWhat is it that needs to keep moving? What happens — inside — if the moving stops?",
+      "pause": 800,
+      "next": "l2_achiever_mirror"
+    },
+
+    "l2_achiever_unsure": {
+      "type": "narration",
+      "text": "That uncertainty is worth staying with.\n\nPerhaps the achievement was never really the point.\n\nPerhaps it was a way of answering a question that the achievement itself could never actually answer.",
+      "pause": 800,
+      "next": "l2_achiever_mirror"
+    },
+
+    "l2_achiever_mirror": {
+      "type": "narration",
+      "text": "When you strip away the achievement — when nothing external confirms your worth —\n\nwho are you then?\n\nIs there anyone there?",
+      "pause": 2000,
+      "next": "l2_convergence_pattern"
+    },
+
+    "l2_approval_1": {
+      "type": "narration",
+      "text": "Goodness. Being seen as someone who genuinely cares.\n\nThere is real warmth in this impulse. And also — a question worth asking.",
+      "pause": 800,
+      "next": "l2_approval_2"
+    },
+
+    "l2_approval_2": {
+      "type": "question",
+      "text": "Is there a version of you that exists when no one is watching?\n\nA self that is real even when unseen?",
+      "choices": [
+        { "label": "Yes — I am the same alone as I am with others.", "pattern_tag": "awareness", "next": "l2_approval_same" },
+        { "label": "I feel less defined when I am alone.", "pattern_tag": "approval_seeker", "next": "l2_approval_less" }
+      ]
+    },
+
+    "l2_approval_same": {
+      "type": "narration",
+      "text": "Then your goodness does not depend on being witnessed.\n\nBut notice: the wanting to be seen as good — where does that come from?\n\nWhat would happen inside you if others thought you were not good, regardless of what you did?",
+      "pause": 800,
+      "next": "l2_approval_mirror"
+    },
+
+    "l2_approval_less": {
+      "type": "narration",
+      "text": "That is an honest and important observation.\n\nThe self that exists primarily in others' eyes — is that the self you want to be?\n\nOr is there something underneath, waiting to be seen by you first — before anyone else?",
+      "pause": 800,
+      "next": "l2_approval_mirror"
+    },
+
+    "l2_approval_mirror": {
+      "type": "narration",
+      "text": "The need to be seen as good is often a response to an earlier fear.\n\nThe fear that without approval — without being good enough — you would not be enough.\n\nIs that fear still here? Right now, in this space?",
+      "pause": 2000,
+      "next": "l2_convergence_pattern"
+    },
+
+    "l2_protector_1": {
+      "type": "narration",
+      "text": "Reliability. The one who holds things together.\n\nThere is real strength in this. And — something worth examining.",
+      "pause": 800,
+      "next": "l2_protector_2"
+    },
+
+    "l2_protector_2": {
+      "type": "question",
+      "text": "What are you protecting?",
+      "choices": [
+        { "label": "The people I love.", "pattern_tag": "protector", "next": "l2_protector_people" },
+        { "label": "A sense of order. Stability.", "pattern_tag": "protector", "next": "l2_protector_order" }
+      ]
+    },
+
+    "l2_protector_people": {
+      "type": "narration",
+      "text": "And if the people you protect no longer needed your protection — or if they were no longer there —\n\nwho would you be?\n\nIs the protector the real you, or a role that was taken on — and then never put down?",
+      "pause": 800,
+      "next": "l2_protector_mirror"
+    },
+
+    "l2_protector_order": {
+      "type": "narration",
+      "text": "Order, stability. These are valuable.\n\nBut notice: they are maintained against a background of constant change. Everything changes. Nothing stays assembled forever.\n\nWhat is it that fears the change? Is that fear you?",
+      "pause": 800,
+      "next": "l2_protector_mirror"
+    },
+
+    "l2_protector_mirror": {
+      "type": "narration",
+      "text": "The protector pattern is often built over an old wound.\n\nSomething once felt unsafe. And a part of you decided: never again.\n\nThat decision made sense then. But it has been making choices on your behalf ever since. Without asking.",
+      "pause": 2000,
+      "next": "l2_convergence_pattern"
+    },
+
+    "l2_awareness_1": {
+      "type": "narration",
+      "text": "Nothing from others' perception. A clean answer.\n\nOr perhaps — it is a pattern of its own. The one who is beyond needing.",
+      "pause": 800,
+      "next": "l2_awareness_2"
+    },
+
+    "l2_awareness_2": {
+      "type": "question",
+      "text": "Is this freedom from others' opinions genuine?\n\nOr is it a kind of armor — a way of not being hurt?",
+      "choices": [
+        { "label": "I think it is genuine.", "pattern_tag": "awareness", "next": "l2_awareness_genuine" },
+        { "label": "Perhaps there is some defense in it.", "pattern_tag": "protector", "next": "l2_awareness_defense" }
+      ]
+    },
+
+    "l2_awareness_genuine": {
+      "type": "narration",
+      "text": "Then you have moved past most of what this layer tests.\n\nBut notice: even 'the one who is beyond needing' is still an identity. Still a position the self takes.\n\nWho is the one who is beyond needing?",
+      "pause": 800,
+      "next": "l2_convergence_pattern"
+    },
+
+    "l2_awareness_defense": {
+      "type": "narration",
+      "text": "That honesty is rare. And valuable.\n\nThe one who protects themselves by needing nothing — what would happen if they allowed themselves to need?\n\nWhat is the fear underneath the independence?",
+      "pause": 800,
+      "next": "l2_convergence_pattern"
+    },
+
+    "l2_convergence_pattern": {
+      "type": "narration",
+      "text": "You have been [PATTERN] for a long time.\n\nNot as a flaw. It emerged for reasons — probably good reasons, at some point.",
+      "pause": 1200,
+      "next": "l2_pattern_mechanic"
+    },
+
+    "l2_pattern_mechanic": {
+      "type": "narration",
+      "text": "But notice: this pattern makes choices before you do.\n\nWhen a situation arrives, it has already decided the shape of your response — before you have had a chance to see clearly.\n\nThe question is not whether the pattern is good or bad.",
+      "pause": 800,
+      "next": "l2_pattern_question"
+    },
+
+    "l2_pattern_question": {
+      "type": "narration",
+      "text": "The question is: is this the chooser you want to be?\n\nOr is there something prior to the pattern — something that could actually see, and then choose?",
+      "pause": 4500,
+      "next": "transition_to_silence"
+    },
+
+    "transition_to_silence": {
+      "type": "narration",
+      "text": "You do not have to answer that.",
+      "pause": 3000,
+      "next": "silence_1"
+    },
+
+    "silence_1": {
+      "type": "silence",
+      "text": "There is no next question here.",
+      "pause": 6000,
+      "next": "silence_2"
+    },
+
+    "silence_2": {
+      "type": "silence",
+      "text": "Just for a moment — notice what is here.\n\nNot what you think about it. Just what is.",
+      "pause": 7000,
+      "next": "silence_3"
+    },
+
+    "silence_3": {
+      "type": "narration",
+      "text": "The one who is noticing this —\n\nthat is closer to you than anything named today.",
+      "pause": 4000,
+      "next": "end_session"
+    },
+
+    "end_session": {
+      "type": "narration",
+      "text": "That is where we stop for now.\n\nNot because the inquiry is complete. It is not.\n\nReal inquiry cannot be sustained through a screen. It continues in you — in the quiet moments, in the gaps between thoughts.",
+      "pause": 1500,
+      "next": "end_return"
+    },
+
+    "end_return": {
+      "type": "end",
+      "text": "If you want to continue looking —",
+      "pause": 0
+    }
+
+  }
+}
