@@ -1,0 +1,42 @@
+---
+layout: null
+permalink: /drop-the-rock/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="robots" content="index, follow" />
+  <title>Drop the Rock — Shakya Mirror</title>
+  <meta name="description" content="An interactive Sisyphus. A game you win by letting go. The rock remains; the one who carried it does not." />
+  <link rel="canonical" href="https://harendra-shakya.github.io/drop-the-rock/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Drop the Rock — A game you win by letting go" />
+  <meta property="og:description" content="Push the boulder. Watch it fall. Then notice — no one is holding it but you." />
+  <meta property="og:url" content="https://harendra-shakya.github.io/drop-the-rock/" />
+
+  <link rel="stylesheet" href="/assets/css/sisyphus.css" />
+</head>
+
+<body data-theme="dark">
+
+  <!-- Ambient cosmos field (reused) -->
+  <canvas id="cosmos" aria-hidden="true"></canvas>
+  <!-- The game -->
+  <canvas id="game" aria-hidden="true"></canvas>
+
+  <a class="s-exit" href="/" title="Return home" aria-label="Return home">×</a>
+
+  <div id="sis-tally" aria-hidden="true"></div>
+  <div id="sis-text"></div>
+  <div id="sis-hint">press and hold to push</div>
+  <div id="sis-end"></div>
+
+  <script src="/assets/js/cosmos.js"></script>
+  <script src="/assets/js/sisyphus.js"></script>
+
+</body>
+</html>

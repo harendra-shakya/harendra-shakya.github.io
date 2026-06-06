@@ -26,6 +26,8 @@ image:
 
 <img src="/assets/img/Just Drop the Rock Mr. Sisyphus — You're Not a Hero of a Tragic Story-1771679731322.webp" alt="The Myth of Sisyphus — Drop the Rock" width="200"  />
 
+> **Don't just read it — play it.** [**Drop the Rock →**](/drop-the-rock/) is an interactive version of this essay: push the boulder, watch it fall, and then notice who is holding it. A game you win by letting go.
+
 ## I. The Absurd Hero and the Dignity of Conscious Defiance
 
 ```
