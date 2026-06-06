@@ -213,7 +213,20 @@
     try {
       const res = await fetch('/assets/js/inquiry-tree.json');
       tree = await res.json();
-      goToNode(tree.start);
+
+      // Deep-link from the homepage hero: ?q=N pre-selects an opening choice.
+      // The mapping lives in the tree (intro_question.choices), so the hero
+      // only passes an index and the two can never drift apart.
+      const q = new URLSearchParams(location.search).get('q');
+      const intro = tree.nodes['intro_question'];
+      const picked = (q !== null && intro && intro.choices) ? intro.choices[parseInt(q, 10)] : null;
+
+      if (picked) {
+        recordPattern(picked.pattern_tag);
+        goToNode(picked.next);
+      } else {
+        goToNode(tree.start);
+      }
     } catch (e) {
       textEl.innerHTML = '<p class="i-para">The inquiry could not begin. Please refresh the page.</p>';
     }
