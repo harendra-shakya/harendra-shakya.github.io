@@ -350,10 +350,16 @@
     }
   }
 
-  function frame(now) {
-    requestAnimationFrame(frame);
-    const dt = Math.min(0.05, (now - (frame._last || now)) / 1000);
-    frame._last = now;
+  // Hybrid loop: requestAnimationFrame for smoothness, plus a setInterval
+  // catch-up so the simulation keeps advancing even where rAF is throttled
+  // (background/headless tabs). dt is real-time based, so both schedulers
+  // driving it stays correct; a short dedupe guard avoids redundant draws.
+  let lastT = 0;
+  function tick(now) {
+    now = now || performance.now();
+    if (lastT && now - lastT < 10) return;          // dedupe overlapping calls
+    const dt = Math.min(0.05, (now - (lastT || now)) / 1000);
+    lastT = now;
 
     update(dt, now);
 
@@ -363,6 +369,7 @@
     drawFigure();
     drawParticles();
   }
+  function rafLoop(now) { requestAnimationFrame(rafLoop); tick(now); }
 
   // ─── Ending ─────────────────────────────────────────────────────────────
   const ESSAY_URL = '/just-drop-the-rock-mr-sisyphus-you-re-not-a-hero-of-a-tragic-story/';
@@ -398,7 +405,14 @@
 
   // ─── Init ───────────────────────────────────────────────────────────────
   computeGeom();
-  requestAnimationFrame(frame);
+  requestAnimationFrame(rafLoop);
+  // Watchdog: only drive the simulation if rAF has stalled (a throttled or
+  // backgrounded tab). Zero overhead while rAF is healthy, since lastT stays
+  // fresh and the condition never fires.
+  setInterval(function () {
+    var now = performance.now();
+    if (now - lastT > 200) tick(now);
+  }, 250);
 
   if (prior && prior.completed) {
     showText('You have been here before.');
