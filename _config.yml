@@ -162,6 +162,8 @@ exclude:
   - collections/_posts/drafts/
   - collections/_sahitya/drafts/
   - drafts/
+  - itch-build/
+  - who-am-i-itch.zip
 
 # Plugins
 plugins:
