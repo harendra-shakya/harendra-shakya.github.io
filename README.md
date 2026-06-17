@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/img/buddha.webp" width="140" alt="Buddha" style="border-radius: 50%;">
+
+<br>
+
 <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="parchment" cx="50%" cy="40%" r="70%">
@@ -49,11 +53,11 @@
 <table>
   <tr>
     <td align="right" style="border: none; padding: 6px 16px; color: #555;"><em>जब मैं था तब हरि नहीं</em></td>
-    <td align="left" style="border: none; padding: 6px 16px; color: #777;"><em>When I was, the divine was not</em></td>
+    <td align="left" style="border: none; padding: 6px 16px; color: #777;"><em>When I was, the truth was not</em></td>
   </tr>
   <tr>
     <td align="right" style="border: none; padding: 6px 16px; color: #555;"><em>अब हरि है मैं नाहीं</em></td>
-    <td align="left" style="border: none; padding: 6px 16px; color: #777;"><em>Now the divine is, I am not</em></td>
+    <td align="left" style="border: none; padding: 6px 16px; color: #777;"><em>Now the truth is, I am not</em></td>
   </tr>
   <tr>
     <td align="right" style="border: none; padding: 6px 16px; color: #555;"><em>प्रेम गली अति सांकरी</em></td>
