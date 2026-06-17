@@ -2,12 +2,16 @@
   url: /
   external: false
 
-- title: archive
-  url: /archive/
-  external: false
+# - title: archive
+#   url: /archive/
+#   external: false
 
 - title: avalokan
   url: /avalokan/
+  external: false
+
+- title: bhajans
+  url: /bhajans/
   external: false
 
 - title: insights
@@ -16,10 +20,6 @@
 
 - title: sahitya
   url: /sahitya/
-  external: false
-
-- title: bhajans
-  url: /bhajans/
   external: false
 
 - title: poetry

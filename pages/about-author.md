@@ -6,6 +6,16 @@ description: "Who is Harendra Shakya?"
 comments: false
 ---
 
+
+I'm Advait Vedantic, Student of Acharya Prashant. My core philosophy is negation of illusions that humans hold.
+
+I'm Agentic Engineer. I can build full-stack applications using AI.
+
+I think what world needs is love and beauty, that's what I should have in my core in whatever I create.
+
+
+---
+
 Harendra Shakya is an Indian writer, technologist, and independent creator known for founding and authoring Shakya Mirror, a digital publication focused on philosophy, creativity, and reflective thought. His work blends philosophical inquiry with themes from modern technology and self-development, attracting a growing online readership interested in mindful living and digital culture.
 
 Profession: Writer, content creator, and technologist
