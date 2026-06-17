@@ -39,8 +39,6 @@
   
   <text x="300" y="248" font-family="monospace" font-size="7" fill="#c9a96e" text-anchor="middle" opacity="0.25">harendra-shakya.github.io</text>
   
-<text x="300" y="248" font-family="monospace" font-size="7" fill="#c9a96e" text-anchor="middle" opacity="0.25">a mirror in silence</text>
-
   <line x1="200" y1="266" x2="400" y2="266" stroke="#c9a96e" stroke-width="0.3" opacity="0.2"/>
   <circle cx="200" cy="266" r="1.5" fill="#c9a96e" opacity="0.2"/>
   <circle cx="400" cy="266" r="1.5" fill="#c9a96e" opacity="0.2"/>
@@ -93,4 +91,12 @@ bundle exec jekyll build    # construct the mirror
 bundle exec jekyll serve    # gaze into it
 ```
 
-<iframe width="100%" height="150" src="https://www.youtube.com/embed/BvI3wJuDmbI?autohide=1&controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> ▶ &nbsp; [**ये तो प्रेम की बात है ऊधो — Maithili Thakur**](https://www.youtube.com/watch?v=BvI3wJuDmbI)
+
+<br>
+
+─── &nbsp; · &nbsp; ───
+
+<br>
+
+[**harendra-shakya.github.io**](https://harendra-shakya.github.io/) · *a mirror in silence*
