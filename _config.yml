@@ -30,6 +30,8 @@ permalink: /:slug/
 collections_dir: collections
 google_analytics: G-NDH3D87F2D
 fb_appid:
+posthog_token: phc_xGAC5g3sL9m2uNdKZkmCuLYUUtUo4X4Hj4r96G8YivMF
+posthog_host: https://eu.i.posthog.com
 
 # Collection setting
 collections:

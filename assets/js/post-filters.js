@@ -3,11 +3,16 @@ let currentTagFilter = "all"; // 'all' or specific tag
 let currentCategoryFilter = "all"; // 'all' or specific category
 let currentSeriesFilter = "all"; // 'all' or specific series
 
+function phCapture(event, props) {
+  if (typeof posthog !== 'undefined') posthog.capture(event, props);
+}
+
 // Filter posts by language
 function filterLang(lang) {
   currentLangFilter = lang;
   updateSelectedFilter("lang", lang);
   filterPosts();
+  phCapture('post_filter_applied', { filter_type: 'lang', filter_value: lang });
 }
 
 // Filter posts by tags
@@ -15,6 +20,7 @@ function filterTags(tag) {
   currentTagFilter = tag;
   updateSelectedFilter("tag", tag);
   filterPosts();
+  phCapture('post_filter_applied', { filter_type: 'tag', filter_value: tag });
 }
 
 // Filter posts by categories
@@ -22,6 +28,7 @@ function filterCategory(category) {
   currentCategoryFilter = category;
   updateSelectedFilter("category", category);
   filterPosts();
+  phCapture('post_filter_applied', { filter_type: 'category', filter_value: category });
 }
 
 // Filter posts by series
@@ -29,6 +36,7 @@ function filterSeries(series) {
   currentSeriesFilter = series;
   updateSelectedFilter("series", series);
   filterPosts();
+  phCapture('post_filter_applied', { filter_type: 'series', filter_value: series });
 }
 
 // Update the UI to show the selected filter

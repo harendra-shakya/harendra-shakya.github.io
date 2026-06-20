@@ -12,11 +12,16 @@
     btn.querySelector(hide).hidden = true;
   }
 
+  function phCapture(event, props) {
+    if (typeof posthog !== 'undefined') posthog.capture(event, props);
+  }
+
   playBtn.addEventListener('click', () => {
     if (video.paused) {
       video.play();
       swapIcon(playBtn, '.icon-pause', '.icon-play');
       playBtn.setAttribute('aria-label', 'Pause video');
+      phCapture('video_played', { location: 'homepage' });
     } else {
       video.pause();
       swapIcon(playBtn, '.icon-play', '.icon-pause');
@@ -32,6 +37,7 @@
     } else {
       swapIcon(muteBtn, '.icon-unmuted', '.icon-muted');
       muteBtn.setAttribute('aria-label', 'Mute video');
+      phCapture('video_unmuted', { location: 'homepage' });
     }
   });
 })();

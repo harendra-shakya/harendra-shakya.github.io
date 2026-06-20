@@ -163,6 +163,10 @@
 
       btn.addEventListener('click', () => {
         recordPattern(choice.pattern_tag);
+        phCapture('inquiry_choice_selected', {
+          pattern_tag: choice.pattern_tag || null,
+          choice_label: choice.label
+        });
         choicesEl.style.opacity = '0';
         setTimeout(() => goToNode(choice.next), 500);
       });
@@ -181,6 +185,11 @@
   async function renderEnd() {
     const p    = dominantPattern();
     const post = PATTERN_POSTS[p] || PATTERN_POSTS['awareness'];
+
+    phCapture('inquiry_completed', {
+      dominant_pattern: p,
+      suggested_post: post.url
+    });
 
     await delay(600);
 
@@ -206,6 +215,10 @@
     renderNode(node);
   }
 
+  function phCapture(event, props) {
+    if (typeof posthog !== 'undefined') posthog.capture(event, props);
+  }
+
   // ─── Init ────────────────────────────────────────────────────────────────
   async function init() {
     loadSession();
@@ -227,6 +240,8 @@
       } else {
         goToNode(tree.start);
       }
+
+      phCapture('inquiry_started', { deep_linked: q !== null });
     } catch (e) {
       textEl.innerHTML = '<p class="i-para">The inquiry could not begin. Please refresh the page.</p>';
     }

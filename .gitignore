@@ -17,3 +17,4 @@ _trash/
 # itch.io export artifacts (generated, not part of the site build)
 itch-build/
 who-am-i-itch.zip
+.env
