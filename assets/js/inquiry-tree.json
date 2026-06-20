@@ -344,7 +344,7 @@
 
     "l2_pattern_mechanic": {
       "type": "narration",
-      "text": "But notice: this pattern makes choices before you do.\n\nWhen a situation arrives, it has already decided the shape of your response — before you have had a chance to see clearly.\n\nThe question is not whether the pattern is good or bad.",
+      "text": "This pattern has a simpler name: the ego. Not arrogance — just the structure that decided, long ago, who it needs to be.\n\nNotice: it makes choices before you do.\n\nWhen a situation arrives, it has already decided the shape of your response — before you have had a chance to see clearly.\n\nThe question is not whether the pattern is good or bad.",
       "pause": 800,
       "next": "l2_pattern_question"
     },

@@ -41,13 +41,30 @@ layout: compress
       <h1 class="cosmos-title">Shakya Mirror</h1>
       <!-- <p class="cosmos-bio">{{ site.author.bio }}</p> -->
 
-      <p class="cosmos-question">Who are you?</p>
-      <nav class="cosmos-choices" aria-label="Begin the inquiry">
-        <a class="cosmos-choice" href="/inquiry/?q=0">I am my name — the person the world knows.</a>
-        <a class="cosmos-choice" href="/inquiry/?q=1">I am what I do — my work, my role.</a>
-        <a class="cosmos-choice" href="/inquiry/?q=2">I am my relationships — defined by those I love.</a>
-        <a class="cosmos-choice" href="/inquiry/?q=3">I don&rsquo;t know.</a>
-      </nav>
+      <div class="cosmos-video-wrap">
+        <video
+          class="cosmos-video"
+          id="cosmos-video"
+          src="{{ '/assets/video/vinland-saga-edit.mp4' | relative_url }}"
+          poster="{{ '/assets/img/vinland-saga-edit-poster.jpg' | relative_url }}"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          aria-label="A world without war or slavery — Vinland Saga"
+        ></video>
+        <div class="cosmos-video-controls">
+          <button type="button" class="cosmos-video-btn" id="cosmos-video-play" aria-label="Pause video">
+            <svg class="icon-pause" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            <svg class="icon-play" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" hidden><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+          </button>
+          <button type="button" class="cosmos-video-btn" id="cosmos-video-mute" aria-label="Unmute video">
+            <svg class="icon-muted" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M16.5 12A4.5 4.5 0 0 0 14 8v2.18l2.45 2.45c.03-.2.05-.42.05-.63zM19 12c0 .94-.2 1.82-.54 2.64l1.51 1.51A8.93 8.93 0 0 0 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.99 8.99 0 0 0 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4 9.91 6.09 12 8.18V4z"/></svg>
+            <svg class="icon-unmuted" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" hidden><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+          </button>
+        </div>
+      </div>
 
       <!-- <p class="cosmos-description">
         Reflections on consciousness, ego, and liberation —<br>
@@ -90,6 +107,7 @@ layout: compress
   </div>
 
   <script src="{{ '/assets/js/cosmos.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/cosmos-video.js' | relative_url }}" defer></script>
 
 </body>
 </html>

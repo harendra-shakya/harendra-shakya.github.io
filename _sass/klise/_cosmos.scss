@@ -141,49 +141,57 @@ body[data-theme="dark"] #cosmos {
     animation-delay: 1.1s;
   }
 
-  // ─── The opening question (the hook) ──────────────────────────────────────
-  .cosmos-question {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.55rem;
-    line-height: 1.4;
-    margin: 1.6rem auto 1.6rem;
-    color: $black;
+  // ─── The hero clip (the hook) ──────────────────────────────────────────────
+  .cosmos-video-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    margin: 1.6rem auto 2.2rem;
     opacity: 0;
     animation: cosmos-rise 1.1s ease forwards;
     animation-delay: 1.4s;
   }
 
-  .cosmos-choices {
-    max-width: 440px;
-    margin: 0 auto 2.2rem;
-    text-align: left;
+  .cosmos-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+    object-fit: cover;
   }
 
-  .cosmos-choice {
-    display: block;
-    border-left: 1px solid rgba(150, 130, 90, 0.35);
-    color: $gray;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    text-align: left;
-    text-decoration: none;
-    padding: 0.55rem 0 0.55rem 1.1rem;
-    margin-bottom: 0.45rem;
-    opacity: 0;
-    animation: cosmos-rise 1s ease forwards;
-    transition: color 0.2s ease, border-color 0.2s ease;
+  .cosmos-video-controls {
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.6rem;
+    display: flex;
+    gap: 0.4rem;
+  }
 
-    &:nth-child(1) { animation-delay: 1.75s; }
-    &:nth-child(2) { animation-delay: 1.9s; }
-    &:nth-child(3) { animation-delay: 2.05s; }
-    &:nth-child(4) { animation-delay: 2.2s; }
+  .cosmos-video-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease;
 
     &:hover,
-    &:focus {
-      color: $black;
-      border-left-color: rgba(184, 150, 70, 0.9);
+    &:focus-visible {
+      background: rgba(0, 0, 0, 0.65);
       outline: none;
+    }
+
+    svg {
+      pointer-events: none;
     }
   }
 
@@ -237,18 +245,7 @@ body[data-theme="dark"] .cosmos-hero {
     }
   }
 
-  .cosmos-question {
-    color: $dark-white;
-  }
-
-  .cosmos-choice {
-    color: rgba(180, 168, 148, 0.78);
-    border-left-color: rgba(212, 178, 106, 0.3);
-
-    &:hover,
-    &:focus {
-      color: rgba(212, 178, 106, 0.95);
-      border-left-color: rgba(212, 178, 106, 0.75);
-    }
+  .cosmos-video {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
   }
 }
