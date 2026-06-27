@@ -1,0 +1,23 @@
+- icon: email
+  url: mailto:harendrashakya125@gmail.com
+  label: Email
+
+- icon: twitter
+  url: https://x.com/harendrashakya_
+  label: X (Twitter)
+
+- icon: linkedin
+  url: https://www.linkedin.com/in/harendra-shakya/
+  label: LinkedIn
+
+- icon: globe
+  url: https://app.acharyaprashant.org/?id=11-u-2c96c366-d348-424a-ace1-ae893f419ede
+  label: Vedant Profile
+
+- icon: instagram
+  url: https://instagram.com/harendrashakya_
+  label: Instagram
+
+- icon: github
+  url: https://github.com/harendra-shakya
+  label: GitHub

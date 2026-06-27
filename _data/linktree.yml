@@ -1,0 +1,19 @@
+- title: Homepage
+  url: https://harendra-shakya.github.io
+  icon: home
+  description: "My digital garden"
+
+- title: Insights & Essays
+  url: https://harendra-shakya.github.io/insights/
+  icon: book
+  description: "Reflections on mind, truth & existence"
+
+- title: Bhajans & Sahitya
+  url: https://harendra-shakya.github.io/bhajans/
+  icon: music
+  description: "Devotional verses & spiritual poetry"
+
+- title: Join Gita Sessions
+  url: https://acharyaprashant.org/en/gita/referral?referrerId=u-2c96c366-d348-424a-ace1-ae893f419ede
+  icon: radio
+  description: "Live Gita & wisdom sessions by Acharya Prashant"
