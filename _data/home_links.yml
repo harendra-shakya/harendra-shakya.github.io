@@ -15,17 +15,7 @@
   icon: scroll
   description: "Literature & sacred writings"
 
-- title: Poetry
-  url: /poetry/
-  icon: feather
-  description: "Verses & contemplations"
-
-- title: Insights
-  url: /insights/
-  icon: compass
-  description: "Essays on consciousness & ego"
-
-- title: All Links & Socials
-  url: /linktree/
-  icon: link
-  description: "Profiles, sessions & more"
+- title: Join Gita Sessions
+  url: https://acharyaprashant.org/en/gita/referral?referrerId=u-2c96c366-d348-424a-ace1-ae893f419ede
+  icon: radio
+  description: "Live Gita & wisdom sessions by Acharya Prashant"
