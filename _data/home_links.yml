@@ -1,0 +1,31 @@
+# Section cards shown on the homepage (linktree-style).
+# Internal links — open in the same tab.
+- title: Avalokan
+  url: /avalokan/
+  icon: book
+  description: "Reflections on mind, truth & existence"
+
+- title: Bhajans
+  url: /bhajans/
+  icon: music
+  description: "Devotional songs & mystic verse"
+
+- title: Sahitya
+  url: /sahitya/
+  icon: scroll
+  description: "Literature & sacred writings"
+
+- title: Poetry
+  url: /poetry/
+  icon: feather
+  description: "Verses & contemplations"
+
+- title: Insights
+  url: /insights/
+  icon: compass
+  description: "Essays on consciousness & ego"
+
+- title: All Links & Socials
+  url: /linktree/
+  icon: link
+  description: "Profiles, sessions & more"
