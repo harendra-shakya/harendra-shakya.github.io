@@ -1,0 +1,28 @@
+---
+layout: none
+permalink: /avalokan-feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }} - Avalokan</title>
+    <link>{{ site.url }}/avalokan/</link>
+    <description>{{ site.description | escape }}</description>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <language>hi</language>
+
+    {% assign items = site.avalokan | sort: 'date' | reverse %}
+    {% for item in items %}
+      <item>
+        <title>{{ item.title | escape }}</title>
+        <link>{{ site.url }}{{ item.url }}</link>
+        <guid>{{ site.url }}{{ item.url }}</guid>
+        <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+        <description><![CDATA[
+          {{ item.excerpt | strip_html | xml_escape }}
+        ]]></description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
