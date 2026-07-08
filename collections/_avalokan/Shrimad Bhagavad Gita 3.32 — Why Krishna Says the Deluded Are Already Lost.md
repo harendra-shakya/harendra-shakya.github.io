@@ -20,10 +20,10 @@ categories:
 series:
   - श्रीमद्भगवद्गीता
 description:
-title: "Shrimad Bhagavad Gita 3.32 — Already Destroyed: Why Krishna Says the Deluded Are Already Lost"
+title: Shrimad Bhagavad Gita 3.32 — Why Krishna Says the Deluded Are Already Lost
 ---
 
-<img src="/assets/img/Shrimad Bhagavad Gita 3.32 — Already Destroyed Why Krishna Says the Deluded Are Already Lost-1783534184044.webp" alt="Shrimad Bhagavad Gita 3.32 — Already Destroyed Why Krishna Says the Deluded Are Already Lost" />
+<img src="/assets/img/Shrimad Bhagavad Gita 3.32 — Already Destroyed Why Krishna Says the Deluded Are Already Lost-1783534184044.webp" alt="Shrimad Bhagavad Gita 3.32 — Why Krishna Says the Deluded Are Already Lost" />
 
 > **ये त्वेतदभ्यसूत्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम्विमूढांस्तान्विद्धि नष्टानचेतसः।।3.32।।**
 > 
