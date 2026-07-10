@@ -318,6 +318,32 @@ layout: compress
     {% for i in (1..10) %}.links .link-btn:nth-child({{ i }}) { animation-delay: {{ i | times: 80 | divided_by: 1000.0 }}s; }
     {% endfor %}
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "{{ site.title | escape }}",
+        "description": "{{ site.description | strip_html | normalize_whitespace | escape }}",
+        "url": "{{ site.url }}",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "name": "Harendra Shakya",
+        "url": "{{ site.url }}/about/",
+        "sameAs": [
+          "https://github.com/harendra-shakya",
+          "https://x.com/harendrashakya_",
+          "https://www.linkedin.com/in/harendra-shakya/",
+          "https://instagram.com/harendrashakya_"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 

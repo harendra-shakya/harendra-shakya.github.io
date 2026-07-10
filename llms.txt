@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Shakya Mirror
+
+> {{ site.description }}
+
+Author: Harendra Shakya. Personal site covering spiritual essays, poetry, bhajans (devotional songs), Sanskrit mantras, and philosophical writing in the Indian contemplative tradition.
+
+## Sections
+
+- [Essays & Posts]({{ site.url }}/archive/): Main long-form writings
+- [Insights]({{ site.url }}/insights/): Short aphorisms and reflections
+- [Poetry]({{ site.url }}/poetry/): Original poems
+- [Bhajans]({{ site.url }}/bhajan/): Devotional songs
+- [Evergreen]({{ site.url }}/evergreen/): Timeless long-form essays
+- [Avalokan]({{ site.url }}/avalokan/): Observations and contemplations
+- [Sahitya]({{ site.url }}/sahitya/): Literary writing
+- [Mantra]({{ site.url }}/mantra/): Sanskrit mantras and their meanings
+- [About]({{ site.url }}/about/)
+
+## Recent Posts
+
+{% for post in site.posts limit:10 -%}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}){% if post.description %}: {{ post.description }}{% endif %}
+{% endfor %}
+
+## Optional
+
+- [Full archive]({{ site.url }}/archive/)
+- [Tags]({{ site.url }}/tags/)
