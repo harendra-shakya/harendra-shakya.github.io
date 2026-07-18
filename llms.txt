@@ -10,12 +10,11 @@ Author: Harendra Shakya. Personal site covering spiritual essays, poetry, bhajan
 
 ## Sections
 
-- [Essays & Posts]({{ site.url }}/archive/): Main long-form writings
+- [Avalokan]({{ site.url }}/avalokan/): Observations and contemplations
 - [Insights]({{ site.url }}/insights/): Short aphorisms and reflections
 - [Poetry]({{ site.url }}/poetry/): Original poems
 - [Bhajans]({{ site.url }}/bhajan/): Devotional songs
 - [Evergreen]({{ site.url }}/evergreen/): Timeless long-form essays
-- [Avalokan]({{ site.url }}/avalokan/): Observations and contemplations
 - [Sahitya]({{ site.url }}/sahitya/): Literary writing
 - [Mantra]({{ site.url }}/mantra/): Sanskrit mantras and their meanings
 - [About]({{ site.url }}/about/)
